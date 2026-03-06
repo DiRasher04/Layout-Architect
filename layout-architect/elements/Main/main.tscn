@@ -2,9 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://mwf76jcgfiic" path="res://elements/Player/player.tscn" id="1_axn68"]
 [ext_resource type="PackedScene" uid="uid://c6428d44ew5y5" path="res://elements/Levels/main_level.tscn" id="2_mgbtd"]
+[ext_resource type="PackedScene" uid="uid://eed8wj6n875g" path="res://elements/Enemies/enemy_1.tscn" id="3_5yo1t"]
 
 [node name="Main" type="Node2D" unique_id=727233413]
 
 [node name="Player" parent="." unique_id=2131776091 instance=ExtResource("1_axn68")]
 
 [node name="TestLevel" parent="." unique_id=1063913095 instance=ExtResource("2_mgbtd")]
+
+[node name="CharacterBody2D" parent="." unique_id=965041657 instance=ExtResource("3_5yo1t")]
+position = Vector2(464, -424)
+
+[node name="CharacterBody2D2" parent="." unique_id=1963914907 instance=ExtResource("3_5yo1t")]
+position = Vector2(-573, -370.00003)
+
+[node name="CharacterBody2D3" parent="." unique_id=1908192327 instance=ExtResource("3_5yo1t")]
+position = Vector2(864, -46.00003)

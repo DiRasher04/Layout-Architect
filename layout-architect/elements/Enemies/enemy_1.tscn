@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://eed8wj6n875g"]
+
+[ext_resource type="Script" uid="uid://dmfv3deuc80dk" path="res://elements/Enemies/enemy_1.gd" id="1_6a7n2"]
+[ext_resource type="Texture2D" uid="uid://4mb7wws3m1p5" path="res://assets/characters/enemies/tile_0024.png" id="1_snvvk"]
+[ext_resource type="Texture2D" uid="uid://3ux4q7aget20" path="res://assets/characters/enemies/tile_0025.png" id="2_6a7n2"]
+[ext_resource type="Texture2D" uid="uid://cw2jmswh0akjv" path="res://assets/characters/enemies/tile_0026.png" id="3_pjgbp"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2j71n"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_snvvk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_6a7n2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_pjgbp")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_pjgbp"]
+radius = 5.666667
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_6a7n2"]
+radius = 88.002525
+
+[node name="enemy_1" type="CharacterBody2D" unique_id=965041657]
+scale = Vector2(3, 3)
+collision_layer = 0
+script = ExtResource("1_6a7n2")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1506268257]
+sprite_frames = SubResource("SpriteFrames_2j71n")
+frame_progress = 0.17271645
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1461301746]
+position = Vector2(0, 1.6666667)
+shape = SubResource("CircleShape2D_pjgbp")
+
+[node name="detector" type="Area2D" parent="." unique_id=1877580021]
+collision_layer = 0
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="detector" unique_id=1756620546]
+position = Vector2(0, 1.6666667)
+shape = SubResource("CircleShape2D_6a7n2")
+
+[connection signal="ready" from="." to="." method="_on_ready"]
+[connection signal="body_entered" from="detector" to="." method="_on_detector_body_entered"]
+[connection signal="body_exited" from="detector" to="." method="_on_detector_body_exited"]
+[connection signal="ready" from="detector" to="." method="_on_detector_ready"]

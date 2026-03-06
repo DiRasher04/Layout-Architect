@@ -5,7 +5,6 @@ extends CharacterBody2D
 @onready var animation = $AnimatedSprite2D
 
 func _physics_process(delta):
-	# Получаем ввод с клавиатуры
 	var input_direction = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
 	# Применяем скорость
 	velocity = input_direction * speed

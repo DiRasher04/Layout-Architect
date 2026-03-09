@@ -9,12 +9,13 @@
 [node name="Player" parent="." unique_id=2131776091 instance=ExtResource("1_axn68")]
 
 [node name="TestLevel" parent="." unique_id=1063913095 instance=ExtResource("2_mgbtd")]
+position = Vector2(28, -30)
 
-[node name="CharacterBody2D" parent="." unique_id=965041657 instance=ExtResource("3_5yo1t")]
-position = Vector2(464, -424)
+[node name="enemy_1" parent="." unique_id=965041657 instance=ExtResource("3_5yo1t")]
+position = Vector2(-608, -412)
 
-[node name="CharacterBody2D2" parent="." unique_id=1963914907 instance=ExtResource("3_5yo1t")]
-position = Vector2(-573, -370.00003)
+[node name="enemy_2" parent="." unique_id=2133730761 instance=ExtResource("3_5yo1t")]
+position = Vector2(702, -398)
 
-[node name="CharacterBody2D3" parent="." unique_id=1908192327 instance=ExtResource("3_5yo1t")]
-position = Vector2(864, -46.00003)
+[node name="enemy_3" parent="." unique_id=1010321083 instance=ExtResource("3_5yo1t")]
+position = Vector2(652, 442)

@@ -1,9 +1,9 @@
 
 extends TileMapLayer
 
-@export var room_width: int = 3
-@export var room_height: int = 3
-@export var wall_thickness: int = 3
+@export var room_width: int = 50
+@export var room_height: int = 50
+@export var wall_thickness: int = 5
 
 func _ready():
 	generate_room_with_foundation()

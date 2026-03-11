@@ -289,3 +289,16 @@ func finish_attack():
 	# Ждём перезарядку
 	await get_tree().create_timer(attack_cooldown).timeout
 	can_attack = true
+
+
+func heal(amount: int):
+	if current_health >= max_health:
+		return  # Уже полное здоровье
+	
+	current_health = min(current_health + amount, max_health)
+	update_health_display()
+	
+	# Визуальный эффект (зеленый вместо красного)
+	modulate = Color.GREEN
+	await get_tree().create_timer(0.1).timeout
+	modulate = Color.WHITE

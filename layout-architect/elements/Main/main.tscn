@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://mwf76jcgfiic" path="res://elements/Player/player.tscn" id="1_axn68"]
 [ext_resource type="PackedScene" uid="uid://c6428d44ew5y5" path="res://elements/Levels/main_level.tscn" id="2_mgbtd"]
 [ext_resource type="PackedScene" uid="uid://eed8wj6n875g" path="res://elements/Enemies/enemy_1.tscn" id="3_5yo1t"]
+[ext_resource type="PackedScene" uid="uid://dp6f74dw7udw7" path="res://elements/Heart/pickcable_heart.tscn" id="4_cgaqa"]
 
 [node name="Main" type="Node2D" unique_id=727233413]
 
@@ -19,3 +20,9 @@ position = Vector2(1464, 392)
 
 [node name="enemy_3" parent="." unique_id=1010321083 instance=ExtResource("3_5yo1t")]
 position = Vector2(652, 442)
+
+[node name="pickcable_heart" parent="." unique_id=2014583926 instance=ExtResource("4_cgaqa")]
+position = Vector2(109, 109)
+
+[node name="pickcable_heart2" parent="." unique_id=670716186 instance=ExtResource("4_cgaqa")]
+position = Vector2(343, 48)

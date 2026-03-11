@@ -1,0 +1,102 @@
+[gd_scene format=3 uid="uid://dp6f74dw7udw7"]
+
+[ext_resource type="Texture2D" uid="uid://c83wk72equjiu" path="res://assets/user_interface/hearts.png" id="1_5h212"]
+[ext_resource type="Script" uid="uid://bxf48to5t2ycc" path="res://elements/Heart/pickcable_heart.gd" id="1_hty1s"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hty1s"]
+atlas = ExtResource("1_5h212")
+region = Rect2(96, 0, 19, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fs7dk"]
+atlas = ExtResource("1_5h212")
+region = Rect2(116, 0, 19, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mcegs"]
+atlas = ExtResource("1_5h212")
+region = Rect2(136, 0, 19, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qmwoq"]
+atlas = ExtResource("1_5h212")
+region = Rect2(156, 0, 19, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hx0eg"]
+atlas = ExtResource("1_5h212")
+region = Rect2(176, 0, 19, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nl4iu"]
+atlas = ExtResource("1_5h212")
+region = Rect2(96, 0, 19, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5x44g"]
+atlas = ExtResource("1_5h212")
+region = Rect2(116, 0, 19, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lktjg"]
+atlas = ExtResource("1_5h212")
+region = Rect2(136, 0, 19, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bo5xr"]
+atlas = ExtResource("1_5h212")
+region = Rect2(156, 0, 19, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y7kk3"]
+atlas = ExtResource("1_5h212")
+region = Rect2(176, 0, 19, 21)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nl4iu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hty1s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fs7dk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mcegs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qmwoq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hx0eg")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 0.1,
+"texture": SubResource("AtlasTexture_nl4iu")
+}, {
+"duration": 0.1,
+"texture": SubResource("AtlasTexture_5x44g")
+}, {
+"duration": 0.1,
+"texture": SubResource("AtlasTexture_lktjg")
+}, {
+"duration": 0.1,
+"texture": SubResource("AtlasTexture_bo5xr")
+}, {
+"duration": 0.1,
+"texture": SubResource("AtlasTexture_y7kk3")
+}],
+"loop": false,
+"name": &"pickup",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5x44g"]
+
+[node name="pickcable_heart" type="Area2D" unique_id=2014583926]
+scale = Vector2(2, 2)
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("1_hty1s")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=72377083]
+sprite_frames = SubResource("SpriteFrames_nl4iu")
+animation = &"pickup"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=384813108]
+shape = SubResource("CircleShape2D_5x44g")

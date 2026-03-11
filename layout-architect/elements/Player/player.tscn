@@ -9,6 +9,8 @@
 [ext_resource type="Texture2D" uid="uid://d1u605mfh72sm" path="res://assets/characters/player/Slash Up.png" id="5_j5vot"]
 [ext_resource type="Texture2D" uid="uid://dbtgx3r83pgvf" path="res://assets/characters/player/Walk Left.png" id="5_mrdvp"]
 [ext_resource type="Texture2D" uid="uid://d1ok7uktevceo" path="res://assets/characters/player/Walk Right.png" id="6_5oy5x"]
+[ext_resource type="Texture2D" uid="uid://ce6hg3lb0351v" path="res://assets/characters/player/Death.png" id="6_j5vot"]
+[ext_resource type="Texture2D" uid="uid://fg8sw6y0asuq" path="res://assets/characters/player/Idle.png" id="6_ndq04"]
 [ext_resource type="PackedScene" uid="uid://c780n1n87ff4e" path="res://elements/Sword/sword.tscn" id="10_xrjx1"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_o7pxy"]
@@ -94,9 +96,37 @@ region = Rect2(72, 0, 24, 24)
 atlas = ExtResource("5_j5vot")
 region = Rect2(96, 0, 24, 24)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_yta6j"]
-atlas = ExtResource("4_crmp4")
+[sub_resource type="AtlasTexture" id="AtlasTexture_qv1vv"]
+atlas = ExtResource("6_j5vot")
+region = Rect2(120, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aj4vs"]
+atlas = ExtResource("6_j5vot")
 region = Rect2(0, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u88wo"]
+atlas = ExtResource("6_j5vot")
+region = Rect2(24, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_05tae"]
+atlas = ExtResource("6_j5vot")
+region = Rect2(48, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xemtq"]
+atlas = ExtResource("6_j5vot")
+region = Rect2(72, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ptppi"]
+atlas = ExtResource("6_j5vot")
+region = Rect2(96, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p4se3"]
+atlas = ExtResource("6_j5vot")
+region = Rect2(120, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yta6j"]
+atlas = ExtResource("6_ndq04")
+region = Rect2(120, 0, 24, 24)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xx2wb"]
 atlas = ExtResource("4_crmp4")
@@ -566,6 +596,37 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_qv1vv")
+}],
+"loop": true,
+"name": &"dead",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aj4vs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u88wo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_05tae")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xemtq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ptppi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p4se3")
+}],
+"loop": false,
+"name": &"die",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_yta6j")
 }],
 "loop": true,
@@ -913,12 +974,13 @@ shape = SubResource("CircleShape2D_o7pxy")
 [node name="Camera2D" type="Camera2D" parent="." unique_id=739491612]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1427142925]
-position = Vector2(0.33333334, -3.6666667)
+position = Vector2(0.33333334, -4)
 sprite_frames = SubResource("SpriteFrames_crmp4")
-animation = &"attack_down"
+animation = &"dead"
 speed_scale = 2.0
 
 [node name="Sword" parent="." unique_id=308931653 instance=ExtResource("10_xrjx1")]
 visible = false
 z_index = -1
-position = Vector2(1, -1.6666667)
+position = Vector2(0.3333333, -0.33333492)
+scale = Vector2(1.1, 1.1)

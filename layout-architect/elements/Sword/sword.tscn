@@ -170,7 +170,7 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_duhe1"]
-radius = 11.0
+radius = 12.0415945
 
 [node name="Sword" type="Area2D" unique_id=308931653]
 collision_mask = 2
@@ -178,7 +178,9 @@ script = ExtResource("1_8h41g")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2090669549]
 sprite_frames = SubResource("SpriteFrames_7i6cl")
-animation = &"swing_left"
+animation = &"swing_up"
+frame_progress = 0.5914754
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=839522007]
+position = Vector2(0, 1)
 shape = SubResource("CircleShape2D_duhe1")

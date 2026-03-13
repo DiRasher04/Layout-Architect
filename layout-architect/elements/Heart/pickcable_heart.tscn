@@ -66,19 +66,19 @@ animations = [{
 "speed": 5.0
 }, {
 "frames": [{
-"duration": 0.1,
+"duration": 0.4,
 "texture": SubResource("AtlasTexture_nl4iu")
 }, {
-"duration": 0.1,
+"duration": 0.4,
 "texture": SubResource("AtlasTexture_5x44g")
 }, {
-"duration": 0.1,
+"duration": 0.4,
 "texture": SubResource("AtlasTexture_lktjg")
 }, {
-"duration": 0.1,
+"duration": 0.4,
 "texture": SubResource("AtlasTexture_bo5xr")
 }, {
-"duration": 0.1,
+"duration": 0.4,
 "texture": SubResource("AtlasTexture_y7kk3")
 }],
 "loop": false,
@@ -96,7 +96,8 @@ script = ExtResource("1_hty1s")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=72377083]
 sprite_frames = SubResource("SpriteFrames_nl4iu")
-animation = &"pickup"
+frame = 1
+frame_progress = 0.10943909
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=384813108]
 shape = SubResource("CircleShape2D_5x44g")

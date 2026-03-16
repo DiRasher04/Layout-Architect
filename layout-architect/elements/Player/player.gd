@@ -233,6 +233,10 @@ func attack():
 	can_attack = false
 	attack_progress = 0.0
 	
+	# Сообщаем мечу о начале атаки
+	if sword and sword.has_method("start_attack"):
+		sword.start_attack()
+	
 	# Устанавливаем Z-индекс в зависимости от направления атаки
 	match last_direction:
 		"right":
@@ -276,6 +280,10 @@ func attack():
 
 func finish_attack():
 	is_attacking = false
+	
+	# Сообщаем мечу о завершении атаки
+	if sword and sword.has_method("end_attack"):
+		sword.end_attack()
 	
 	# Прячем меч и возвращаем обычный Z-индекс
 	if sword:

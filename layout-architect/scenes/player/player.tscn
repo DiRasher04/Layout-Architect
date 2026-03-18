@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://mwf76jcgfiic"]
 
-[ext_resource type="Script" uid="uid://c43qwuiou6t3" path="res://elements/Player/player.gd" id="1_34354"]
+[ext_resource type="Script" uid="uid://c43qwuiou6t3" path="res://scripts/player/player.gd" id="1_34354"]
 [ext_resource type="Texture2D" uid="uid://cckf8as2pydum" path="res://assets/characters/player/Slash Down.png" id="2_nlv5c"]
 [ext_resource type="Texture2D" uid="uid://dvkeyrn0c08qd" path="res://assets/characters/player/Slash Left.png" id="3_xrjx1"]
 [ext_resource type="Texture2D" uid="uid://diiu46f7a42fq" path="res://assets/characters/player/Walk Down.png" id="4_crmp4"]
@@ -11,7 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://d1ok7uktevceo" path="res://assets/characters/player/Walk Right.png" id="6_5oy5x"]
 [ext_resource type="Texture2D" uid="uid://ce6hg3lb0351v" path="res://assets/characters/player/Death.png" id="6_j5vot"]
 [ext_resource type="Texture2D" uid="uid://fg8sw6y0asuq" path="res://assets/characters/player/Idle.png" id="6_ndq04"]
-[ext_resource type="PackedScene" uid="uid://c780n1n87ff4e" path="res://elements/Sword/sword.tscn" id="10_xrjx1"]
+[ext_resource type="PackedScene" uid="uid://c780n1n87ff4e" path="res://scenes/weapon/sword.tscn" id="10_xrjx1"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_o7pxy"]
 radius = 9.006171

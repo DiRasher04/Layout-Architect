@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://colmbldym1oo2"]
 
-[ext_resource type="PackedScene" uid="uid://mwf76jcgfiic" path="res://elements/Player/player.tscn" id="1_axn68"]
+[ext_resource type="PackedScene" uid="uid://mwf76jcgfiic" path="res://scenes/player/player.tscn" id="1_axn68"]
 [ext_resource type="Script" uid="uid://tbuk2pi6sv5e" path="res://scripts/level_manager.gd" id="1_fewsy"]
-[ext_resource type="PackedScene" uid="uid://c6428d44ew5y5" path="res://elements/Levels/main_level.tscn" id="2_mgbtd"]
-[ext_resource type="PackedScene" uid="uid://eed8wj6n875g" path="res://elements/Enemies/enemy_1.tscn" id="3_5yo1t"]
-[ext_resource type="PackedScene" uid="uid://dp6f74dw7udw7" path="res://elements/Heart/pickcable_heart.tscn" id="4_cgaqa"]
+[ext_resource type="PackedScene" uid="uid://c6428d44ew5y5" path="res://scenes/levels/main_level.tscn" id="2_mgbtd"]
+[ext_resource type="PackedScene" uid="uid://eed8wj6n875g" path="res://scenes/enemies/enemy_1.tscn" id="3_5yo1t"]
+[ext_resource type="PackedScene" uid="uid://dp6f74dw7udw7" path="res://scenes/pickups/pickcable_heart.tscn" id="4_cgaqa"]
 
 [node name="Main" type="Node2D" unique_id=727233413]
 script = ExtResource("1_fewsy")
@@ -15,16 +15,16 @@ script = ExtResource("1_fewsy")
 position = Vector2(28, -30)
 
 [node name="enemy_1" parent="." unique_id=965041657 instance=ExtResource("3_5yo1t")]
-position = Vector2(22, 494)
+position = Vector2(106, 232)
 
 [node name="enemy_2" parent="." unique_id=2133730761 instance=ExtResource("3_5yo1t")]
-position = Vector2(1464, 392)
+position = Vector2(457, 371)
 
 [node name="enemy_3" parent="." unique_id=1010321083 instance=ExtResource("3_5yo1t")]
-position = Vector2(652, 442)
+position = Vector2(496, 181.00003)
 
 [node name="pickcable_heart" parent="." unique_id=2014583926 instance=ExtResource("4_cgaqa")]
-position = Vector2(109, 109)
+position = Vector2(249, -21)
 
 [node name="pickcable_heart2" parent="." unique_id=670716186 instance=ExtResource("4_cgaqa")]
-position = Vector2(343, 48)
+position = Vector2(371, 280)

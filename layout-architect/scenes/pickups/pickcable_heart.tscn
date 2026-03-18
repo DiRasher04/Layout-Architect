@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dp6f74dw7udw7"]
 
 [ext_resource type="Texture2D" uid="uid://c83wk72equjiu" path="res://assets/user_interface/hearts.png" id="1_5h212"]
-[ext_resource type="Script" uid="uid://bxf48to5t2ycc" path="res://elements/Heart/pickcable_heart.gd" id="1_hty1s"]
+[ext_resource type="Script" uid="uid://bxf48to5t2ycc" path="res://scripts/pickups/pickcable_heart.gd" id="1_hty1s"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hty1s"]
 atlas = ExtResource("1_5h212")

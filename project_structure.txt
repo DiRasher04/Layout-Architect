@@ -1,0 +1,1059 @@
+‘âàãªâãà  ¯ ¯®ª
+‘¥à¨©­ë© ­®¬¥à â®¬ : F229-BEB9
+C:.
+³   project_structure.txt
+³   README.md
+³   
+ÀÄÄÄlayout-architect
+    ³   .gitattributes
+    ³   .gitignore
+    ³   project.godot
+    ³   
+    ÃÄÄÄ.godot
+    ³   ³   .gdignore
+    ³   ³   global_script_class_cache.cfg
+    ³   ³   scene_groups_cache.cfg
+    ³   ³   uid_cache.bin
+    ³   ³   
+    ³   ÃÄÄÄeditor
+    ³   ³       area_2d.gd-folding-dbaf9fb2338027ab48caaecec6167585.cfg
+    ³   ³       attack.tscn-editstate-d7ad716673c8d9d632c08d472872b44b.cfg
+    ³   ³       attack.tscn-folding-d7ad716673c8d9d632c08d472872b44b.cfg
+    ³   ³       bsp_generator.gd-folding-07eca49d86195038e4dc1e00ce5db0d6.cfg
+    ³   ³       button.gd-folding-fc9cb45d0cf62de27304dbe2ac69f8d5.cfg
+    ³   ³       cellular_generator.gd-folding-75870f7fe3eb9abbda1eaff2649114b4.cfg
+    ³   ³       create_recent.Node
+    ³   ³       editor_layout.cfg
+    ³   ³       editor_script_doc_cache.res-folding-a7de57390d6e786984ca20c70a831128.cfg
+    ³   ³       enemy_1.gd-folding-9510be45364492a456e101c570b74377.cfg
+    ³   ³       enemy_1.tscn-editstate-1fd962a6d1789e1fa2a7caae8e09240c.cfg
+    ³   ³       enemy_1.tscn-editstate-d1cecf1658f11da14f42875259f5e8a8.cfg
+    ³   ³       enemy_1.tscn-folding-1fd962a6d1789e1fa2a7caae8e09240c.cfg
+    ³   ³       enemy_1.tscn-folding-d1cecf1658f11da14f42875259f5e8a8.cfg
+    ³   ³       favorites
+    ³   ³       favorites.Node
+    ³   ³       favorite_properties
+    ³   ³       filesystem_cache10
+    ³   ³       filesystem_update4
+    ³   ³       generator.gd-folding-ab61901e39500f08aa95dc80f68b62f8.cfg
+    ³   ³       generator_base.gd-folding-87eaa61d20bd421a99f3db80da94f6fb.cfg
+    ³   ³       hybrid_generator.gd-folding-6435036d811c215243c7af362bc0cef7.cfg
+    ³   ³       level_manager.gd-folding-937eb875191fdf0ff7bfaaceabe4cb66.cfg
+    ³   ³       main.tscn-editstate-d374cf226324997a9dcca3c853fbadbe.cfg
+    ³   ³       main.tscn-folding-d374cf226324997a9dcca3c853fbadbe.cfg
+    ³   ³       main_level.gd-folding-bc1969ef4fb3f831d8dfca619a45b37a.cfg
+    ³   ³       main_level.tscn-editstate-6a0b1fb42d0a672073c438ddb0c08369.cfg
+    ³   ³       main_level.tscn-editstate-a9bca5ed6b1b34604e57602e950f519e.cfg
+    ³   ³       main_level.tscn-folding-6a0b1fb42d0a672073c438ddb0c08369.cfg
+    ³   ³       main_level.tscn-folding-a9bca5ed6b1b34604e57602e950f519e.cfg
+    ³   ³       pickcable_heart.gd-folding-61c18ad69c9a9cc806f41f0e548eb6d0.cfg
+    ³   ³       pickcable_heart.tscn-editstate-521499fdda01f9406104f8aa1ba250ae.cfg
+    ³   ³       pickcable_heart.tscn-editstate-677ee953b20b9593e161e2afe4536b58.cfg
+    ³   ³       pickcable_heart.tscn-folding-521499fdda01f9406104f8aa1ba250ae.cfg
+    ³   ³       pickcable_heart.tscn-folding-677ee953b20b9593e161e2afe4536b58.cfg
+    ³   ³       player.gd-folding-37c9f666e3c0ec2c32be54b61af47c16.cfg
+    ³   ³       player.gd-folding-9978e2f312e6c6a3963d7da4f003c818.cfg
+    ³   ³       player.tscn-editstate-9069c647a723d19a7b80f09091344368.cfg
+    ³   ³       player.tscn-editstate-c2c62cb8c73458cd122faf659769dc80.cfg
+    ³   ³       player.tscn-folding-9069c647a723d19a7b80f09091344368.cfg
+    ³   ³       player.tscn-folding-c2c62cb8c73458cd122faf659769dc80.cfg
+    ³   ³       project_metadata.cfg
+    ³   ³       quick_open_dialog_cache.cfg
+    ³   ³       recent_dirs
+    ³   ³       script_editor_cache.cfg
+    ³   ³       sword.gd-folding-082cae223b299cc9d4ecf2568ec72df1.cfg
+    ³   ³       sword.gd-folding-0c9b4039b2c7dfbd75764c28d32783cc.cfg
+    ³   ³       sword.tscn-editstate-5536081b66b367c649284074d8eefb9c.cfg
+    ³   ³       sword.tscn-editstate-c3c024d68e3779a9e5d239ec559afecf.cfg
+    ³   ³       sword.tscn-folding-5536081b66b367c649284074d8eefb9c.cfg
+    ³   ³       sword.tscn-folding-c3c024d68e3779a9e5d239ec559afecf.cfg
+    ³   ³       tile_map_layer.gd-folding-843f5a80fb669c2371a11c7fb90b90b2.cfg
+    ³   ³       
+    ³   ÃÄÄÄimported
+    ³   ³       Death.png-e90838e7eab00fcd8c27d0bec59cabe5.ctex
+    ³   ³       Death.png-e90838e7eab00fcd8c27d0bec59cabe5.md5
+    ³   ³       hearts.png-0f6c52c3a2f5dd098780f24aae556e4f.ctex
+    ³   ³       hearts.png-0f6c52c3a2f5dd098780f24aae556e4f.md5
+    ³   ³       icon.svg-218a8f2b3041327d8a5756f3a245f83b.md5
+    ³   ³       Idle.png-e07c538be9264861a611f190d3135d50.ctex
+    ³   ³       Idle.png-e07c538be9264861a611f190d3135d50.md5
+    ³   ³       Pitfall.png-57c81d469e670a4fd461943650a64cee.ctex
+    ³   ³       Pitfall.png-57c81d469e670a4fd461943650a64cee.md5
+    ³   ³       Pull Down.png-d079fc9f5d9f454f002562fbb8ea6951.ctex
+    ³   ³       Pull Down.png-d079fc9f5d9f454f002562fbb8ea6951.md5
+    ³   ³       Pull Left.png-62a5f1a69a024e7bb9b573d25c531e62.ctex
+    ³   ³       Pull Left.png-62a5f1a69a024e7bb9b573d25c531e62.md5
+    ³   ³       Pull Right.png-d129ff88b5339c443b108f17268803a4.ctex
+    ³   ³       Pull Right.png-d129ff88b5339c443b108f17268803a4.md5
+    ³   ³       Pull Up.png-4fcd47cffa903ee81c726f7cfc3f1cc9.ctex
+    ³   ³       Pull Up.png-4fcd47cffa903ee81c726f7cfc3f1cc9.md5
+    ³   ³       Slash Down.png-f9b3e768c2a4e7edfa23ead8cdaef643.ctex
+    ³   ³       Slash Down.png-f9b3e768c2a4e7edfa23ead8cdaef643.md5
+    ³   ³       Slash Left.png-f6755eb185f687d4bf68135ed213b0f4.ctex
+    ³   ³       Slash Left.png-f6755eb185f687d4bf68135ed213b0f4.md5
+    ³   ³       Slash Right.png-46528123910b2f4d12e761b49eae69ae.ctex
+    ³   ³       Slash Right.png-46528123910b2f4d12e761b49eae69ae.md5
+    ³   ³       Slash Up.png-ede6cc324efd4985779b686288c1a429.ctex
+    ³   ³       Slash Up.png-ede6cc324efd4985779b686288c1a429.md5
+    ³   ³       Spider Sprite Sheet.png-774a94165fad9dfefa68c7c0100e0620.ctex
+    ³   ³       Spider Sprite Sheet.png-774a94165fad9dfefa68c7c0100e0620.md5
+    ³   ³       Sword Down.png-8ea3b52cea0124daaece8b144d9a5117.ctex
+    ³   ³       Sword Down.png-8ea3b52cea0124daaece8b144d9a5117.md5
+    ³   ³       Sword Left.png-88461755037ce676f4bcc0493306a140.ctex
+    ³   ³       Sword Left.png-88461755037ce676f4bcc0493306a140.md5
+    ³   ³       Sword Left_2.png-bbebb1a99e46bee4e4aac6c3e7bf5b8e.md5
+    ³   ³       Sword Right.png-a3172db624c5ee0a0a3f42c221ed2c3a.ctex
+    ³   ³       Sword Right.png-a3172db624c5ee0a0a3f42c221ed2c3a.md5
+    ³   ³       Sword Up.png-6530f33f78de3a10d338c35b8f34313c.ctex
+    ³   ³       Sword Up.png-6530f33f78de3a10d338c35b8f34313c.md5
+    ³   ³       tilemap.png-0ecba5f1a047e5f0cab0df4faff83c9f.ctex
+    ³   ³       tilemap.png-0ecba5f1a047e5f0cab0df4faff83c9f.md5
+    ³   ³       tilemap_packed.png-94e4e41b4d25c19f7f2eb37ebf76bf35.ctex
+    ³   ³       tilemap_packed.png-94e4e41b4d25c19f7f2eb37ebf76bf35.md5
+    ³   ³       tile_0000.png-f0edc2b862b9a274df7c171527b6e311.ctex
+    ³   ³       tile_0000.png-f0edc2b862b9a274df7c171527b6e311.md5
+    ³   ³       tile_0001.png-57598d66d8687ecdbf1175f453cc24f2.ctex
+    ³   ³       tile_0001.png-57598d66d8687ecdbf1175f453cc24f2.md5
+    ³   ³       tile_0002.png-777301beb940d4f58b362711f32603e6.ctex
+    ³   ³       tile_0002.png-777301beb940d4f58b362711f32603e6.md5
+    ³   ³       tile_0003.png-25acd5cb997d4c430103c8d303db1dca.ctex
+    ³   ³       tile_0003.png-25acd5cb997d4c430103c8d303db1dca.md5
+    ³   ³       tile_0004.png-3e513921df313535b5206f5f0e91bb74.ctex
+    ³   ³       tile_0004.png-3e513921df313535b5206f5f0e91bb74.md5
+    ³   ³       tile_0005.png-d3e98d06875311b434e036e0ec402ef8.ctex
+    ³   ³       tile_0005.png-d3e98d06875311b434e036e0ec402ef8.md5
+    ³   ³       tile_0006.png-032b46da9760b91fd99cabd617a39ad9.ctex
+    ³   ³       tile_0006.png-032b46da9760b91fd99cabd617a39ad9.md5
+    ³   ³       tile_0007.png-ea48e0395f45e27e5123b3724d554d6d.ctex
+    ³   ³       tile_0007.png-ea48e0395f45e27e5123b3724d554d6d.md5
+    ³   ³       tile_0008.png-1ef4a631629d1749cdd765f7745fb740.ctex
+    ³   ³       tile_0008.png-1ef4a631629d1749cdd765f7745fb740.md5
+    ³   ³       tile_0009.png-a75d9212b7b1eee90120da178c5fa002.ctex
+    ³   ³       tile_0009.png-a75d9212b7b1eee90120da178c5fa002.md5
+    ³   ³       tile_0010.png-9f5649a63dd8a8a8f6b43d7fcb5d0408.ctex
+    ³   ³       tile_0010.png-9f5649a63dd8a8a8f6b43d7fcb5d0408.md5
+    ³   ³       tile_0011.png-be5924b9bd4457092a32c5a43c66023f.ctex
+    ³   ³       tile_0011.png-be5924b9bd4457092a32c5a43c66023f.md5
+    ³   ³       tile_0012.png-12b024f71c3ce8c65e6687f338256912.ctex
+    ³   ³       tile_0012.png-12b024f71c3ce8c65e6687f338256912.md5
+    ³   ³       tile_0013.png-73665fbf245db40d93229c9218bdff66.ctex
+    ³   ³       tile_0013.png-73665fbf245db40d93229c9218bdff66.md5
+    ³   ³       tile_0014.png-b11ca4e279499874284ddfb8ec604f4f.ctex
+    ³   ³       tile_0014.png-b11ca4e279499874284ddfb8ec604f4f.md5
+    ³   ³       tile_0015.png-e48e975823eeda99dcf4dfaaa5089bf1.ctex
+    ³   ³       tile_0015.png-e48e975823eeda99dcf4dfaaa5089bf1.md5
+    ³   ³       tile_0016.png-53de2bb545e5d0ba11ea879a9185cc3c.ctex
+    ³   ³       tile_0016.png-53de2bb545e5d0ba11ea879a9185cc3c.md5
+    ³   ³       tile_0017.png-d9039d219617e4a9b508aab6586b8e7d.ctex
+    ³   ³       tile_0017.png-d9039d219617e4a9b508aab6586b8e7d.md5
+    ³   ³       tile_0018.png-9fc061fd8392b2bf840c312cfe76c5b0.ctex
+    ³   ³       tile_0018.png-9fc061fd8392b2bf840c312cfe76c5b0.md5
+    ³   ³       tile_0019.png-a1bfbf02f25cd77d0a3a38453ccf24a4.ctex
+    ³   ³       tile_0019.png-a1bfbf02f25cd77d0a3a38453ccf24a4.md5
+    ³   ³       tile_0020.png-6cb367a258ebe78fc98a3e56ed975025.ctex
+    ³   ³       tile_0020.png-6cb367a258ebe78fc98a3e56ed975025.md5
+    ³   ³       tile_0021.png-94474d2bdf69ee24ee1d1830c50bc0ba.ctex
+    ³   ³       tile_0021.png-94474d2bdf69ee24ee1d1830c50bc0ba.md5
+    ³   ³       tile_0022.png-e6984af87b29c3fb36b7562a15bc78a9.ctex
+    ³   ³       tile_0022.png-e6984af87b29c3fb36b7562a15bc78a9.md5
+    ³   ³       tile_0023.png-9239c33cd16d58841324fb6e1b81f1bb.ctex
+    ³   ³       tile_0023.png-9239c33cd16d58841324fb6e1b81f1bb.md5
+    ³   ³       tile_0024.png-2fed5654f569805bff0893ee245450d7.ctex
+    ³   ³       tile_0024.png-2fed5654f569805bff0893ee245450d7.md5
+    ³   ³       tile_0024.png-c08c439998158afc8b7d795a1c14df22.ctex
+    ³   ³       tile_0024.png-c08c439998158afc8b7d795a1c14df22.md5
+    ³   ³       tile_0025.png-0d3b8ccf967c45713df74585b415333f.ctex
+    ³   ³       tile_0025.png-0d3b8ccf967c45713df74585b415333f.md5
+    ³   ³       tile_0025.png-5e39ed9ba22b3a9bec9645b6807b8c30.ctex
+    ³   ³       tile_0025.png-5e39ed9ba22b3a9bec9645b6807b8c30.md5
+    ³   ³       tile_0026.png-056edaf5e45f4ad547aeba4337314a06.ctex
+    ³   ³       tile_0026.png-056edaf5e45f4ad547aeba4337314a06.md5
+    ³   ³       tile_0026.png-df5288d7d0d7edf3ef402970794a4a23.ctex
+    ³   ³       tile_0026.png-df5288d7d0d7edf3ef402970794a4a23.md5
+    ³   ³       tile_0027.png-e12e6e2b27526f22d8d6b9335c97ba85.ctex
+    ³   ³       tile_0027.png-e12e6e2b27526f22d8d6b9335c97ba85.md5
+    ³   ³       tile_0028.png-8332defb36b159f773d4b3ccda5ce80e.ctex
+    ³   ³       tile_0028.png-8332defb36b159f773d4b3ccda5ce80e.md5
+    ³   ³       tile_0029.png-9e00d0d804cc0f3c36d28a69e8a781bd.ctex
+    ³   ³       tile_0029.png-9e00d0d804cc0f3c36d28a69e8a781bd.md5
+    ³   ³       tile_0030.png-1fdc2c95b0263d9f59837aa29b64db0f.ctex
+    ³   ³       tile_0030.png-1fdc2c95b0263d9f59837aa29b64db0f.md5
+    ³   ³       tile_0031.png-4004f61925417731875c592fadb133e0.ctex
+    ³   ³       tile_0031.png-4004f61925417731875c592fadb133e0.md5
+    ³   ³       tile_0032.png-2be2a0a85b4967c1a36785d365dbaba2.ctex
+    ³   ³       tile_0032.png-2be2a0a85b4967c1a36785d365dbaba2.md5
+    ³   ³       tile_0033.png-58bb6bcb5002c842408c860c9c06b448.ctex
+    ³   ³       tile_0033.png-58bb6bcb5002c842408c860c9c06b448.md5
+    ³   ³       tile_0034.png-e6aa583e244130cec1115053009310ce.ctex
+    ³   ³       tile_0034.png-e6aa583e244130cec1115053009310ce.md5
+    ³   ³       tile_0035.png-7674fa85afa614481b764562932d21f6.ctex
+    ³   ³       tile_0035.png-7674fa85afa614481b764562932d21f6.md5
+    ³   ³       tile_0036.png-6673a2141060d83c5fdf371692123433.ctex
+    ³   ³       tile_0036.png-6673a2141060d83c5fdf371692123433.md5
+    ³   ³       tile_0037.png-8c5b584fc4ee764612fa5596eaf4e237.ctex
+    ³   ³       tile_0037.png-8c5b584fc4ee764612fa5596eaf4e237.md5
+    ³   ³       tile_0038.png-4d0e619803cf1f3645adcf78b5780512.ctex
+    ³   ³       tile_0038.png-4d0e619803cf1f3645adcf78b5780512.md5
+    ³   ³       tile_0039.png-0afb349b079cf0b1d4d36cbc2690a6e3.ctex
+    ³   ³       tile_0039.png-0afb349b079cf0b1d4d36cbc2690a6e3.md5
+    ³   ³       tile_0040.png-7539858da06630db5ea96529fe484db5.ctex
+    ³   ³       tile_0040.png-7539858da06630db5ea96529fe484db5.md5
+    ³   ³       tile_0041.png-38521eba1cf4ca66895d3e53a66ed3b0.ctex
+    ³   ³       tile_0041.png-38521eba1cf4ca66895d3e53a66ed3b0.md5
+    ³   ³       tile_0042.png-6ec9b8e74f48a5fb7103abc1883754f2.ctex
+    ³   ³       tile_0042.png-6ec9b8e74f48a5fb7103abc1883754f2.md5
+    ³   ³       tile_0043.png-6fda01d27b3667dfbbcbfe6078267409.ctex
+    ³   ³       tile_0043.png-6fda01d27b3667dfbbcbfe6078267409.md5
+    ³   ³       tile_0044.png-48b929039f8dff4070013c5244dcc587.ctex
+    ³   ³       tile_0044.png-48b929039f8dff4070013c5244dcc587.md5
+    ³   ³       tile_0045.png-c8b8dedcc71029371d53504420778950.ctex
+    ³   ³       tile_0045.png-c8b8dedcc71029371d53504420778950.md5
+    ³   ³       tile_0046.png-c76f962cf8430572317370c7915580ec.ctex
+    ³   ³       tile_0046.png-c76f962cf8430572317370c7915580ec.md5
+    ³   ³       tile_0047.png-e1205a3c120050a80c04ba5ef99cf65b.ctex
+    ³   ³       tile_0047.png-e1205a3c120050a80c04ba5ef99cf65b.md5
+    ³   ³       tile_0048.png-2d6e464106cc763f4b721b0431960731.ctex
+    ³   ³       tile_0048.png-2d6e464106cc763f4b721b0431960731.md5
+    ³   ³       tile_0049.png-624d6436b3ae9df274f95bd07dc57db2.ctex
+    ³   ³       tile_0049.png-624d6436b3ae9df274f95bd07dc57db2.md5
+    ³   ³       tile_0050.png-a9c4d4acd2fa14d2646ca145c0e02f6c.ctex
+    ³   ³       tile_0050.png-a9c4d4acd2fa14d2646ca145c0e02f6c.md5
+    ³   ³       tile_0051.png-41fb49ef3a65b9d1fecf6c7f49827003.ctex
+    ³   ³       tile_0051.png-41fb49ef3a65b9d1fecf6c7f49827003.md5
+    ³   ³       tile_0052.png-2923d15612fbf1a1b23f93925a848439.ctex
+    ³   ³       tile_0052.png-2923d15612fbf1a1b23f93925a848439.md5
+    ³   ³       tile_0053.png-9a90d65b584db37651f86c78b5c4ce16.ctex
+    ³   ³       tile_0053.png-9a90d65b584db37651f86c78b5c4ce16.md5
+    ³   ³       tile_0054.png-db6a20942402ff503f6223760a4f0b6b.ctex
+    ³   ³       tile_0054.png-db6a20942402ff503f6223760a4f0b6b.md5
+    ³   ³       tile_0055.png-35269b325ef9adfa74ff6124920bb133.ctex
+    ³   ³       tile_0055.png-35269b325ef9adfa74ff6124920bb133.md5
+    ³   ³       tile_0056.png-74d8cbe65de1e3f83953a8c21e8f4ae0.ctex
+    ³   ³       tile_0056.png-74d8cbe65de1e3f83953a8c21e8f4ae0.md5
+    ³   ³       tile_0057.png-f6d2653d77edfcf27bfe0435a9fb0ae7.ctex
+    ³   ³       tile_0057.png-f6d2653d77edfcf27bfe0435a9fb0ae7.md5
+    ³   ³       tile_0058.png-a67fbd2c5e65af95f65e8a7c7f6bb5ab.ctex
+    ³   ³       tile_0058.png-a67fbd2c5e65af95f65e8a7c7f6bb5ab.md5
+    ³   ³       tile_0059.png-d0487829ae05f5318fd2777f113432a0.ctex
+    ³   ³       tile_0059.png-d0487829ae05f5318fd2777f113432a0.md5
+    ³   ³       tile_0060.png-61e00c1620a95ae1f535412a3a997391.ctex
+    ³   ³       tile_0060.png-61e00c1620a95ae1f535412a3a997391.md5
+    ³   ³       tile_0061.png-080f8a8d19654fdfc8908314bfc298c6.ctex
+    ³   ³       tile_0061.png-080f8a8d19654fdfc8908314bfc298c6.md5
+    ³   ³       tile_0062.png-28a80653d91adf3636b167352fe76d5a.ctex
+    ³   ³       tile_0062.png-28a80653d91adf3636b167352fe76d5a.md5
+    ³   ³       tile_0063.png-142e48c3d4ca82e5d2050c14b33eac12.ctex
+    ³   ³       tile_0063.png-142e48c3d4ca82e5d2050c14b33eac12.md5
+    ³   ³       tile_0064.png-65c69a79e9f6f34e32241f2670386039.ctex
+    ³   ³       tile_0064.png-65c69a79e9f6f34e32241f2670386039.md5
+    ³   ³       tile_0065.png-f5c5cf584de299aaf54f628e1bdc2c04.ctex
+    ³   ³       tile_0065.png-f5c5cf584de299aaf54f628e1bdc2c04.md5
+    ³   ³       tile_0066.png-072b37000e633eeca780b0421087e982.ctex
+    ³   ³       tile_0066.png-072b37000e633eeca780b0421087e982.md5
+    ³   ³       tile_0067.png-441501b502ef76bb5d96d64f01190fa1.ctex
+    ³   ³       tile_0067.png-441501b502ef76bb5d96d64f01190fa1.md5
+    ³   ³       tile_0068.png-a8a19bb8a36adf714c91ae8c2d4aef32.ctex
+    ³   ³       tile_0068.png-a8a19bb8a36adf714c91ae8c2d4aef32.md5
+    ³   ³       tile_0069.png-2f180fb7403ff86a60d2d349e4474a3e.ctex
+    ³   ³       tile_0069.png-2f180fb7403ff86a60d2d349e4474a3e.md5
+    ³   ³       tile_0070.png-6506b82b745ac2ecc1f307d59eb56455.ctex
+    ³   ³       tile_0070.png-6506b82b745ac2ecc1f307d59eb56455.md5
+    ³   ³       tile_0071.png-1c7eb6f16c800f9e27dbde609f3f3fc9.ctex
+    ³   ³       tile_0071.png-1c7eb6f16c800f9e27dbde609f3f3fc9.md5
+    ³   ³       tile_0072.png-114227416c7d3232460c809ee4f44405.ctex
+    ³   ³       tile_0072.png-114227416c7d3232460c809ee4f44405.md5
+    ³   ³       tile_0073.png-3d948e68ca2d9510378a7a98be1b9ff6.ctex
+    ³   ³       tile_0073.png-3d948e68ca2d9510378a7a98be1b9ff6.md5
+    ³   ³       tile_0074.png-3e00281252a8961e0c3368a966354339.ctex
+    ³   ³       tile_0074.png-3e00281252a8961e0c3368a966354339.md5
+    ³   ³       tile_0075.png-45670cf2ffc00ce4071a705f06f803fa.ctex
+    ³   ³       tile_0075.png-45670cf2ffc00ce4071a705f06f803fa.md5
+    ³   ³       tile_0076.png-ad0858fdaeab1e33beb2a15c1023bff5.ctex
+    ³   ³       tile_0076.png-ad0858fdaeab1e33beb2a15c1023bff5.md5
+    ³   ³       tile_0077.png-75986156d8ddcf7bf3bfe7ef816d41e6.ctex
+    ³   ³       tile_0077.png-75986156d8ddcf7bf3bfe7ef816d41e6.md5
+    ³   ³       tile_0078.png-7471d5fdd2ec090fdf68f881ef96d331.ctex
+    ³   ³       tile_0078.png-7471d5fdd2ec090fdf68f881ef96d331.md5
+    ³   ³       tile_0079.png-7dcd85e43418fc364db0c469712fa180.ctex
+    ³   ³       tile_0079.png-7dcd85e43418fc364db0c469712fa180.md5
+    ³   ³       tile_0080.png-d1d6a16447530a4fcef24e5847a2a42d.ctex
+    ³   ³       tile_0080.png-d1d6a16447530a4fcef24e5847a2a42d.md5
+    ³   ³       tile_0081.png-3a42e89ea4750ff1258c91c53844832f.ctex
+    ³   ³       tile_0081.png-3a42e89ea4750ff1258c91c53844832f.md5
+    ³   ³       tile_0082.png-39c40e1a8957ec508e71e115582e8abb.ctex
+    ³   ³       tile_0082.png-39c40e1a8957ec508e71e115582e8abb.md5
+    ³   ³       tile_0083.png-56ccede68097e34a737378b3db525d05.ctex
+    ³   ³       tile_0083.png-56ccede68097e34a737378b3db525d05.md5
+    ³   ³       tile_0084.png-5f1aa77500cd5ce1806b8602e24dc46c.ctex
+    ³   ³       tile_0084.png-5f1aa77500cd5ce1806b8602e24dc46c.md5
+    ³   ³       tile_0085.png-2fcf9567463a12afcbddaff945387800.ctex
+    ³   ³       tile_0085.png-2fcf9567463a12afcbddaff945387800.md5
+    ³   ³       tile_0086.png-6083c85731498d9638ad554ac17bbd53.ctex
+    ³   ³       tile_0086.png-6083c85731498d9638ad554ac17bbd53.md5
+    ³   ³       tile_0087.png-ed5f676d8782eefa70d6dda573302422.ctex
+    ³   ³       tile_0087.png-ed5f676d8782eefa70d6dda573302422.md5
+    ³   ³       tile_0088.png-022fcf3af4973f441ab97244d2a426f5.ctex
+    ³   ³       tile_0088.png-022fcf3af4973f441ab97244d2a426f5.md5
+    ³   ³       tile_0089.png-cd3833ed9a518b5da6160625615f8522.ctex
+    ³   ³       tile_0089.png-cd3833ed9a518b5da6160625615f8522.md5
+    ³   ³       tile_0090.png-fe66993e3436b6d1abcfc1afb53375df.ctex
+    ³   ³       tile_0090.png-fe66993e3436b6d1abcfc1afb53375df.md5
+    ³   ³       tile_0091.png-c095276fbd994a13c1711f71a034042e.ctex
+    ³   ³       tile_0091.png-c095276fbd994a13c1711f71a034042e.md5
+    ³   ³       tile_0092.png-0669512b9ee7105b54ba582663080051.ctex
+    ³   ³       tile_0092.png-0669512b9ee7105b54ba582663080051.md5
+    ³   ³       tile_0093.png-dc8b85696ab6a13bb4d390caeac098bb.ctex
+    ³   ³       tile_0093.png-dc8b85696ab6a13bb4d390caeac098bb.md5
+    ³   ³       tile_0094.png-e1a0892542946c584dec9fbc4987907f.ctex
+    ³   ³       tile_0094.png-e1a0892542946c584dec9fbc4987907f.md5
+    ³   ³       tile_0095.png-d065bd0168c07a83e9e8c706438997f9.ctex
+    ³   ³       tile_0095.png-d065bd0168c07a83e9e8c706438997f9.md5
+    ³   ³       tile_0096.png-b7513132017e4d8d35c11eef1f65f6cd.ctex
+    ³   ³       tile_0096.png-b7513132017e4d8d35c11eef1f65f6cd.md5
+    ³   ³       tile_0097.png-be1bda53e7c605c59d380a71b425eef2.ctex
+    ³   ³       tile_0097.png-be1bda53e7c605c59d380a71b425eef2.md5
+    ³   ³       tile_0098.png-d8d6f2b908c9fa2b19f5826a933ec458.ctex
+    ³   ³       tile_0098.png-d8d6f2b908c9fa2b19f5826a933ec458.md5
+    ³   ³       tile_0099.png-8294e8c85a84163895dbc7be255243df.ctex
+    ³   ³       tile_0099.png-8294e8c85a84163895dbc7be255243df.md5
+    ³   ³       tile_0100.png-4bc1a134f148b46c2d75a01302d7fab8.ctex
+    ³   ³       tile_0100.png-4bc1a134f148b46c2d75a01302d7fab8.md5
+    ³   ³       tile_0101.png-53c413e3f16fd6637857e0ae15ee8e4f.ctex
+    ³   ³       tile_0101.png-53c413e3f16fd6637857e0ae15ee8e4f.md5
+    ³   ³       tile_0102.png-39248529b6d9c1a8f908d79b457252fa.ctex
+    ³   ³       tile_0102.png-39248529b6d9c1a8f908d79b457252fa.md5
+    ³   ³       tile_0103.png-eeb6ae880b1110e540313142235d582e.ctex
+    ³   ³       tile_0103.png-eeb6ae880b1110e540313142235d582e.md5
+    ³   ³       tile_0104.png-83452e5ee540644ec38e257a967dfe42.ctex
+    ³   ³       tile_0104.png-83452e5ee540644ec38e257a967dfe42.md5
+    ³   ³       tile_0105.png-8fe44454c1eda1eb9902a802c3151181.ctex
+    ³   ³       tile_0105.png-8fe44454c1eda1eb9902a802c3151181.md5
+    ³   ³       tile_0106.png-6414e5edb08a14560d4555b585e5fbd2.ctex
+    ³   ³       tile_0106.png-6414e5edb08a14560d4555b585e5fbd2.md5
+    ³   ³       tile_0107.png-b0adbcc417a882f058835b8e1aa65e1b.ctex
+    ³   ³       tile_0107.png-b0adbcc417a882f058835b8e1aa65e1b.md5
+    ³   ³       tile_0108.png-247c0156b4615a37cb5d85e51583c1d8.ctex
+    ³   ³       tile_0108.png-247c0156b4615a37cb5d85e51583c1d8.md5
+    ³   ³       tile_0109.png-e4d86fb63d7d1ff6f3ae8a7bca2b1e66.ctex
+    ³   ³       tile_0109.png-e4d86fb63d7d1ff6f3ae8a7bca2b1e66.md5
+    ³   ³       tile_0110.png-90e92e5792df92b0826ab3cb5f4fa373.ctex
+    ³   ³       tile_0110.png-90e92e5792df92b0826ab3cb5f4fa373.md5
+    ³   ³       tile_0111.png-a011a05c0436e6e6f33f7129290dac7c.ctex
+    ³   ³       tile_0111.png-a011a05c0436e6e6f33f7129290dac7c.md5
+    ³   ³       tile_0112.png-520a4e0d6e29068a744bf4faded86cf8.ctex
+    ³   ³       tile_0112.png-520a4e0d6e29068a744bf4faded86cf8.md5
+    ³   ³       tile_0113.png-8a46c462806143650e0028729c3a7dc0.ctex
+    ³   ³       tile_0113.png-8a46c462806143650e0028729c3a7dc0.md5
+    ³   ³       tile_0114.png-c538db56243c78591e5dcdbe82870c0c.ctex
+    ³   ³       tile_0114.png-c538db56243c78591e5dcdbe82870c0c.md5
+    ³   ³       tile_0115.png-d68d2484c784b85ab9e91d67f23a2d2e.ctex
+    ³   ³       tile_0115.png-d68d2484c784b85ab9e91d67f23a2d2e.md5
+    ³   ³       tile_0116.png-367bb31bc41d990ed393d7ad4afd2816.ctex
+    ³   ³       tile_0116.png-367bb31bc41d990ed393d7ad4afd2816.md5
+    ³   ³       tile_0117.png-93c7e107722cd8d50ce61db61cf684f2.ctex
+    ³   ³       tile_0117.png-93c7e107722cd8d50ce61db61cf684f2.md5
+    ³   ³       tile_0118.png-144274bb7c24ab24ba657ea1a78d7167.ctex
+    ³   ³       tile_0118.png-144274bb7c24ab24ba657ea1a78d7167.md5
+    ³   ³       tile_0119.png-3ee92c047bea243e4e06ba73c8f6bccc.ctex
+    ³   ³       tile_0119.png-3ee92c047bea243e4e06ba73c8f6bccc.md5
+    ³   ³       tile_0120.png-da6b6efe0e6b888b6a1179c695fdfc76.ctex
+    ³   ³       tile_0120.png-da6b6efe0e6b888b6a1179c695fdfc76.md5
+    ³   ³       tile_0121.png-aef99425e1291255a0954305438e5294.ctex
+    ³   ³       tile_0121.png-aef99425e1291255a0954305438e5294.md5
+    ³   ³       tile_0122.png-5dd57a8f810d5247ad539d79d9b29ee6.ctex
+    ³   ³       tile_0122.png-5dd57a8f810d5247ad539d79d9b29ee6.md5
+    ³   ³       tile_0123.png-e53639cca3950a661e5d5d0d76722c6d.ctex
+    ³   ³       tile_0123.png-e53639cca3950a661e5d5d0d76722c6d.md5
+    ³   ³       tile_0124.png-a2043441913911d5639286bc23fcee65.ctex
+    ³   ³       tile_0124.png-a2043441913911d5639286bc23fcee65.md5
+    ³   ³       tile_0125.png-b40b266d4f04da8b79f14d17fe626ebc.ctex
+    ³   ³       tile_0125.png-b40b266d4f04da8b79f14d17fe626ebc.md5
+    ³   ³       tile_0126.png-72c9593ed8bb20383718e8d18d55bb12.ctex
+    ³   ³       tile_0126.png-72c9593ed8bb20383718e8d18d55bb12.md5
+    ³   ³       tile_0127.png-a1958eb7a6eb66c4b64cd5b844d7b100.ctex
+    ³   ³       tile_0127.png-a1958eb7a6eb66c4b64cd5b844d7b100.md5
+    ³   ³       tile_0128.png-1a90798c20a80ff628dc600907afe174.ctex
+    ³   ³       tile_0128.png-1a90798c20a80ff628dc600907afe174.md5
+    ³   ³       tile_0129.png-b6787226b887fa9928480002042bdb51.ctex
+    ³   ³       tile_0129.png-b6787226b887fa9928480002042bdb51.md5
+    ³   ³       tile_0130.png-47715c9baa64c61b9f078e67308cd7fc.ctex
+    ³   ³       tile_0130.png-47715c9baa64c61b9f078e67308cd7fc.md5
+    ³   ³       tile_0131.png-f841e6324b5953a5f51e1b5e53d66811.ctex
+    ³   ³       tile_0131.png-f841e6324b5953a5f51e1b5e53d66811.md5
+    ³   ³       Walk Down.png-62e004dabefb2917d3574c84954014f4.ctex
+    ³   ³       Walk Down.png-62e004dabefb2917d3574c84954014f4.md5
+    ³   ³       Walk Left.png-45c85b130528387a732fc27992f8a2bc.ctex
+    ³   ³       Walk Left.png-45c85b130528387a732fc27992f8a2bc.md5
+    ³   ³       Walk Right.png-0cc6e6aa017349f08eb1153d724b4195.ctex
+    ³   ³       Walk Right.png-0cc6e6aa017349f08eb1153d724b4195.md5
+    ³   ³       Walk Up.png-d4afa443e1f09f1064c17c7f67e31828.ctex
+    ³   ³       Walk Up.png-d4afa443e1f09f1064c17c7f67e31828.md5
+    ³   ³       
+    ³   ÀÄÄÄshader_cache
+    ³       ÃÄÄÄBestFitNormalShaderRD
+    ³       ³   ÀÄÄÄ4e9da474dc84bf7827216c55a5ccbd80d5194c12c1c41eb2f67d659c3d7b5d11
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄBlitShaderRD
+    ³       ³   ÀÄÄÄde1bb2427d3dcc66b0497adb6bb381a58368fc24648c5e77b936034fd86c488f
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄBokehDofShaderRD
+    ³       ³   ÀÄÄÄf0818466663de70a3eb3cacafd3e366a662fec8df19ee39678456c56e0992de3
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄCanvasOcclusionShaderRD
+    ³       ³   ÀÄÄÄ9a7b08184c03a1ecd0f1635a548165ea1b8977af20bdcc6026754dc923445089
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄCanvasSdfShaderRD
+    ³       ³   ÀÄÄÄ0ee98c1c762a031ed5d6ae15569aac5493df641046733f2bdfb3a50df1f4154d
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄCanvasShaderRD
+    ³       ³   ÀÄÄÄ275d4d34e3615bf0802f2ef82109d1cde17c7aa8031e89154c70fc7b3d40d52f
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           45fb1ddc6499e56682916a355ce2839e61f42dfe.d3d12.cache
+    ³       ³           4d35b4f1b981d75cb121b24f26aba4271d0d7a2f.d3d12.cache
+    ³       ³           8a7277c8d3ac029b087c3fa9c55de85560be5119.d3d12.cache
+    ³       ³           c0a681ae42aa3e0b5abba232ccae0b036be455e4.d3d12.cache
+    ³       ³           f3e258e8f7ec2e7e740b62f3bc48ecf5c99fb0db.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄClusterDebugShaderRD
+    ³       ³   ÀÄÄÄcf9e7f6b32d31ae8694758a95663a7c9fab66d2cdbc6bbfbfbdc73a452409cb7
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄClusterRenderShaderRD
+    ³       ³   ÀÄÄÄce0a20efd77f533c88098581f42714bacac9fff0dd087f4452f4e090a2f1126d
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄClusterStoreShaderRD
+    ³       ³   ÀÄÄÄf369908042729ae25ea308b7b8d34547e53e21278e78f6ef3fba410d908cb3d9
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄCopyShaderRD
+    ³       ³   ÀÄÄÄe9cc8703737058ab94419d921c4ffa210eedec9e9902e44b4b3b0898bea779ad
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄCopyToFbShaderRD
+    ³       ³   ÀÄÄÄd8c8cfaf4afd14e907114b99e2f0ca909b68e51c06848dcaf4d960b93dc13cb8
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄCubeToDpShaderRD
+    ³       ³   ÀÄÄÄ0352697dfa4e1cfa7c828f5dbe00a582b11eb7ecdaaf632adeef06f06d4b9c96
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄCubeToOctmapShaderRD
+    ³       ³   ÀÄÄÄ5fc57d05f5d131338b97f340dc2c3656545f2e042759ccfe92bdbbf87ab5eac3
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄFsr2AccumulatePassShaderRD
+    ³       ³   ÀÄÄÄ9459adb5823acc74451c2ea9f81aa9da71ce4d8c54bd7e14167ff9da9d8a2711
+    ³       ÃÄÄÄFsr2AutogenReactivePassShaderRD
+    ³       ³   ÀÄÄÄ5ef69d12bbe593432c1ca417e5dfd0f2e78ca303e90818fa4f8710217cce36f6
+    ³       ÃÄÄÄFsr2ComputeLuminancePyramidPassShaderRD
+    ³       ³   ÀÄÄÄ33dcd4c9fce60b7274a7c7b00ec2e78fdd25f4ee9b281ddad276d78d8fc5910c
+    ³       ÃÄÄÄFsr2DepthClipPassShaderRD
+    ³       ³   ÀÄÄÄ71ab67576a0142e4f2e891c16f6ece1a596effaebd5778782caf05633f473290
+    ³       ÃÄÄÄFsr2LockPassShaderRD
+    ³       ³   ÀÄÄÄ1e661a236764f1e9277829b9df61094a15eb86377dce37c6483e7f72383e9876
+    ³       ÃÄÄÄFsr2RcasPassShaderRD
+    ³       ³   ÀÄÄÄ3e8d848fb42341b39bf63b0791cf76c42bad2c1c35e3a57d175453b8fad7ec07
+    ³       ÃÄÄÄFsr2ReconstructPreviousDepthPassShaderRD
+    ³       ³   ÀÄÄÄ0ad30824a3e564c57490eb4965ac075898a028ec20466de3a8deec496785ed23
+    ³       ÃÄÄÄFsr2TcrAutogenPassShaderRD
+    ³       ³   ÀÄÄÄb4278dfe68af874a516318944f905a2f7237df106404bfa08f4925ad1eb72177
+    ³       ÃÄÄÄFsrUpscaleShaderRD
+    ³       ³   ÀÄÄÄ9a52fdf3c5bde6da20535b5db563542c4713265bf5c8bb52fad6ef2a5b526337
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄGiShaderRD
+    ³       ³   ÃÄÄÄ6070f5e18c68008ac051ae26b1c87390602864b854189b373129b03383b95c1d
+    ³       ³   ³       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³   ³       
+    ³       ³   ÀÄÄÄ687d1c141f44aed88a07e61d750649cda6236ef2205b4f854f8105ca7b94e6e7
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄIntegrateDfgShaderRD
+    ³       ³   ÀÄÄÄ7049a4978dbea673146c24a42476293190f9806f2c1c73e26f6548a09d9f09d1
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄLuminanceReduceShaderRD
+    ³       ³   ÀÄÄÄe1310a90e84d7a218320cf28617a5e388c8a11a861edbd726669e71fc3f911a8
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄMotionVectorsShaderRD
+    ³       ³   ÀÄÄÄ23e525d5cbab296a974d3ff5dca6670923233ede9e68996ab30d7ff8704cddf7
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄOctmapDownsamplerShaderRD
+    ³       ³   ÀÄÄÄf7cc7d472883dcc7f351a5ffde028bb15c7b5d7589eacdf02c3633cf2a7829c5
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄOctmapFilterShaderRD
+    ³       ³   ÀÄÄÄ51d055a87b73bba94f62ffe0b579322bddb3d5638e4db2bcedbcd05733e17083
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄOctmapRoughnessShaderRD
+    ³       ³   ÀÄÄÄ953daee2b7c11cf846dd5b590a624c33a6d367972b684494ecbbb5fdeb8e9b1f
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄParticlesCopyShaderRD
+    ³       ³   ÀÄÄÄe1ec2b862158669cdd5f5cfa489962a45b22a1d170a38418ac800c5944f38061
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄParticlesShaderRD
+    ³       ³   ÀÄÄÄ48be2fd5ec149691044dab9a7783b80a4ec194c46b14e88e6cb21540ec8f681c
+    ³       ³           f128cab0b22fb7e0d9f023d6cdb81309be392d95.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄResolveShaderRD
+    ³       ³   ÀÄÄÄ1f73a86e4de984063f8d52430568260a983404585561eebf294292dcf117aaef
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSceneForwardClusteredShaderRD
+    ³       ³   ÃÄÄÄ8ddb51fb99c663b5edfdb05f068cd2206a3d4337f2c5324da8668e87060657ab
+    ³       ³   ÃÄÄÄ981624c017530f42770c6e2f31ec21cb2891c35339d98784d60c8ba927a8db7a
+    ³       ³   ÃÄÄÄdd444ccad0fdfef3c30d6c11fd21099ac24ab801a60f7ecc43d18c6059e9e17a
+    ³       ³   ÀÄÄÄddf71e2b0a93f8f42fc8827ef66052f76ea3654cfcd999e621135fc1399a5a79
+    ³       ³           111f8cfd3c260d918df85827eb251dc36a43cb13.d3d12.cache
+    ³       ³           35a078cb7dc07df55e460ed1a913486a68ab6bb0.d3d12.cache
+    ³       ³           3d6fc53bad5e871b1b878eb1a4ed0a0fcec449cb.d3d12.cache
+    ³       ³           7412c254abd0f944fb53942228920fe187f1d723.d3d12.cache
+    ³       ³           7a57964a6a80c226a1011fb78edbda41d2219632.d3d12.cache
+    ³       ³           7a6b05ba6ca90f8a542e0d1fcc3360f7d52c6e09.d3d12.cache
+    ³       ³           7d4c2429f20db9b651852713d31971380f209eec.d3d12.cache
+    ³       ³           89044bace37a3ce54cf2cc5190e11bed6d14f97a.d3d12.cache
+    ³       ³           a38af1e47720abf30ca44f3d3c099c07b046df81.d3d12.cache
+    ³       ³           ab0b960474f1491b42ef9f2ca13dbd4ccaf64911.d3d12.cache
+    ³       ³           f88424e725a3bb50f358e9b042552af7b1c2f921.d3d12.cache
+    ³       ³           f89c365b12d7e2d46fb2e1f6ace46a76b6cd5e89.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄScreenSpaceReflectionDownsampleShaderRD
+    ³       ³   ÀÄÄÄded9db1eac9e5b4ad8eec541c15639621959cc7ba975c35a7b00e693dbd63ed2
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄScreenSpaceReflectionFilterShaderRD
+    ³       ³   ÀÄÄÄeb63705abd051e467483bd6b2685b6faedabead31ba6939e17542ab4de0459d4
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄScreenSpaceReflectionHizShaderRD
+    ³       ³   ÀÄÄÄb6bddb256a75b062d6dcc54cab3068e5681c11efabeecfd56a8b6aa811fd04f7
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄScreenSpaceReflectionResolveShaderRD
+    ³       ³   ÀÄÄÄ81e8ef1f8dea212538147e6fe6944ceda353f1384bfc9862c90015b21db84c65
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄScreenSpaceReflectionShaderRD
+    ³       ³   ÀÄÄÄ3f11fe3b906bae8febe9b4aa23c6e89fa571e2edae7b9517b7f00208fdccae97
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSdfgiDebugProbesShaderRD
+    ³       ³   ÀÄÄÄ04d93c03fbe1db79d1166bf8062718b246216fd24fea2444a0ff1c91794984c7
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSdfgiDebugShaderRD
+    ³       ³   ÀÄÄÄ7e91b12089148e9624d3b772c591a8eee798246bf853e9ec512804a7f33b3889
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSdfgiDirectLightShaderRD
+    ³       ³   ÀÄÄÄ64ad7310244510c316ee6a757d8aca3c2e569d002f9a977a411dc3eed01aa136
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSdfgiIntegrateShaderRD
+    ³       ³   ÀÄÄÄ41b4833fa068f8f1d6aca463d4264bd17b48cdb4b8e9a4c6238ce96804fab13d
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSdfgiPreprocessShaderRD
+    ³       ³   ÀÄÄÄ570afa2fb30077473ab0e981ef16979b1b8655516ee0d556dc33020f9b771742
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄShadowFrustumShaderRD
+    ³       ³   ÀÄÄÄ66c287915614d37b9e7cab38554ceb8cf9587c0a1ad8f3ed523d1119d02a432a
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSkeletonShaderRD
+    ³       ³   ÀÄÄÄb807701246eba2e5b805fc0e7ba7b175f6b6d09a9e37d9e4cf9457567e5b8692
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSkyShaderRD
+    ³       ³   ÀÄÄÄ674aa6a56f4fc992ebe09ae7e571e379f6e557dd2354506b5062519ad7a427e1
+    ³       ³           03e3b11c69e24394b2d955a8c0ba85587bb70839.d3d12.cache
+    ³       ³           de678811d1bad3cad4892a8db7b6ea0be197d51d.d3d12.cache
+    ³       ³           e105b1e014f9523daf8d734c2f2dc115ba341902.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSmaaBlendingShaderRD
+    ³       ³   ÀÄÄÄ607ccc762120fdee816ab47fd2451dbbaa886d445321b7411140032a35f1a739
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSmaaEdgeDetectionShaderRD
+    ³       ³   ÀÄÄÄd87a8d48df4d7f1e99d50fdda5183397a5adb65dc240df7fc07a7ce2955fe3d7
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSmaaWeightCalculationShaderRD
+    ³       ³   ÀÄÄÄ8e27991ff4e390c0330de8c3b47a42294afc92f41d1049dfd06896302c2e0b04
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSortShaderRD
+    ³       ³   ÀÄÄÄ5f7b2ec9b49f6ba75e1d03ef4dfdbfad8d55d693fa2c7cb5bc6e761cb986a8e5
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSpecularMergeShaderRD
+    ³       ³   ÀÄÄÄf37e3095c1ac9cac056c9f2aa34f04ba24881a09cdcd83d20dbf7897f273b846
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSsaoBlurShaderRD
+    ³       ³   ÀÄÄÄfcd180ca97c9c60af86c6ab2e8c04c9a5151590707bbf1e28568cee1a7d1f79b
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSsaoImportanceMapShaderRD
+    ³       ³   ÀÄÄÄ4edba1c913bbcf0fe2fb8c435ab1359f70a7444f7dd23c4ce34fc93c45843eb3
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSsaoInterleaveShaderRD
+    ³       ³   ÀÄÄÄeb4ca8219783922a87341a3a2ad615ecc8356bb6e044ce477536e99902f96a22
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSsaoShaderRD
+    ³       ³   ÀÄÄÄb4930144c0d6d905950e21dba7bee754e2d9afe084ae8d5555df96fce770139f
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSsEffectsDownsampleShaderRD
+    ³       ³   ÀÄÄÄ9b03fd7cbef33949b738847086d7bd7ff6c796ec877d4d57e9c0b0f078d6ab26
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSsilBlurShaderRD
+    ³       ³   ÀÄÄÄc828d4bcf21ef1709d97f8548e6525f7879a2a375039528da204ac3b329c718e
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSsilImportanceMapShaderRD
+    ³       ³   ÀÄÄÄ6c7db621e01f163f7fd5e9f70c773e06433e17a5fb96e54db218d422d723aacb
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSsilInterleaveShaderRD
+    ³       ³   ÀÄÄÄ1827fdf7222528b41b71648898590a2b481dff874d5abb29dee45a9987f785ba
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSsilShaderRD
+    ³       ³   ÀÄÄÄ0c54181813ac355caa336bd64f0d15b67563cb80589a0ad2ac890813bf2e3c86
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄSubsurfaceScatteringShaderRD
+    ³       ³   ÀÄÄÄa0a69873fdce28a7a8c50458dcc8506beabb26c6baf5449448339e820eeb917d
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄTaaResolveShaderRD
+    ³       ³   ÀÄÄÄ8470bc598ece1480705c4d97217aed576067ef39813f3e16506ad87fcedc44e2
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄTonemapShaderRD
+    ³       ³   ÀÄÄÄ3769da6e8bdc270efe950e09ec5b0ed4d95998156701f9bafd635fe9d5972f71
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄVolumetricFogProcessShaderRD
+    ³       ³   ÃÄÄÄ19f039cd73a0ac6607074fc92d3b2f57204b62a447b166e83d0e60040e2cf6a4
+    ³       ³   ³       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³   ³       
+    ³       ³   ÃÄÄÄb574c5bab440796f9fd6eefd0e7181223c8e77658ddda965d5d1a2bf343e41dd
+    ³       ³   ÃÄÄÄcbabfe7b968265f8c48f929175dd979f1adb0b050591291ed9426e10c85e3609
+    ³       ³   ÀÄÄÄe6adfd0ce829e6d1f98d92ba49909d373fcd9babf25299fca9f21f3924ba1407
+    ³       ÃÄÄÄVolumetricFogShaderRD
+    ³       ³   ÃÄÄÄ3e55031a37779b7d3026b7500d38886881a51f2bf77021cdbbbe9afb199c27de
+    ³       ³   ÃÄÄÄ757251820332d10b11f8db2ad4fb78c2ab5b327b747dabc3a12824d51281115c
+    ³       ³   ³       9a227745af2d65830f930370a9fbba551fbd6f60.d3d12.cache
+    ³       ³   ³       
+    ³       ³   ÃÄÄÄ7d2b9e765537654c60cdf5cff124b279223872c8b12e2a3620d80891a2bd31fe
+    ³       ³   ÀÄÄÄf2cfca4e669cf66da6a56749d1a711c08926cbc7651b5870c9cc1d17cb15b617
+    ³       ÃÄÄÄVoxelGiDebugShaderRD
+    ³       ³   ÀÄÄÄ30164a8664ea1d0b0caec729a89edc30b41521ceb006a0b39e12d5c0455a7a5b
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÃÄÄÄVoxelGiShaderRD
+    ³       ³   ÀÄÄÄ020f6e5393138c6a26909fdf3f9bdebabe18dcd37d7444b7c8006364aa00c63e
+    ³       ³           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³       ³           
+    ³       ÀÄÄÄVrsShaderRD
+    ³           ÀÄÄÄ1b6806612839b886988be481f152b0ffed872402198373a972e8546cd1497e33
+    ³                   087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+    ³                   
+    ÃÄÄÄassets
+    ³   ÃÄÄÄcharacters
+    ³   ³   ÃÄÄÄenemies
+    ³   ³   ³       Spider Sprite Sheet.png
+    ³   ³   ³       Spider Sprite Sheet.png.import
+    ³   ³   ³       tile_0024.png
+    ³   ³   ³       tile_0024.png.import
+    ³   ³   ³       tile_0025.png
+    ³   ³   ³       tile_0025.png.import
+    ³   ³   ³       tile_0026.png
+    ³   ³   ³       tile_0026.png.import
+    ³   ³   ³       
+    ³   ³   ÀÄÄÄplayer
+    ³   ³           Death.png
+    ³   ³           Death.png.import
+    ³   ³           Idle.png
+    ³   ³           Idle.png.import
+    ³   ³           Pitfall.png
+    ³   ³           Pitfall.png.import
+    ³   ³           Pull Down.png
+    ³   ³           Pull Down.png.import
+    ³   ³           Pull Left.png
+    ³   ³           Pull Left.png.import
+    ³   ³           Pull Right.png
+    ³   ³           Pull Right.png.import
+    ³   ³           Pull Up.png
+    ³   ³           Pull Up.png.import
+    ³   ³           Slash Down.png
+    ³   ³           Slash Down.png.import
+    ³   ³           Slash Left.png
+    ³   ³           Slash Left.png.import
+    ³   ³           Slash Right.png
+    ³   ³           Slash Right.png.import
+    ³   ³           Slash Up.png
+    ³   ³           Slash Up.png.import
+    ³   ³           Sword Down.png
+    ³   ³           Sword Down.png.import
+    ³   ³           Sword Left.png
+    ³   ³           Sword Left.png.import
+    ³   ³           Sword Right.png
+    ³   ³           Sword Right.png.import
+    ³   ³           Sword Up.png
+    ³   ³           Sword Up.png.import
+    ³   ³           Walk Down.png
+    ³   ³           Walk Down.png.import
+    ³   ³           Walk Left.png
+    ³   ³           Walk Left.png.import
+    ³   ³           Walk Right.png
+    ³   ³           Walk Right.png.import
+    ³   ³           Walk Up.png
+    ³   ³           Walk Up.png.import
+    ³   ³           
+    ³   ÃÄÄÄTilemap
+    ³   ³       tilemap.png
+    ³   ³       tilemap.png.import
+    ³   ³       tilemap_packed.png
+    ³   ³       tilemap_packed.png.import
+    ³   ³       
+    ³   ÃÄÄÄTiles
+    ³   ³       tile_0000.png
+    ³   ³       tile_0000.png.import
+    ³   ³       tile_0001.png
+    ³   ³       tile_0001.png.import
+    ³   ³       tile_0002.png
+    ³   ³       tile_0002.png.import
+    ³   ³       tile_0003.png
+    ³   ³       tile_0003.png.import
+    ³   ³       tile_0004.png
+    ³   ³       tile_0004.png.import
+    ³   ³       tile_0005.png
+    ³   ³       tile_0005.png.import
+    ³   ³       tile_0006.png
+    ³   ³       tile_0006.png.import
+    ³   ³       tile_0007.png
+    ³   ³       tile_0007.png.import
+    ³   ³       tile_0008.png
+    ³   ³       tile_0008.png.import
+    ³   ³       tile_0009.png
+    ³   ³       tile_0009.png.import
+    ³   ³       tile_0010.png
+    ³   ³       tile_0010.png.import
+    ³   ³       tile_0011.png
+    ³   ³       tile_0011.png.import
+    ³   ³       tile_0012.png
+    ³   ³       tile_0012.png.import
+    ³   ³       tile_0013.png
+    ³   ³       tile_0013.png.import
+    ³   ³       tile_0014.png
+    ³   ³       tile_0014.png.import
+    ³   ³       tile_0015.png
+    ³   ³       tile_0015.png.import
+    ³   ³       tile_0016.png
+    ³   ³       tile_0016.png.import
+    ³   ³       tile_0017.png
+    ³   ³       tile_0017.png.import
+    ³   ³       tile_0018.png
+    ³   ³       tile_0018.png.import
+    ³   ³       tile_0019.png
+    ³   ³       tile_0019.png.import
+    ³   ³       tile_0020.png
+    ³   ³       tile_0020.png.import
+    ³   ³       tile_0021.png
+    ³   ³       tile_0021.png.import
+    ³   ³       tile_0022.png
+    ³   ³       tile_0022.png.import
+    ³   ³       tile_0023.png
+    ³   ³       tile_0023.png.import
+    ³   ³       tile_0024.png
+    ³   ³       tile_0024.png.import
+    ³   ³       tile_0025.png
+    ³   ³       tile_0025.png.import
+    ³   ³       tile_0026.png
+    ³   ³       tile_0026.png.import
+    ³   ³       tile_0027.png
+    ³   ³       tile_0027.png.import
+    ³   ³       tile_0028.png
+    ³   ³       tile_0028.png.import
+    ³   ³       tile_0029.png
+    ³   ³       tile_0029.png.import
+    ³   ³       tile_0030.png
+    ³   ³       tile_0030.png.import
+    ³   ³       tile_0031.png
+    ³   ³       tile_0031.png.import
+    ³   ³       tile_0032.png
+    ³   ³       tile_0032.png.import
+    ³   ³       tile_0033.png
+    ³   ³       tile_0033.png.import
+    ³   ³       tile_0034.png
+    ³   ³       tile_0034.png.import
+    ³   ³       tile_0035.png
+    ³   ³       tile_0035.png.import
+    ³   ³       tile_0036.png
+    ³   ³       tile_0036.png.import
+    ³   ³       tile_0037.png
+    ³   ³       tile_0037.png.import
+    ³   ³       tile_0038.png
+    ³   ³       tile_0038.png.import
+    ³   ³       tile_0039.png
+    ³   ³       tile_0039.png.import
+    ³   ³       tile_0040.png
+    ³   ³       tile_0040.png.import
+    ³   ³       tile_0041.png
+    ³   ³       tile_0041.png.import
+    ³   ³       tile_0042.png
+    ³   ³       tile_0042.png.import
+    ³   ³       tile_0043.png
+    ³   ³       tile_0043.png.import
+    ³   ³       tile_0044.png
+    ³   ³       tile_0044.png.import
+    ³   ³       tile_0045.png
+    ³   ³       tile_0045.png.import
+    ³   ³       tile_0046.png
+    ³   ³       tile_0046.png.import
+    ³   ³       tile_0047.png
+    ³   ³       tile_0047.png.import
+    ³   ³       tile_0048.png
+    ³   ³       tile_0048.png.import
+    ³   ³       tile_0049.png
+    ³   ³       tile_0049.png.import
+    ³   ³       tile_0050.png
+    ³   ³       tile_0050.png.import
+    ³   ³       tile_0051.png
+    ³   ³       tile_0051.png.import
+    ³   ³       tile_0052.png
+    ³   ³       tile_0052.png.import
+    ³   ³       tile_0053.png
+    ³   ³       tile_0053.png.import
+    ³   ³       tile_0054.png
+    ³   ³       tile_0054.png.import
+    ³   ³       tile_0055.png
+    ³   ³       tile_0055.png.import
+    ³   ³       tile_0056.png
+    ³   ³       tile_0056.png.import
+    ³   ³       tile_0057.png
+    ³   ³       tile_0057.png.import
+    ³   ³       tile_0058.png
+    ³   ³       tile_0058.png.import
+    ³   ³       tile_0059.png
+    ³   ³       tile_0059.png.import
+    ³   ³       tile_0060.png
+    ³   ³       tile_0060.png.import
+    ³   ³       tile_0061.png
+    ³   ³       tile_0061.png.import
+    ³   ³       tile_0062.png
+    ³   ³       tile_0062.png.import
+    ³   ³       tile_0063.png
+    ³   ³       tile_0063.png.import
+    ³   ³       tile_0064.png
+    ³   ³       tile_0064.png.import
+    ³   ³       tile_0065.png
+    ³   ³       tile_0065.png.import
+    ³   ³       tile_0066.png
+    ³   ³       tile_0066.png.import
+    ³   ³       tile_0067.png
+    ³   ³       tile_0067.png.import
+    ³   ³       tile_0068.png
+    ³   ³       tile_0068.png.import
+    ³   ³       tile_0069.png
+    ³   ³       tile_0069.png.import
+    ³   ³       tile_0070.png
+    ³   ³       tile_0070.png.import
+    ³   ³       tile_0071.png
+    ³   ³       tile_0071.png.import
+    ³   ³       tile_0072.png
+    ³   ³       tile_0072.png.import
+    ³   ³       tile_0073.png
+    ³   ³       tile_0073.png.import
+    ³   ³       tile_0074.png
+    ³   ³       tile_0074.png.import
+    ³   ³       tile_0075.png
+    ³   ³       tile_0075.png.import
+    ³   ³       tile_0076.png
+    ³   ³       tile_0076.png.import
+    ³   ³       tile_0077.png
+    ³   ³       tile_0077.png.import
+    ³   ³       tile_0078.png
+    ³   ³       tile_0078.png.import
+    ³   ³       tile_0079.png
+    ³   ³       tile_0079.png.import
+    ³   ³       tile_0080.png
+    ³   ³       tile_0080.png.import
+    ³   ³       tile_0081.png
+    ³   ³       tile_0081.png.import
+    ³   ³       tile_0082.png
+    ³   ³       tile_0082.png.import
+    ³   ³       tile_0083.png
+    ³   ³       tile_0083.png.import
+    ³   ³       tile_0084.png
+    ³   ³       tile_0084.png.import
+    ³   ³       tile_0085.png
+    ³   ³       tile_0085.png.import
+    ³   ³       tile_0086.png
+    ³   ³       tile_0086.png.import
+    ³   ³       tile_0087.png
+    ³   ³       tile_0087.png.import
+    ³   ³       tile_0088.png
+    ³   ³       tile_0088.png.import
+    ³   ³       tile_0089.png
+    ³   ³       tile_0089.png.import
+    ³   ³       tile_0090.png
+    ³   ³       tile_0090.png.import
+    ³   ³       tile_0091.png
+    ³   ³       tile_0091.png.import
+    ³   ³       tile_0092.png
+    ³   ³       tile_0092.png.import
+    ³   ³       tile_0093.png
+    ³   ³       tile_0093.png.import
+    ³   ³       tile_0094.png
+    ³   ³       tile_0094.png.import
+    ³   ³       tile_0095.png
+    ³   ³       tile_0095.png.import
+    ³   ³       tile_0096.png
+    ³   ³       tile_0096.png.import
+    ³   ³       tile_0097.png
+    ³   ³       tile_0097.png.import
+    ³   ³       tile_0098.png
+    ³   ³       tile_0098.png.import
+    ³   ³       tile_0099.png
+    ³   ³       tile_0099.png.import
+    ³   ³       tile_0100.png
+    ³   ³       tile_0100.png.import
+    ³   ³       tile_0101.png
+    ³   ³       tile_0101.png.import
+    ³   ³       tile_0102.png
+    ³   ³       tile_0102.png.import
+    ³   ³       tile_0103.png
+    ³   ³       tile_0103.png.import
+    ³   ³       tile_0104.png
+    ³   ³       tile_0104.png.import
+    ³   ³       tile_0105.png
+    ³   ³       tile_0105.png.import
+    ³   ³       tile_0106.png
+    ³   ³       tile_0106.png.import
+    ³   ³       tile_0107.png
+    ³   ³       tile_0107.png.import
+    ³   ³       tile_0108.png
+    ³   ³       tile_0108.png.import
+    ³   ³       tile_0109.png
+    ³   ³       tile_0109.png.import
+    ³   ³       tile_0110.png
+    ³   ³       tile_0110.png.import
+    ³   ³       tile_0111.png
+    ³   ³       tile_0111.png.import
+    ³   ³       tile_0112.png
+    ³   ³       tile_0112.png.import
+    ³   ³       tile_0113.png
+    ³   ³       tile_0113.png.import
+    ³   ³       tile_0114.png
+    ³   ³       tile_0114.png.import
+    ³   ³       tile_0115.png
+    ³   ³       tile_0115.png.import
+    ³   ³       tile_0116.png
+    ³   ³       tile_0116.png.import
+    ³   ³       tile_0117.png
+    ³   ³       tile_0117.png.import
+    ³   ³       tile_0118.png
+    ³   ³       tile_0118.png.import
+    ³   ³       tile_0119.png
+    ³   ³       tile_0119.png.import
+    ³   ³       tile_0120.png
+    ³   ³       tile_0120.png.import
+    ³   ³       tile_0121.png
+    ³   ³       tile_0121.png.import
+    ³   ³       tile_0122.png
+    ³   ³       tile_0122.png.import
+    ³   ³       tile_0123.png
+    ³   ³       tile_0123.png.import
+    ³   ³       tile_0124.png
+    ³   ³       tile_0124.png.import
+    ³   ³       tile_0125.png
+    ³   ³       tile_0125.png.import
+    ³   ³       tile_0126.png
+    ³   ³       tile_0126.png.import
+    ³   ³       tile_0127.png
+    ³   ³       tile_0127.png.import
+    ³   ³       tile_0128.png
+    ³   ³       tile_0128.png.import
+    ³   ³       tile_0129.png
+    ³   ³       tile_0129.png.import
+    ³   ³       tile_0130.png
+    ³   ³       tile_0130.png.import
+    ³   ³       tile_0131.png
+    ³   ³       tile_0131.png.import
+    ³   ³       
+    ³   ÀÄÄÄuser_interface
+    ³           hearts.png
+    ³           hearts.png.import
+    ³           
+    ÃÄÄÄscenes
+    ³   ÃÄÄÄenemies
+    ³   ³       enemy_1.tscn
+    ³   ³       
+    ³   ÃÄÄÄlevels
+    ³   ³       main_level.tscn
+    ³   ³       
+    ³   ÃÄÄÄmain
+    ³   ³       main.tscn
+    ³   ³       
+    ³   ÃÄÄÄpickups
+    ³   ³       pickcable_heart.tscn
+    ³   ³       
+    ³   ÃÄÄÄplayer
+    ³   ³       player.tscn
+    ³   ³       
+    ³   ÀÄÄÄweapon
+    ³           sword.tscn
+    ³           
+    ÀÄÄÄscripts
+        ³   level_manager.gd
+        ³   level_manager.gd.uid
+        ³   
+        ÃÄÄÄenemies
+        ³       enemy_1.gd
+        ³       enemy_1.gd.uid
+        ³       
+        ÃÄÄÄgenerators
+        ³       bsp_generator.gd
+        ³       bsp_generator.gd.uid
+        ³       cellular_generator.gd
+        ³       cellular_generator.gd.uid
+        ³       generator_base.gd
+        ³       generator_base.gd.uid
+        ³       hybrid_generator.gd
+        ³       hybrid_generator.gd.uid
+        ³       
+        ÃÄÄÄlevels
+        ³       tile_map_layer.gd
+        ³       tile_map_layer.gd.uid
+        ³       
+        ÃÄÄÄpickups
+        ³       pickcable_heart.gd
+        ³       pickcable_heart.gd.uid
+        ³       
+        ÃÄÄÄplayer
+        ³       player.gd
+        ³       player.gd.uid
+        ³       
+        ÀÄÄÄweapon
+                sword.gd
+                sword.gd.uid
+                

@@ -2,7 +2,7 @@ extends Area2D
 
 class_name HealthPack
 
-@export var heal_amount: int = 2
+@export var heal_amount: int = 1
 @export var pickup_delay: float = 0.5
 
 @onready var animation: AnimatedSprite2D = $AnimatedSprite2D

@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://eed8wj6n875g"]
 
-[ext_resource type="Script" uid="uid://dmfv3deuc80dk" path="res://elements/Enemies/enemy_1.gd" id="1_6a7n2"]
+[ext_resource type="Script" uid="uid://dmfv3deuc80dk" path="res://scripts/enemies/enemy_1.gd" id="1_6a7n2"]
 [ext_resource type="Texture2D" uid="uid://dcl0r0hgoughm" path="res://assets/characters/enemies/Spider Sprite Sheet.png" id="2_d0p55"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_uqvnh"]

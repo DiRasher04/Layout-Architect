@@ -13,7 +13,6 @@ config_version=5
 config/name="layout-architect"
 run/main_scene="uid://colmbldym1oo2"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://icon.svg"
 
 [input]
 

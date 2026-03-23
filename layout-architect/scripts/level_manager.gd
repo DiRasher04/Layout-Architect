@@ -1,52 +1,42 @@
-extends Node
-#
-## Ссылка на TileMap в твоей сцене
-#@export var tile_map: TileMapLayer
-#
-## Какой алгоритм используем
-#@export var algorithm: String = "cellular"  # "cellular", "bsp", "hybrid"
-#
-#func _ready():
-	## Вызываем генерацию при старте сцены
-	#generate_new_level()
-	#
-#func _on_generate_button_pressed():
-	## Перегенерировать уровень
-	#$LevelManager.generate_new_level()
-#
-#func generate_new_level():
-	#var generator: GeneratorBase
-	#var map_data
-	#
-	## Создаем нужный генератор
-	#match algorithm:
-		#"cellular":
-			#generator = CellularGenerator.new()
-		#"bsp":
-			#generator = BSPGenerator.new()
-		#"hybrid":
-			#generator = HybridGenerator.new()
-	#
-	## Настраиваем генератор
-	#generator.width = 50
-	#generator.height = 50
-	#generator.tile_map = tile_map  # Передаем ссылку на TileMap
-	#
-	## Генерируем карту
-	#map_data = generator.generate()
-	#
-	## Применяем к TileMap
-	#apply_map_to_tilemap(map_data)
-#
-#func apply_map_to_tilemap(map_data: Array):
-	#tile_map.clear()
-	#
-	## Проходим по всей карте
-	#for y in range(map_data.size()):
-		#for x in range(map_data[y].size()):
-			#if map_data[y][x] == 0:
-				## Ставим пол (настрой source_id под твой TileSet)
-				#tile_map.set_cell(Vector2i(x, y), 0, Vector2i(0, 0))
-			#else:
-				## Ставим стену
-				#tile_map.set_cell(Vector2i(x, y), 1, Vector2i(0, 0))
+extends Node2D  # ← теперь висит на корневом узле
+
+@export var generator_type: String = "hybrid"
+#bsp, cellular, hybrid
+@export var width: int = 80
+@export var height: int = 60
+@export var wall_thickness: int = 2
+
+# Ссылка на TileMapLayer (нужно будет перетащить в инспекторе)
+@export var tile_map_layer: TileMapLayer
+
+var generator: LevelGenerator
+
+func _ready():
+	_generate_level()
+
+func _generate_level():
+	if not tile_map_layer:
+		push_error("TileMapLayer не назначен! Перетащите его в поле tile_map_layer")
+		return
+	
+	match generator_type.to_lower():
+		"cellular":
+			generator = CellularGenerator.new()
+		"bsp":
+			generator = BSPGenerator.new()
+		"hybrid":
+			generator = HybridGenerator.new()
+		_:
+			generator = CellularGenerator.new()
+	
+	generator.width = width
+	generator.height = height
+	generator.wall_thickness = wall_thickness
+	generator.tile_map = tile_map_layer  # ← используем ссылку
+	
+	var floor_cells = generator.generate()
+	
+	if floor_cells.size() > 0:
+		generator.build_room(floor_cells)
+	else:
+		push_error("Генерация не дала результатов!")

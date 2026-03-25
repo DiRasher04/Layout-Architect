@@ -1,7 +1,9 @@
 [gd_scene format=3 uid="uid://c6428d44ew5y5"]
 
 [ext_resource type="Texture2D" uid="uid://bhtbypb0e7ua4" path="res://assets/Tilemap/tilemap_packed.png" id="1_divgd"]
+[ext_resource type="PackedScene" uid="uid://eed8wj6n875g" path="res://scenes/enemies/enemy_1.tscn" id="2_hn3as"]
 [ext_resource type="Script" uid="uid://tbuk2pi6sv5e" path="res://scripts/level_manager.gd" id="2_ojqrr"]
+[ext_resource type="PackedScene" uid="uid://dp6f74dw7udw7" path="res://scenes/pickups/pickcable_heart.tscn" id="3_geiq8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qq515"]
 texture = ExtResource("1_divgd")
@@ -523,6 +525,8 @@ sources/0 = SubResource("TileSetAtlasSource_qq515")
 [node name="TestLevel" type="Node2D" unique_id=1063913095 node_paths=PackedStringArray("tile_map_layer")]
 script = ExtResource("2_ojqrr")
 tile_map_layer = NodePath("TileMapLayer")
+enemy_scene = ExtResource("2_hn3as")
+heart_scene = ExtResource("3_geiq8")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1149304402]
 z_index = -1

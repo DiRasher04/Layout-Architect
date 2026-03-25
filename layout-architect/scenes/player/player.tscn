@@ -14,7 +14,7 @@
 [ext_resource type="PackedScene" uid="uid://c780n1n87ff4e" path="res://scenes/weapon/sword.tscn" id="10_xrjx1"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_o7pxy"]
-radius = 9.006171
+radius = 7.3333335
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_k6kyd"]
 atlas = ExtResource("2_nlv5c")
@@ -972,6 +972,8 @@ script = ExtResource("1_34354")
 shape = SubResource("CircleShape2D_o7pxy")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=739491612]
+scale = Vector2(5, 5)
+zoom = Vector2(0.5, 0.5)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1427142925]
 position = Vector2(0.33333334, -4)

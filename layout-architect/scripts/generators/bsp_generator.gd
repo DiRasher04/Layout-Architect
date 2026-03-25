@@ -1,9 +1,15 @@
 extends LevelGenerator
 class_name BSPGenerator
 
-@export var min_room_size: int = 3  # ← минимум 3×3!
-@export var max_room_size: int = 10
-@export var max_split_iterations: int = 8
+@export var min_room_size: int = 10
+@export var max_room_size: int = 15
+@export var max_split_iterations: int = 6
+
+# Параметры коридоров
+@export var corridor_thickness: int = 2        # Толщина коридора (1, 2, 3...)
+@export var corridor_variation: int = 8      # Насколько далеко может отклониться коридор (0 = прямая линия)
+@export var corridor_jitter: float = 0.7      # Шанс добавить изгиб (0-1)
+@export var add_mid_points: bool = true       # Добавлять промежуточные точки для извилистости
 
 var floor_cells: Array[Vector2i] = []
 
@@ -18,7 +24,6 @@ func generate() -> Array:
 	return floor_cells
 
 func _split_node(node, depth: int) -> void:
-	# Проверяем, можно ли разделить (нужно место для двух комнат минимум 3×3)
 	if depth <= 0 or node.rect.size.x < min_room_size * 2 or node.rect.size.y < min_room_size * 2:
 		return
 	
@@ -48,7 +53,6 @@ func _create_rooms(node) -> void:
 		if node.right:
 			_create_rooms(node.right)
 	else:
-		# Лист — создаем комнату не меньше min_room_size
 		var room_width = randi_range(min_room_size, min(node.rect.size.x, max_room_size))
 		var room_height = randi_range(min_room_size, min(node.rect.size.y, max_room_size))
 		
@@ -86,24 +90,68 @@ func _get_room_center(node):
 	
 	return null
 
-# Коридоры добавляются в floor_cells (это пол!)
+# 🔥 НОВАЯ ФУНКЦИЯ: создает извилистый путь с точками излома
 func _create_hallway(from: Vector2i, to: Vector2i) -> void:
+	var points: Array[Vector2i] = [from]
+	
+	# Добавляем промежуточные точки для извилистости
+	if add_mid_points and randf() < corridor_jitter:
+		var mid_point_count = randi_range(1, 3)
+		for i in range(mid_point_count):
+			var t = float(i + 1) / float(mid_point_count + 1)
+			var base_x = lerp(from.x, to.x, t)
+			var base_y = lerp(from.y, to.y, t)
+			
+			# Добавляем отклонение
+			var offset_x = randi_range(-corridor_variation, corridor_variation)
+			var offset_y = randi_range(-corridor_variation, corridor_variation)
+			
+			var mid_x = base_x + offset_x
+			var mid_y = base_y + offset_y
+			
+			# Ограничиваем, чтобы не выходить за границы
+			mid_x = clamp(mid_x, 1, width - 2)
+			mid_y = clamp(mid_y, 1, height - 2)
+			
+			points.append(Vector2i(mid_x, mid_y))
+	
+	points.append(to)
+	
+	# Рисуем отрезки между всеми точками
+	for i in range(points.size() - 1):
+		_draw_thick_line(points[i], points[i + 1])
+
+# Рисует толстую линию (коридор) между двумя точками
+func _draw_thick_line(from: Vector2i, to: Vector2i) -> void:
 	var current = from
 	
+	# Сначала горизонтальное движение
 	while current.x != to.x:
-		# Добавляем клетку коридора в пол
-		if not floor_cells.has(current):
-			floor_cells.append(current)
+		_add_thick_cell(current)
 		current.x += 1 if current.x < to.x else -1
 	
+	# Затем вертикальное движение
 	while current.y != to.y:
-		if not floor_cells.has(current):
-			floor_cells.append(current)
+		_add_thick_cell(current)
 		current.y += 1 if current.y < to.y else -1
 	
 	# Добавляем конечную точку
-	if not floor_cells.has(to):
-		floor_cells.append(to)
+	_add_thick_cell(to)
+
+# Добавляет клетку с учетом толщины коридора
+func _add_thick_cell(center: Vector2i) -> void:
+	var half = floor(corridor_thickness / 2)
+	
+	for dx in range(-half, half + 1):
+		for dy in range(-half, half + 1):
+			var cell = Vector2i(center.x + dx, center.y + dy)
+			
+			# Проверяем границы
+			if cell.x < 0 or cell.x >= width or cell.y < 0 or cell.y >= height:
+				continue
+			
+			if not floor_cells.has(cell):
+				floor_cells.append(cell)
 
 class _BSPNode:
 	var rect: Rect2i

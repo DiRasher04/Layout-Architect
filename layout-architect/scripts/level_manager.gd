@@ -1,6 +1,6 @@
 extends Node2D
 
-@export var generator_type: String = "bsp"
+@export var generator_type: String = "hybrid"
 @export var width: int = 60
 @export var height: int = 60
 @export var wall_thickness: int = 4

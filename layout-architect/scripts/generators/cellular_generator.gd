@@ -2,7 +2,7 @@ extends LevelGenerator
 class_name CellularGenerator
 
 @export var fill_probability: float = 0.45
-@export var iterations: int = 3
+@export var iterations: int = 4
 @export var birth_limit: int = 4
 @export var death_limit: int = 4
 

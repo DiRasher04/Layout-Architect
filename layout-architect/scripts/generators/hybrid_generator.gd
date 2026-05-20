@@ -1,9 +1,9 @@
 extends LevelGenerator
 class_name HybridGenerator
 
-@export var min_room_size: int = 3  # ← минимум 3×3!
-@export var max_room_size: int = 12
-@export var cellular_noise: float = 0.2
+@export var min_room_size: int = 10  # ← минимум 3×3!
+@export var max_room_size: int = 15
+@export var cellular_noise: float = 0.3
 
 var bsp = BSPGenerator.new()
 var cellular = CellularGenerator.new()

@@ -2,11 +2,11 @@ extends LevelGenerator
 class_name BSPGenerator
 
 @export var min_room_size: int = 10
-@export var max_room_size: int = 15
-@export var max_split_iterations: int = 6
+@export var max_room_size: int = 20
+@export var max_split_iterations: int = 10
 
 # Параметры коридоров
-@export var corridor_thickness: int = 2        # Толщина коридора (1, 2, 3...)
+@export var corridor_thickness: int = 3        # Толщина коридора (1, 2, 3...)
 @export var corridor_variation: int = 8      # Насколько далеко может отклониться коридор (0 = прямая линия)
 @export var corridor_jitter: float = 0.7      # Шанс добавить изгиб (0-1)
 @export var add_mid_points: bool = true       # Добавлять промежуточные точки для извилистости

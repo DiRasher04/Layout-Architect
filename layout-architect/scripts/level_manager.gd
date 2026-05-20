@@ -56,7 +56,7 @@ func _generate_level():
 			_analyze_all_tiles()
 		
 		# 🔥 НОВОЕ: спавним по РЕАЛЬНОМУ анализу карты, а не по floor_cells!
-		_spawn_entities_on_actual_floor()
+		#_spawn_entities_on_actual_floor()
 	else:
 		push_error("Генерация не дала результатов!")
 

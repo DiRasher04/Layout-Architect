@@ -1,0 +1,57 @@
+[gd_scene format=3 uid="uid://c8som1cpfgyh1"]
+
+[ext_resource type="Script" uid="uid://dvnkg1uxvghie" path="res://scripts/ui/main_menu.gd" id="1_vjtqc"]
+[ext_resource type="PackedScene" uid="uid://colmbldym1oo2" path="res://scenes/main/main.tscn" id="2_6jbdy"]
+[ext_resource type="Texture2D" uid="uid://dxacm6m8yadkq" path="res://assets/user_interface/gpt-image-2_Game_logo_for_Layout_Architect_pixel_art_style_dungeon_crawler_rogue-like_aesthe-0.png" id="3_iwbf0"]
+[ext_resource type="Script" uid="uid://8h2r706rfjhg" path="res://scripts/ui/logo_anim.gd" id="4_2ysvc"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_iwbf0"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2ysvc"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_xpiny"]
+
+[node name="MainMenu" type="Control" unique_id=1175229243]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_vjtqc")
+game_scene = ExtResource("2_6jbdy")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=453530479]
+layout_mode = 0
+offset_right = 1158.0
+offset_bottom = 650.0
+color = Color(0.17107555, 0.08090472, 0.27730417, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=2091682622]
+layout_mode = 0
+offset_left = 706.0
+offset_top = 340.0
+offset_right = 1124.0
+offset_bottom = 612.0
+theme_override_constants/separation = 25
+alignment = 2
+
+[node name="StartButton" type="Button" parent="VBoxContainer" unique_id=409769434]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxEmpty_iwbf0")
+text = "Поехали"
+
+[node name="SettingsButton" type="Button" parent="VBoxContainer" unique_id=1615804418]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxEmpty_2ysvc")
+text = "Настройки"
+
+[node name="ExitButton" type="Button" parent="VBoxContainer" unique_id=87608954]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxEmpty_xpiny")
+text = "Выход"
+
+[node name="GptImage2GameLogoForLayoutArchitectPixelArtStyleDungeonCrawlerRogueLikeAesthe0" type="Sprite2D" parent="." unique_id=38719916]
+position = Vector2(913, 210.00002)
+scale = Vector2(0.40722653, 0.40722653)
+texture = ExtResource("3_iwbf0")
+script = ExtResource("4_2ysvc")

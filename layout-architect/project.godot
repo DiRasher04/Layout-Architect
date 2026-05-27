@@ -11,8 +11,12 @@ config_version=5
 [application]
 
 config/name="layout-architect"
-run/main_scene="uid://colmbldym1oo2"
+run/main_scene="uid://c8som1cpfgyh1"
 config/features=PackedStringArray("4.6", "Forward Plus")
+
+[gui]
+
+theme/custom_font="uid://ddj2njq061p7r"
 
 [input]
 

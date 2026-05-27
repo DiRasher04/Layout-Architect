@@ -1,0 +1,7 @@
+[gd_resource type="Theme" format=3 uid="uid://cb4hwxugkgt7p"]
+
+[ext_resource type="FontFile" uid="uid://ddj2njq061p7r" path="res://fonts/LCD40x2Display-Regular.otf" id="1_1fvms"]
+
+[resource]
+default_font = ExtResource("1_1fvms")
+default_font_size = 50

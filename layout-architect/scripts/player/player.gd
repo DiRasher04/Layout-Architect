@@ -117,9 +117,20 @@ func die():
 	
 	await animation.animation_finished
 	animation.play("dead")
+	
 	await get_tree().create_timer(3.0).timeout
 	
 	print("Воскрешение!")
+	
+	# Проверяем, существует ли дерево и сцена
+	if not get_tree():
+		print("Ошибка: дерево не найдено")
+		return
+	
+	if get_tree().current_scene == null:
+		print("Ошибка: текущая сцена не найдена")
+		return
+	
 	get_tree().reload_current_scene()
 
 func update_health_display():

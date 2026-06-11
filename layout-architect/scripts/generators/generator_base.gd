@@ -2,8 +2,8 @@ extends Node
 class_name LevelGenerator
 
 	# Параметры генерации
-@export var width: int = 50
-@export var height: int = 50
+@export var width: int = 100
+@export var height: int = 100
 @export var wall_thickness: int = 2
 
 	# Ссылка на TileMapLayer (будет установлена извне)

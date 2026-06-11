@@ -1,0 +1,2 @@
+timestamp,algorithm,width,height,wall_thickness,total_cells,floor_cells,wall_cells,rooms,enemies,hearts,generation_time_ms
+2026-6-11_18-12-3,bsp,60,60,4,3600,0,0,0,0,0,0

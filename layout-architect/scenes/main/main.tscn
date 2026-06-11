@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://mwf76jcgfiic" path="res://scenes/player/player.tscn" id="1_axn68"]
 [ext_resource type="Script" uid="uid://tbuk2pi6sv5e" path="res://scripts/level_manager.gd" id="1_fewsy"]
 [ext_resource type="PackedScene" uid="uid://c6428d44ew5y5" path="res://scenes/levels/main_level.tscn" id="2_mgbtd"]
+[ext_resource type="PackedScene" uid="uid://dg1yt0ipf1iaj" path="res://scenes/ui/DebugPanel.tscn" id="4_l3cfh"]
 
 [node name="Main" type="Node2D" unique_id=727233413]
 script = ExtResource("1_fewsy")
@@ -12,3 +13,5 @@ position = Vector2(835, 317)
 
 [node name="TestLevel" parent="." unique_id=1063913095 instance=ExtResource("2_mgbtd")]
 position = Vector2(28, -30)
+
+[node name="CanvasLayer" parent="." unique_id=1561695193 instance=ExtResource("4_l3cfh")]

@@ -22,6 +22,7 @@ var spawned_hearts: Array = []
 @onready var algorithm_label: Label = $AlgorithmLabel
 
 var generator_type: String = "bsp"
+var last_generation_time: int = 0
 
 func _ready():
 	_load_algorithm_from_global()
@@ -71,6 +72,8 @@ func _generate_level():
 		push_error("TileMapLayer не назначен!")
 		return
 	
+	var start_time = Time.get_ticks_msec()
+	
 	match generator_type.to_lower():
 		"cellular":
 			generator = CellularGenerator.new()
@@ -91,6 +94,9 @@ func _generate_level():
 	if floor_cells.size() > 0:
 		generator.build_room(floor_cells)
 		await get_tree().process_frame
+		
+		last_generation_time = Time.get_ticks_msec() - start_time
+		print("Время генерации: ", last_generation_time, " мс")
 		
 		if debug_spawn:
 			_analyze_all_tiles()

@@ -1,0 +1,101 @@
+[gd_scene format=3 uid="uid://dg1yt0ipf1iaj"]
+
+[ext_resource type="Script" uid="uid://6ks8kdc4f36e" path="res://scripts/ui/DebugPanel.gd" id="1_bagbe"]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=1561695193]
+script = ExtResource("1_bagbe")
+
+[node name="Panel" type="Panel" parent="." unique_id=1462096328]
+offset_left = 4.0
+offset_top = 1.0
+offset_right = 1153.0
+offset_bottom = 651.0
+
+[node name="export_button" type="Button" parent="Panel" unique_id=1766164408]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 595.0
+offset_right = 270.0
+offset_bottom = 630.0
+text = "Экспорт в CSV"
+
+[node name="title_label" type="Label" parent="Panel" unique_id=1176416822]
+layout_mode = 0
+offset_left = 560.0
+offset_top = 6.0
+offset_right = 1137.0
+offset_bottom = 33.0
+text = "Layout Architect - Debug Panel"
+
+[node name="algorithm_title" type="Label" parent="Panel" unique_id=243566494]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 10.0
+offset_right = 181.0
+offset_bottom = 37.0
+text = "Алгоритм:"
+
+[node name="algorithm_value" type="Label" parent="Panel" unique_id=25185831]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 2.025
+offset_left = 8.0
+offset_top = 46.0
+offset_right = -951.0
+offset_bottom = -1237.2501
+
+[node name="metrics_title" type="Label" parent="Panel" unique_id=916212842]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 291.0
+offset_right = 298.0
+offset_bottom = 318.0
+text = "Метрики уровня:"
+
+[node name="metrics_value" type="Label" parent="Panel" unique_id=1593735543]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 327.0
+offset_right = 300.0
+offset_bottom = 364.0
+
+[node name="generation_title" type="Label" parent="Panel" unique_id=566125290]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 93.0
+offset_right = 394.0
+offset_bottom = 120.0
+text = "Параметры генерации:"
+
+[node name="generation_value" type="Label" parent="Panel" unique_id=1758169192]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 129.0
+offset_right = 387.0
+offset_bottom = 156.0
+
+[node name="time_title" type="Label" parent="Panel" unique_id=64439556]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 176.0
+offset_right = 126.0
+offset_bottom = 203.0
+text = "Время:"
+
+[node name="time_value" type="Label" parent="Panel" unique_id=248508122]
+layout_mode = 0
+offset_left = 11.0
+offset_top = 215.0
+offset_right = 138.0
+offset_bottom = 242.0
+
+[node name="generation_count_spinbox" type="SpinBox" parent="Panel" unique_id=547473096]
+layout_mode = 0
+offset_left = 288.0
+offset_top = 595.0
+offset_right = 390.8125
+offset_bottom = 630.0
+min_value = 1.0
+max_value = 10000.0
+value = 1.0

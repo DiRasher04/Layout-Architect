@@ -981,3 +981,10 @@ heart_scene = ExtResource("3_geiq8")
 z_index = -1
 scale = Vector2(3, 3)
 tile_set = SubResource("TileSet_sjycb")
+
+[node name="AlgorithmLabel" type="Label" parent="." unique_id=2063096898]
+offset_left = 272.0
+offset_top = 320.0
+offset_right = 852.0
+offset_bottom = 568.0
+text = "21r3ttrjrgt "

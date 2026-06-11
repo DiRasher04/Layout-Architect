@@ -1,30 +1,70 @@
 extends Node2D
 
-@export var generator_type: String = "hybrid"
 @export var width: int = 60
 @export var height: int = 60
 @export var wall_thickness: int = 4
 @export var tile_map_layer: TileMapLayer
 
-# Параметры спавна
 @export var enemy_spawn_chance: float = 0.01
 @export var heart_spawn_chance: float = 0.01
 @export var max_enemies: int = 20
 @export var max_hearts: int = 10
 
-# Сцены для спавна
 @export var enemy_scene: PackedScene
 @export var heart_scene: PackedScene
 
-# Отладка
 @export var debug_spawn: bool = true
 
 var generator: LevelGenerator
 var spawned_enemies: Array = []
 var spawned_hearts: Array = []
 
+@onready var algorithm_label: Label = $AlgorithmLabel
+
+var generator_type: String = "bsp"
+
 func _ready():
+	_load_algorithm_from_global()
+	_update_algorithm_display()
 	_generate_level()
+
+func _input(event: InputEvent):
+	if event.is_action_pressed("ui_cancel"):
+		_return_to_main_menu()
+
+func _return_to_main_menu():
+	get_tree().change_scene_to_file("res://scenes/ui/MainMenu.tscn")
+
+func _load_algorithm_from_global():
+	if not Global:
+		generator_type = "bsp"
+		return
+	
+	var alg_index = Global.selected_algorithm
+	match alg_index:
+		0:
+			generator_type = "bsp"
+		1:
+			generator_type = "cellular"
+		2:
+			generator_type = "hybrid"
+		_:
+			generator_type = "bsp"
+
+func _update_algorithm_display() -> void:
+	if not algorithm_label:
+		return
+	
+	match generator_type.to_lower():
+		"bsp":
+			algorithm_label.text = "ТЕКУЩИЙ АЛГОРИТМ: BSP"
+			algorithm_label.modulate = Color(1, 0.5, 0.5)
+		"cellular":
+			algorithm_label.text = "ТЕКУЩИЙ АЛГОРИТМ: CELLULAR AUTOMATA"
+			algorithm_label.modulate = Color(0.5, 0.7, 1)
+		"hybrid":
+			algorithm_label.text = "ТЕКУЩИЙ АЛГОРИТМ: HYBRID"
+			algorithm_label.modulate = Color(0.5, 1, 0.5)
 
 func _generate_level():
 	if not tile_map_layer:
@@ -55,12 +95,10 @@ func _generate_level():
 		if debug_spawn:
 			_analyze_all_tiles()
 		
-		# 🔥 НОВОЕ: спавним по РЕАЛЬНОМУ анализу карты, а не по floor_cells!
-		#_spawn_entities_on_actual_floor()
+		_spawn_entities_on_actual_floor()
 	else:
 		push_error("Генерация не дала результатов!")
 
-# Анализ всех тайлов на карте
 func _analyze_all_tiles() -> void:
 	print("\n========== АНАЛИЗ ВСЕХ ТАЙЛОВ ==========")
 	
@@ -103,7 +141,6 @@ func _spawn_entities_on_actual_floor() -> void:
 	
 	_clear_entities()
 	
-	# Собираем ВСЕ клетки, где реально пол
 	var actual_floor_cells: Array[Vector2i] = []
 	
 	for x in range(width):
@@ -115,42 +152,37 @@ func _spawn_entities_on_actual_floor() -> void:
 				actual_floor_cells.append(cell)
 	
 	if debug_spawn:
-		print("\n========== АНАЛИЗ РЕАЛЬНОГО ПОЛА НА КАРТЕ ==========")
-		print("Всего клеток с полом (Set0, Terrain0): ", actual_floor_cells.size())
-		print("====================================================\n")
+		print("\n========== АНАЛИЗ РЕАЛЬНОГО ПОЛА ==========")
+		print("Всего клеток с полом: ", actual_floor_cells.size())
+		print("==========================================\n")
 	
 	if actual_floor_cells.is_empty():
-		print("⚠️ НЕТ клеток пола на карте для спавна!")
+		print("НЕТ клеток пола для спавна!")
 		return
-	
-	# 🔥 НЕ перемешиваем весь массив!
-	# Вместо этого будем выбирать случайные клетки
 	
 	var enemy_count = 0
 	var heart_count = 0
-	var max_attempts = 500  # чтобы не зациклиться
+	var max_attempts = 500
 	
 	if debug_spawn:
 		print("========== НАЧАЛО СПАВНА ==========")
 	
-	# Спавн врагов — выбираем случайные клетки
 	for i in range(max_enemies):
 		if enemy_count >= max_enemies:
 			break
 		
-		# Пытаемся найти свободную клетку для врага
 		var attempts = 0
 		while attempts < max_attempts:
 			var random_cell = actual_floor_cells[randi() % actual_floor_cells.size()]
 			var world_pos = tile_map_layer.map_to_local(random_cell)
 			
-			# Проверяем, что на этой клетке еще нет врага
 			var cell_already_has_enemy = false
 			for enemy in spawned_enemies:
-				var enemy_cell = tile_map_layer.local_to_map(enemy.global_position)
-				if enemy_cell == random_cell:
-					cell_already_has_enemy = true
-					break
+				if is_instance_valid(enemy):
+					var enemy_cell = tile_map_layer.local_to_map(enemy.global_position)
+					if enemy_cell == random_cell:
+						cell_already_has_enemy = true
+						break
 			
 			if not cell_already_has_enemy:
 				_spawn_entity(enemy_scene, world_pos, "enemy", random_cell)
@@ -159,7 +191,6 @@ func _spawn_entities_on_actual_floor() -> void:
 			
 			attempts += 1
 	
-	# Спавн сердечек — выбираем случайные клетки
 	for i in range(max_hearts):
 		if heart_count >= max_hearts:
 			break
@@ -169,18 +200,19 @@ func _spawn_entities_on_actual_floor() -> void:
 			var random_cell = actual_floor_cells[randi() % actual_floor_cells.size()]
 			var world_pos = tile_map_layer.map_to_local(random_cell)
 			
-			# Проверяем, что на этой клетке нет врага и нет сердечка
 			var cell_already_has_entity = false
 			for enemy in spawned_enemies:
-				var enemy_cell = tile_map_layer.local_to_map(enemy.global_position)
-				if enemy_cell == random_cell:
-					cell_already_has_entity = true
-					break
+				if is_instance_valid(enemy):
+					var enemy_cell = tile_map_layer.local_to_map(enemy.global_position)
+					if enemy_cell == random_cell:
+						cell_already_has_entity = true
+						break
 			for heart in spawned_hearts:
-				var heart_cell = tile_map_layer.local_to_map(heart.global_position)
-				if heart_cell == random_cell:
-					cell_already_has_entity = true
-					break
+				if is_instance_valid(heart):
+					var heart_cell = tile_map_layer.local_to_map(heart.global_position)
+					if heart_cell == random_cell:
+						cell_already_has_entity = true
+						break
 			
 			if not cell_already_has_entity:
 				_spawn_entity(heart_scene, world_pos, "heart", random_cell)
@@ -191,7 +223,7 @@ func _spawn_entities_on_actual_floor() -> void:
 	
 	if debug_spawn:
 		print("========== ИТОГИ СПАВНА ==========")
-		print("Спавнено: врагов - ", enemy_count, "/", max_enemies, ", сердечек - ", heart_count, "/", max_hearts)
+		print("Врагов: ", enemy_count, "/", max_enemies, ", сердечек: ", heart_count, "/", max_hearts)
 		print("==================================\n")
 
 func _spawn_entity(scene: PackedScene, position: Vector2, type: String, cell: Vector2i) -> void:
@@ -200,10 +232,7 @@ func _spawn_entity(scene: PackedScene, position: Vector2, type: String, cell: Ve
 	add_child(instance)
 	
 	if debug_spawn:
-		print("🔥 Спавн ", type, " на клетке ", cell)
-		var tile_data = tile_map_layer.get_cell_tile_data(cell)
-		if tile_data:
-			print("  📍 На клетке ", cell, " terrain_set=", tile_data.terrain_set, " terrain=", tile_data.terrain)
+		print("Спавн ", type, " на клетке ", cell)
 	
 	match type:
 		"enemy":

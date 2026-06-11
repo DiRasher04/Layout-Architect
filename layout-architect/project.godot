@@ -14,6 +14,10 @@ config/name="layout-architect"
 run/main_scene="uid://c8som1cpfgyh1"
 config/features=PackedStringArray("4.6", "Forward Plus")
 
+[autoload]
+
+Global="*uid://7fxd8mt5u4bo"
+
 [gui]
 
 theme/custom_font="uid://ddj2njq061p7r"
@@ -87,6 +91,11 @@ attack_left={
 attack_right={
 "deadzone": 0.2,
 "events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":4194321,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+]
+}
+ui_n={
+"deadzone": 0.2,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":78,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
 ]
 }
 

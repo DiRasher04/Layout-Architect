@@ -1,15 +1,15 @@
 extends Node
 class_name LevelGenerator
 
-# Параметры генерации
+	# Параметры генерации
 @export var width: int = 50
 @export var height: int = 50
 @export var wall_thickness: int = 2
 
-# Ссылка на TileMapLayer (будет установлена извне)
+	# Ссылка на TileMapLayer (будет установлена извне)
 var tile_map: TileMapLayer
 
-# Виртуальный метод — переопределяется в наследниках
+	# Виртуальный метод — переопределяется в наследниках
 func generate() -> Array:
 	push_error("Метод generate() должен быть переопределен в наследнике!")
 	return []

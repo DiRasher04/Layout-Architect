@@ -1,0 +1,1567 @@
+ë‚‡„™‚„‡† Ø†ØÆ™
+ë•‡®©≠Î© ≠Æ¨•‡ ‚Æ¨†: F229-BEB9
+C:.
+≥   project_structure.txt
+≥   project_tree.txt
+≥   README.md
+≥   
+√ƒƒƒlayout-architect
+≥   ≥   .gitattributes
+≥   ≥   .gitignore
+≥   ≥   game_theme.tres
+≥   ≥   project.godot
+≥   ≥   
+≥   √ƒƒƒ.godot
+≥   ≥   ≥   .gdignore
+≥   ≥   ≥   global_script_class_cache.cfg
+≥   ≥   ≥   scene_groups_cache.cfg
+≥   ≥   ≥   uid_cache.bin
+≥   ≥   ≥   
+≥   ≥   √ƒƒƒeditor
+≥   ≥   ≥       area_2d.gd-folding-dbaf9fb2338027ab48caaecec6167585.cfg
+≥   ≥   ≥       attack.tscn-editstate-d7ad716673c8d9d632c08d472872b44b.cfg
+≥   ≥   ≥       attack.tscn-folding-d7ad716673c8d9d632c08d472872b44b.cfg
+≥   ≥   ≥       bsp_generator.gd-folding-07eca49d86195038e4dc1e00ce5db0d6.cfg
+≥   ≥   ≥       button.gd-folding-fc9cb45d0cf62de27304dbe2ac69f8d5.cfg
+≥   ≥   ≥       cellular_generator.gd-folding-75870f7fe3eb9abbda1eaff2649114b4.cfg
+≥   ≥   ≥       create_recent.Node
+≥   ≥   ≥       create_recent.Resource
+≥   ≥   ≥       editor_layout.cfg
+≥   ≥   ≥       editor_script_doc_cache.res-folding-a7de57390d6e786984ca20c70a831128.cfg
+≥   ≥   ≥       enemy_1.gd-folding-9510be45364492a456e101c570b74377.cfg
+≥   ≥   ≥       enemy_1.tscn-editstate-1fd962a6d1789e1fa2a7caae8e09240c.cfg
+≥   ≥   ≥       enemy_1.tscn-editstate-d1cecf1658f11da14f42875259f5e8a8.cfg
+≥   ≥   ≥       enemy_1.tscn-folding-1fd962a6d1789e1fa2a7caae8e09240c.cfg
+≥   ≥   ≥       enemy_1.tscn-folding-d1cecf1658f11da14f42875259f5e8a8.cfg
+≥   ≥   ≥       favorites
+≥   ≥   ≥       favorites.Node
+≥   ≥   ≥       favorites.Resource
+≥   ≥   ≥       favorite_properties
+≥   ≥   ≥       filesystem_cache10
+≥   ≥   ≥       game.tscn-editstate-27f8638381dc100d5323d84de33d6b79.cfg
+≥   ≥   ≥       game.tscn-folding-27f8638381dc100d5323d84de33d6b79.cfg
+≥   ≥   ≥       game_theme.tres-folding-b110f3cf0d59eb3f502683d0fe4e1488.cfg
+≥   ≥   ≥       generator.gd-folding-ab61901e39500f08aa95dc80f68b62f8.cfg
+≥   ≥   ≥       generator_base.gd-folding-87eaa61d20bd421a99f3db80da94f6fb.cfg
+≥   ≥   ≥       hybrid_generator.gd-folding-6435036d811c215243c7af362bc0cef7.cfg
+≥   ≥   ≥       LCD40x2Display-Regular.otf-de0d234fadf705d735f5d726b480d57e.fontdata-folding-7570bd2e089c6c684d6bdc695aca32fe.cfg
+≥   ≥   ≥       level_manager.gd-folding-937eb875191fdf0ff7bfaaceabe4cb66.cfg
+≥   ≥   ≥       logo_anim.gd-folding-01f0c8ddb4470385ad0825a47f14de9a.cfg
+≥   ≥   ≥       main.tscn-editstate-d374cf226324997a9dcca3c853fbadbe.cfg
+≥   ≥   ≥       main.tscn-editstate-f39996a6d27a38698d16421ab974097b.cfg
+≥   ≥   ≥       main.tscn-folding-d374cf226324997a9dcca3c853fbadbe.cfg
+≥   ≥   ≥       main.tscn-folding-f39996a6d27a38698d16421ab974097b.cfg
+≥   ≥   ≥       MainMenu.tscn-editstate-99174fb0fd2492fee0dd7d5ca3b0e3c8.cfg
+≥   ≥   ≥       MainMenu.tscn-folding-99174fb0fd2492fee0dd7d5ca3b0e3c8.cfg
+≥   ≥   ≥       main_level.gd-folding-bc1969ef4fb3f831d8dfca619a45b37a.cfg
+≥   ≥   ≥       main_level.tscn-editstate-6a0b1fb42d0a672073c438ddb0c08369.cfg
+≥   ≥   ≥       main_level.tscn-editstate-a9bca5ed6b1b34604e57602e950f519e.cfg
+≥   ≥   ≥       main_level.tscn-folding-6a0b1fb42d0a672073c438ddb0c08369.cfg
+≥   ≥   ≥       main_level.tscn-folding-a9bca5ed6b1b34604e57602e950f519e.cfg
+≥   ≥   ≥       main_menu.gd-folding-aa8939ffcb9d20bfdadf1218f3a46d4d.cfg
+≥   ≥   ≥       main_menu.tscn-editstate-79dd3ab530fc0aed4f9ba21f09ab2efd.cfg
+≥   ≥   ≥       main_menu.tscn-folding-79dd3ab530fc0aed4f9ba21f09ab2efd.cfg
+≥   ≥   ≥       pickcable_heart.gd-folding-61c18ad69c9a9cc806f41f0e548eb6d0.cfg
+≥   ≥   ≥       pickcable_heart.tscn-editstate-521499fdda01f9406104f8aa1ba250ae.cfg
+≥   ≥   ≥       pickcable_heart.tscn-editstate-677ee953b20b9593e161e2afe4536b58.cfg
+≥   ≥   ≥       pickcable_heart.tscn-folding-521499fdda01f9406104f8aa1ba250ae.cfg
+≥   ≥   ≥       pickcable_heart.tscn-folding-677ee953b20b9593e161e2afe4536b58.cfg
+≥   ≥   ≥       player.gd-folding-37c9f666e3c0ec2c32be54b61af47c16.cfg
+≥   ≥   ≥       player.gd-folding-9978e2f312e6c6a3963d7da4f003c818.cfg
+≥   ≥   ≥       player.tscn-editstate-9069c647a723d19a7b80f09091344368.cfg
+≥   ≥   ≥       player.tscn-editstate-c2c62cb8c73458cd122faf659769dc80.cfg
+≥   ≥   ≥       player.tscn-folding-9069c647a723d19a7b80f09091344368.cfg
+≥   ≥   ≥       player.tscn-folding-c2c62cb8c73458cd122faf659769dc80.cfg
+≥   ≥   ≥       project_metadata.cfg
+≥   ≥   ≥       quick_open_dialog_cache.cfg
+≥   ≥   ≥       recent_dirs
+≥   ≥   ≥       script_editor_cache.cfg
+≥   ≥   ≥       settings_menu.gd-folding-641fa5ae73b0003373b39268c3405af7.cfg
+≥   ≥   ≥       settings_menu.tscn-editstate-e93d9b6685b8480853542440c05c4b8a.cfg
+≥   ≥   ≥       settings_menu.tscn-folding-e93d9b6685b8480853542440c05c4b8a.cfg
+≥   ≥   ≥       sword.gd-folding-082cae223b299cc9d4ecf2568ec72df1.cfg
+≥   ≥   ≥       sword.gd-folding-0c9b4039b2c7dfbd75764c28d32783cc.cfg
+≥   ≥   ≥       sword.tscn-editstate-5536081b66b367c649284074d8eefb9c.cfg
+≥   ≥   ≥       sword.tscn-editstate-c3c024d68e3779a9e5d239ec559afecf.cfg
+≥   ≥   ≥       sword.tscn-folding-5536081b66b367c649284074d8eefb9c.cfg
+≥   ≥   ≥       sword.tscn-folding-c3c024d68e3779a9e5d239ec559afecf.cfg
+≥   ≥   ≥       test.tscn-editstate-81c5d4fcfc098f78c4282dd2e360cb04.cfg
+≥   ≥   ≥       test.tscn-folding-81c5d4fcfc098f78c4282dd2e360cb04.cfg
+≥   ≥   ≥       tile_map_layer.gd-folding-843f5a80fb669c2371a11c7fb90b90b2.cfg
+≥   ≥   ≥       
+≥   ≥   √ƒƒƒimported
+≥   ≥   ≥       Death.png-e90838e7eab00fcd8c27d0bec59cabe5.ctex
+≥   ≥   ≥       Death.png-e90838e7eab00fcd8c27d0bec59cabe5.md5
+≥   ≥   ≥       gpt-image-2_Game_logo_for_Layout_Architect_pixel_art_style_dungeon_crawler_rogue-like_aesthe-0.jpg-93c7d64c4a4f1ad41d67f86b3496b27e.ctex
+≥   ≥   ≥       gpt-image-2_Game_logo_for_Layout_Architect_pixel_art_style_dungeon_crawler_rogue-like_aesthe-0.jpg-93c7d64c4a4f1ad41d67f86b3496b27e.md5
+≥   ≥   ≥       gpt-image-2_Game_logo_for_Layout_Architect_pixel_art_style_dungeon_crawler_rogue-like_aesthe-0.png-940fe00f895532930dcb0a0f4a3e5c73.ctex
+≥   ≥   ≥       gpt-image-2_Game_logo_for_Layout_Architect_pixel_art_style_dungeon_crawler_rogue-like_aesthe-0.png-940fe00f895532930dcb0a0f4a3e5c73.md5
+≥   ≥   ≥       hearts.png-0f6c52c3a2f5dd098780f24aae556e4f.ctex
+≥   ≥   ≥       hearts.png-0f6c52c3a2f5dd098780f24aae556e4f.md5
+≥   ≥   ≥       icon.svg-218a8f2b3041327d8a5756f3a245f83b.md5
+≥   ≥   ≥       Idle.png-e07c538be9264861a611f190d3135d50.ctex
+≥   ≥   ≥       Idle.png-e07c538be9264861a611f190d3135d50.md5
+≥   ≥   ≥       LCD40x2Display-Regular.otf-de0d234fadf705d735f5d726b480d57e.fontdata
+≥   ≥   ≥       LCD40x2Display-Regular.otf-de0d234fadf705d735f5d726b480d57e.md5
+≥   ≥   ≥       Logo.jpg-93fc838ae0613237cf2c261d9fb764e4.ctex
+≥   ≥   ≥       Logo.jpg-93fc838ae0613237cf2c261d9fb764e4.md5
+≥   ≥   ≥       Logo.jpg-beea46bff9533b4c73a06fff81e3d97e.md5
+≥   ≥   ≥       Pitfall.png-57c81d469e670a4fd461943650a64cee.ctex
+≥   ≥   ≥       Pitfall.png-57c81d469e670a4fd461943650a64cee.md5
+≥   ≥   ≥       Pull Down.png-d079fc9f5d9f454f002562fbb8ea6951.ctex
+≥   ≥   ≥       Pull Down.png-d079fc9f5d9f454f002562fbb8ea6951.md5
+≥   ≥   ≥       Pull Left.png-62a5f1a69a024e7bb9b573d25c531e62.ctex
+≥   ≥   ≥       Pull Left.png-62a5f1a69a024e7bb9b573d25c531e62.md5
+≥   ≥   ≥       Pull Right.png-d129ff88b5339c443b108f17268803a4.ctex
+≥   ≥   ≥       Pull Right.png-d129ff88b5339c443b108f17268803a4.md5
+≥   ≥   ≥       Pull Up.png-4fcd47cffa903ee81c726f7cfc3f1cc9.ctex
+≥   ≥   ≥       Pull Up.png-4fcd47cffa903ee81c726f7cfc3f1cc9.md5
+≥   ≥   ≥       Slash Down.png-f9b3e768c2a4e7edfa23ead8cdaef643.ctex
+≥   ≥   ≥       Slash Down.png-f9b3e768c2a4e7edfa23ead8cdaef643.md5
+≥   ≥   ≥       Slash Left.png-f6755eb185f687d4bf68135ed213b0f4.ctex
+≥   ≥   ≥       Slash Left.png-f6755eb185f687d4bf68135ed213b0f4.md5
+≥   ≥   ≥       Slash Right.png-46528123910b2f4d12e761b49eae69ae.ctex
+≥   ≥   ≥       Slash Right.png-46528123910b2f4d12e761b49eae69ae.md5
+≥   ≥   ≥       Slash Up.png-ede6cc324efd4985779b686288c1a429.ctex
+≥   ≥   ≥       Slash Up.png-ede6cc324efd4985779b686288c1a429.md5
+≥   ≥   ≥       Spider Sprite Sheet.png-774a94165fad9dfefa68c7c0100e0620.ctex
+≥   ≥   ≥       Spider Sprite Sheet.png-774a94165fad9dfefa68c7c0100e0620.md5
+≥   ≥   ≥       Sword Down.png-8ea3b52cea0124daaece8b144d9a5117.ctex
+≥   ≥   ≥       Sword Down.png-8ea3b52cea0124daaece8b144d9a5117.md5
+≥   ≥   ≥       Sword Left.png-88461755037ce676f4bcc0493306a140.ctex
+≥   ≥   ≥       Sword Left.png-88461755037ce676f4bcc0493306a140.md5
+≥   ≥   ≥       Sword Left_2.png-bbebb1a99e46bee4e4aac6c3e7bf5b8e.md5
+≥   ≥   ≥       Sword Right.png-a3172db624c5ee0a0a3f42c221ed2c3a.ctex
+≥   ≥   ≥       Sword Right.png-a3172db624c5ee0a0a3f42c221ed2c3a.md5
+≥   ≥   ≥       Sword Up.png-6530f33f78de3a10d338c35b8f34313c.ctex
+≥   ≥   ≥       Sword Up.png-6530f33f78de3a10d338c35b8f34313c.md5
+≥   ≥   ≥       tilemap.png-0ecba5f1a047e5f0cab0df4faff83c9f.ctex
+≥   ≥   ≥       tilemap.png-0ecba5f1a047e5f0cab0df4faff83c9f.md5
+≥   ≥   ≥       tilemap_packed.png-94e4e41b4d25c19f7f2eb37ebf76bf35.ctex
+≥   ≥   ≥       tilemap_packed.png-94e4e41b4d25c19f7f2eb37ebf76bf35.md5
+≥   ≥   ≥       tilemap_packed2.png-43a6802934553fe2e60ea17b43e737b4.ctex
+≥   ≥   ≥       tilemap_packed2.png-43a6802934553fe2e60ea17b43e737b4.md5
+≥   ≥   ≥       tilemap_packed3.png-6fa4c3fe52782085260789d794c1f9a8.ctex
+≥   ≥   ≥       tilemap_packed3.png-6fa4c3fe52782085260789d794c1f9a8.md5
+≥   ≥   ≥       tile_0000.png-f0edc2b862b9a274df7c171527b6e311.ctex
+≥   ≥   ≥       tile_0000.png-f0edc2b862b9a274df7c171527b6e311.md5
+≥   ≥   ≥       tile_0001.png-57598d66d8687ecdbf1175f453cc24f2.ctex
+≥   ≥   ≥       tile_0001.png-57598d66d8687ecdbf1175f453cc24f2.md5
+≥   ≥   ≥       tile_0002.png-777301beb940d4f58b362711f32603e6.ctex
+≥   ≥   ≥       tile_0002.png-777301beb940d4f58b362711f32603e6.md5
+≥   ≥   ≥       tile_0003.png-25acd5cb997d4c430103c8d303db1dca.ctex
+≥   ≥   ≥       tile_0003.png-25acd5cb997d4c430103c8d303db1dca.md5
+≥   ≥   ≥       tile_0004.png-3e513921df313535b5206f5f0e91bb74.ctex
+≥   ≥   ≥       tile_0004.png-3e513921df313535b5206f5f0e91bb74.md5
+≥   ≥   ≥       tile_0005.png-d3e98d06875311b434e036e0ec402ef8.ctex
+≥   ≥   ≥       tile_0005.png-d3e98d06875311b434e036e0ec402ef8.md5
+≥   ≥   ≥       tile_0006.png-032b46da9760b91fd99cabd617a39ad9.ctex
+≥   ≥   ≥       tile_0006.png-032b46da9760b91fd99cabd617a39ad9.md5
+≥   ≥   ≥       tile_0007.png-ea48e0395f45e27e5123b3724d554d6d.ctex
+≥   ≥   ≥       tile_0007.png-ea48e0395f45e27e5123b3724d554d6d.md5
+≥   ≥   ≥       tile_0008.png-1ef4a631629d1749cdd765f7745fb740.ctex
+≥   ≥   ≥       tile_0008.png-1ef4a631629d1749cdd765f7745fb740.md5
+≥   ≥   ≥       tile_0009.png-a75d9212b7b1eee90120da178c5fa002.ctex
+≥   ≥   ≥       tile_0009.png-a75d9212b7b1eee90120da178c5fa002.md5
+≥   ≥   ≥       tile_0010.png-9f5649a63dd8a8a8f6b43d7fcb5d0408.ctex
+≥   ≥   ≥       tile_0010.png-9f5649a63dd8a8a8f6b43d7fcb5d0408.md5
+≥   ≥   ≥       tile_0011.png-be5924b9bd4457092a32c5a43c66023f.ctex
+≥   ≥   ≥       tile_0011.png-be5924b9bd4457092a32c5a43c66023f.md5
+≥   ≥   ≥       tile_0012.png-12b024f71c3ce8c65e6687f338256912.ctex
+≥   ≥   ≥       tile_0012.png-12b024f71c3ce8c65e6687f338256912.md5
+≥   ≥   ≥       tile_0013.png-73665fbf245db40d93229c9218bdff66.ctex
+≥   ≥   ≥       tile_0013.png-73665fbf245db40d93229c9218bdff66.md5
+≥   ≥   ≥       tile_0014.png-b11ca4e279499874284ddfb8ec604f4f.ctex
+≥   ≥   ≥       tile_0014.png-b11ca4e279499874284ddfb8ec604f4f.md5
+≥   ≥   ≥       tile_0015.png-e48e975823eeda99dcf4dfaaa5089bf1.ctex
+≥   ≥   ≥       tile_0015.png-e48e975823eeda99dcf4dfaaa5089bf1.md5
+≥   ≥   ≥       tile_0016.png-53de2bb545e5d0ba11ea879a9185cc3c.ctex
+≥   ≥   ≥       tile_0016.png-53de2bb545e5d0ba11ea879a9185cc3c.md5
+≥   ≥   ≥       tile_0017.png-d9039d219617e4a9b508aab6586b8e7d.ctex
+≥   ≥   ≥       tile_0017.png-d9039d219617e4a9b508aab6586b8e7d.md5
+≥   ≥   ≥       tile_0018.png-9fc061fd8392b2bf840c312cfe76c5b0.ctex
+≥   ≥   ≥       tile_0018.png-9fc061fd8392b2bf840c312cfe76c5b0.md5
+≥   ≥   ≥       tile_0019.png-a1bfbf02f25cd77d0a3a38453ccf24a4.ctex
+≥   ≥   ≥       tile_0019.png-a1bfbf02f25cd77d0a3a38453ccf24a4.md5
+≥   ≥   ≥       tile_0020.png-6cb367a258ebe78fc98a3e56ed975025.ctex
+≥   ≥   ≥       tile_0020.png-6cb367a258ebe78fc98a3e56ed975025.md5
+≥   ≥   ≥       tile_0021.png-94474d2bdf69ee24ee1d1830c50bc0ba.ctex
+≥   ≥   ≥       tile_0021.png-94474d2bdf69ee24ee1d1830c50bc0ba.md5
+≥   ≥   ≥       tile_0022.png-e6984af87b29c3fb36b7562a15bc78a9.ctex
+≥   ≥   ≥       tile_0022.png-e6984af87b29c3fb36b7562a15bc78a9.md5
+≥   ≥   ≥       tile_0023.png-9239c33cd16d58841324fb6e1b81f1bb.ctex
+≥   ≥   ≥       tile_0023.png-9239c33cd16d58841324fb6e1b81f1bb.md5
+≥   ≥   ≥       tile_0024.png-2fed5654f569805bff0893ee245450d7.ctex
+≥   ≥   ≥       tile_0024.png-2fed5654f569805bff0893ee245450d7.md5
+≥   ≥   ≥       tile_0024.png-c08c439998158afc8b7d795a1c14df22.ctex
+≥   ≥   ≥       tile_0024.png-c08c439998158afc8b7d795a1c14df22.md5
+≥   ≥   ≥       tile_0025.png-0d3b8ccf967c45713df74585b415333f.ctex
+≥   ≥   ≥       tile_0025.png-0d3b8ccf967c45713df74585b415333f.md5
+≥   ≥   ≥       tile_0025.png-5e39ed9ba22b3a9bec9645b6807b8c30.ctex
+≥   ≥   ≥       tile_0025.png-5e39ed9ba22b3a9bec9645b6807b8c30.md5
+≥   ≥   ≥       tile_0026.png-056edaf5e45f4ad547aeba4337314a06.ctex
+≥   ≥   ≥       tile_0026.png-056edaf5e45f4ad547aeba4337314a06.md5
+≥   ≥   ≥       tile_0026.png-df5288d7d0d7edf3ef402970794a4a23.ctex
+≥   ≥   ≥       tile_0026.png-df5288d7d0d7edf3ef402970794a4a23.md5
+≥   ≥   ≥       tile_0027.png-e12e6e2b27526f22d8d6b9335c97ba85.ctex
+≥   ≥   ≥       tile_0027.png-e12e6e2b27526f22d8d6b9335c97ba85.md5
+≥   ≥   ≥       tile_0028.png-8332defb36b159f773d4b3ccda5ce80e.ctex
+≥   ≥   ≥       tile_0028.png-8332defb36b159f773d4b3ccda5ce80e.md5
+≥   ≥   ≥       tile_0029.png-9e00d0d804cc0f3c36d28a69e8a781bd.ctex
+≥   ≥   ≥       tile_0029.png-9e00d0d804cc0f3c36d28a69e8a781bd.md5
+≥   ≥   ≥       tile_0030.png-1fdc2c95b0263d9f59837aa29b64db0f.ctex
+≥   ≥   ≥       tile_0030.png-1fdc2c95b0263d9f59837aa29b64db0f.md5
+≥   ≥   ≥       tile_0031.png-4004f61925417731875c592fadb133e0.ctex
+≥   ≥   ≥       tile_0031.png-4004f61925417731875c592fadb133e0.md5
+≥   ≥   ≥       tile_0032.png-2be2a0a85b4967c1a36785d365dbaba2.ctex
+≥   ≥   ≥       tile_0032.png-2be2a0a85b4967c1a36785d365dbaba2.md5
+≥   ≥   ≥       tile_0033.png-58bb6bcb5002c842408c860c9c06b448.ctex
+≥   ≥   ≥       tile_0033.png-58bb6bcb5002c842408c860c9c06b448.md5
+≥   ≥   ≥       tile_0034.png-e6aa583e244130cec1115053009310ce.ctex
+≥   ≥   ≥       tile_0034.png-e6aa583e244130cec1115053009310ce.md5
+≥   ≥   ≥       tile_0035.png-7674fa85afa614481b764562932d21f6.ctex
+≥   ≥   ≥       tile_0035.png-7674fa85afa614481b764562932d21f6.md5
+≥   ≥   ≥       tile_0036.png-6673a2141060d83c5fdf371692123433.ctex
+≥   ≥   ≥       tile_0036.png-6673a2141060d83c5fdf371692123433.md5
+≥   ≥   ≥       tile_0037.png-8c5b584fc4ee764612fa5596eaf4e237.ctex
+≥   ≥   ≥       tile_0037.png-8c5b584fc4ee764612fa5596eaf4e237.md5
+≥   ≥   ≥       tile_0038.png-4d0e619803cf1f3645adcf78b5780512.ctex
+≥   ≥   ≥       tile_0038.png-4d0e619803cf1f3645adcf78b5780512.md5
+≥   ≥   ≥       tile_0039.png-0afb349b079cf0b1d4d36cbc2690a6e3.ctex
+≥   ≥   ≥       tile_0039.png-0afb349b079cf0b1d4d36cbc2690a6e3.md5
+≥   ≥   ≥       tile_0040.png-7539858da06630db5ea96529fe484db5.ctex
+≥   ≥   ≥       tile_0040.png-7539858da06630db5ea96529fe484db5.md5
+≥   ≥   ≥       tile_0041.png-38521eba1cf4ca66895d3e53a66ed3b0.ctex
+≥   ≥   ≥       tile_0041.png-38521eba1cf4ca66895d3e53a66ed3b0.md5
+≥   ≥   ≥       tile_0042.png-6ec9b8e74f48a5fb7103abc1883754f2.ctex
+≥   ≥   ≥       tile_0042.png-6ec9b8e74f48a5fb7103abc1883754f2.md5
+≥   ≥   ≥       tile_0043.png-6fda01d27b3667dfbbcbfe6078267409.ctex
+≥   ≥   ≥       tile_0043.png-6fda01d27b3667dfbbcbfe6078267409.md5
+≥   ≥   ≥       tile_0044.png-48b929039f8dff4070013c5244dcc587.ctex
+≥   ≥   ≥       tile_0044.png-48b929039f8dff4070013c5244dcc587.md5
+≥   ≥   ≥       tile_0045.png-c8b8dedcc71029371d53504420778950.ctex
+≥   ≥   ≥       tile_0045.png-c8b8dedcc71029371d53504420778950.md5
+≥   ≥   ≥       tile_0046.png-c76f962cf8430572317370c7915580ec.ctex
+≥   ≥   ≥       tile_0046.png-c76f962cf8430572317370c7915580ec.md5
+≥   ≥   ≥       tile_0047.png-e1205a3c120050a80c04ba5ef99cf65b.ctex
+≥   ≥   ≥       tile_0047.png-e1205a3c120050a80c04ba5ef99cf65b.md5
+≥   ≥   ≥       tile_0048.png-2d6e464106cc763f4b721b0431960731.ctex
+≥   ≥   ≥       tile_0048.png-2d6e464106cc763f4b721b0431960731.md5
+≥   ≥   ≥       tile_0049.png-624d6436b3ae9df274f95bd07dc57db2.ctex
+≥   ≥   ≥       tile_0049.png-624d6436b3ae9df274f95bd07dc57db2.md5
+≥   ≥   ≥       tile_0050.png-a9c4d4acd2fa14d2646ca145c0e02f6c.ctex
+≥   ≥   ≥       tile_0050.png-a9c4d4acd2fa14d2646ca145c0e02f6c.md5
+≥   ≥   ≥       tile_0051.png-41fb49ef3a65b9d1fecf6c7f49827003.ctex
+≥   ≥   ≥       tile_0051.png-41fb49ef3a65b9d1fecf6c7f49827003.md5
+≥   ≥   ≥       tile_0052.png-2923d15612fbf1a1b23f93925a848439.ctex
+≥   ≥   ≥       tile_0052.png-2923d15612fbf1a1b23f93925a848439.md5
+≥   ≥   ≥       tile_0053.png-9a90d65b584db37651f86c78b5c4ce16.ctex
+≥   ≥   ≥       tile_0053.png-9a90d65b584db37651f86c78b5c4ce16.md5
+≥   ≥   ≥       tile_0054.png-db6a20942402ff503f6223760a4f0b6b.ctex
+≥   ≥   ≥       tile_0054.png-db6a20942402ff503f6223760a4f0b6b.md5
+≥   ≥   ≥       tile_0055.png-35269b325ef9adfa74ff6124920bb133.ctex
+≥   ≥   ≥       tile_0055.png-35269b325ef9adfa74ff6124920bb133.md5
+≥   ≥   ≥       tile_0056.png-74d8cbe65de1e3f83953a8c21e8f4ae0.ctex
+≥   ≥   ≥       tile_0056.png-74d8cbe65de1e3f83953a8c21e8f4ae0.md5
+≥   ≥   ≥       tile_0057.png-f6d2653d77edfcf27bfe0435a9fb0ae7.ctex
+≥   ≥   ≥       tile_0057.png-f6d2653d77edfcf27bfe0435a9fb0ae7.md5
+≥   ≥   ≥       tile_0058.png-a67fbd2c5e65af95f65e8a7c7f6bb5ab.ctex
+≥   ≥   ≥       tile_0058.png-a67fbd2c5e65af95f65e8a7c7f6bb5ab.md5
+≥   ≥   ≥       tile_0059.png-d0487829ae05f5318fd2777f113432a0.ctex
+≥   ≥   ≥       tile_0059.png-d0487829ae05f5318fd2777f113432a0.md5
+≥   ≥   ≥       tile_0060.png-61e00c1620a95ae1f535412a3a997391.ctex
+≥   ≥   ≥       tile_0060.png-61e00c1620a95ae1f535412a3a997391.md5
+≥   ≥   ≥       tile_0061.png-080f8a8d19654fdfc8908314bfc298c6.ctex
+≥   ≥   ≥       tile_0061.png-080f8a8d19654fdfc8908314bfc298c6.md5
+≥   ≥   ≥       tile_0062.png-28a80653d91adf3636b167352fe76d5a.ctex
+≥   ≥   ≥       tile_0062.png-28a80653d91adf3636b167352fe76d5a.md5
+≥   ≥   ≥       tile_0063.png-142e48c3d4ca82e5d2050c14b33eac12.ctex
+≥   ≥   ≥       tile_0063.png-142e48c3d4ca82e5d2050c14b33eac12.md5
+≥   ≥   ≥       tile_0064.png-65c69a79e9f6f34e32241f2670386039.ctex
+≥   ≥   ≥       tile_0064.png-65c69a79e9f6f34e32241f2670386039.md5
+≥   ≥   ≥       tile_0065.png-f5c5cf584de299aaf54f628e1bdc2c04.ctex
+≥   ≥   ≥       tile_0065.png-f5c5cf584de299aaf54f628e1bdc2c04.md5
+≥   ≥   ≥       tile_0066.png-072b37000e633eeca780b0421087e982.ctex
+≥   ≥   ≥       tile_0066.png-072b37000e633eeca780b0421087e982.md5
+≥   ≥   ≥       tile_0067.png-441501b502ef76bb5d96d64f01190fa1.ctex
+≥   ≥   ≥       tile_0067.png-441501b502ef76bb5d96d64f01190fa1.md5
+≥   ≥   ≥       tile_0068.png-a8a19bb8a36adf714c91ae8c2d4aef32.ctex
+≥   ≥   ≥       tile_0068.png-a8a19bb8a36adf714c91ae8c2d4aef32.md5
+≥   ≥   ≥       tile_0069.png-2f180fb7403ff86a60d2d349e4474a3e.ctex
+≥   ≥   ≥       tile_0069.png-2f180fb7403ff86a60d2d349e4474a3e.md5
+≥   ≥   ≥       tile_0070.png-6506b82b745ac2ecc1f307d59eb56455.ctex
+≥   ≥   ≥       tile_0070.png-6506b82b745ac2ecc1f307d59eb56455.md5
+≥   ≥   ≥       tile_0071.png-1c7eb6f16c800f9e27dbde609f3f3fc9.ctex
+≥   ≥   ≥       tile_0071.png-1c7eb6f16c800f9e27dbde609f3f3fc9.md5
+≥   ≥   ≥       tile_0072.png-114227416c7d3232460c809ee4f44405.ctex
+≥   ≥   ≥       tile_0072.png-114227416c7d3232460c809ee4f44405.md5
+≥   ≥   ≥       tile_0073.png-3d948e68ca2d9510378a7a98be1b9ff6.ctex
+≥   ≥   ≥       tile_0073.png-3d948e68ca2d9510378a7a98be1b9ff6.md5
+≥   ≥   ≥       tile_0074.png-3e00281252a8961e0c3368a966354339.ctex
+≥   ≥   ≥       tile_0074.png-3e00281252a8961e0c3368a966354339.md5
+≥   ≥   ≥       tile_0075.png-45670cf2ffc00ce4071a705f06f803fa.ctex
+≥   ≥   ≥       tile_0075.png-45670cf2ffc00ce4071a705f06f803fa.md5
+≥   ≥   ≥       tile_0076.png-ad0858fdaeab1e33beb2a15c1023bff5.ctex
+≥   ≥   ≥       tile_0076.png-ad0858fdaeab1e33beb2a15c1023bff5.md5
+≥   ≥   ≥       tile_0077.png-75986156d8ddcf7bf3bfe7ef816d41e6.ctex
+≥   ≥   ≥       tile_0077.png-75986156d8ddcf7bf3bfe7ef816d41e6.md5
+≥   ≥   ≥       tile_0078.png-7471d5fdd2ec090fdf68f881ef96d331.ctex
+≥   ≥   ≥       tile_0078.png-7471d5fdd2ec090fdf68f881ef96d331.md5
+≥   ≥   ≥       tile_0079.png-7dcd85e43418fc364db0c469712fa180.ctex
+≥   ≥   ≥       tile_0079.png-7dcd85e43418fc364db0c469712fa180.md5
+≥   ≥   ≥       tile_0080.png-d1d6a16447530a4fcef24e5847a2a42d.ctex
+≥   ≥   ≥       tile_0080.png-d1d6a16447530a4fcef24e5847a2a42d.md5
+≥   ≥   ≥       tile_0081.png-3a42e89ea4750ff1258c91c53844832f.ctex
+≥   ≥   ≥       tile_0081.png-3a42e89ea4750ff1258c91c53844832f.md5
+≥   ≥   ≥       tile_0082.png-39c40e1a8957ec508e71e115582e8abb.ctex
+≥   ≥   ≥       tile_0082.png-39c40e1a8957ec508e71e115582e8abb.md5
+≥   ≥   ≥       tile_0083.png-56ccede68097e34a737378b3db525d05.ctex
+≥   ≥   ≥       tile_0083.png-56ccede68097e34a737378b3db525d05.md5
+≥   ≥   ≥       tile_0084.png-5f1aa77500cd5ce1806b8602e24dc46c.ctex
+≥   ≥   ≥       tile_0084.png-5f1aa77500cd5ce1806b8602e24dc46c.md5
+≥   ≥   ≥       tile_0085.png-2fcf9567463a12afcbddaff945387800.ctex
+≥   ≥   ≥       tile_0085.png-2fcf9567463a12afcbddaff945387800.md5
+≥   ≥   ≥       tile_0086.png-6083c85731498d9638ad554ac17bbd53.ctex
+≥   ≥   ≥       tile_0086.png-6083c85731498d9638ad554ac17bbd53.md5
+≥   ≥   ≥       tile_0087.png-ed5f676d8782eefa70d6dda573302422.ctex
+≥   ≥   ≥       tile_0087.png-ed5f676d8782eefa70d6dda573302422.md5
+≥   ≥   ≥       tile_0088.png-022fcf3af4973f441ab97244d2a426f5.ctex
+≥   ≥   ≥       tile_0088.png-022fcf3af4973f441ab97244d2a426f5.md5
+≥   ≥   ≥       tile_0089.png-cd3833ed9a518b5da6160625615f8522.ctex
+≥   ≥   ≥       tile_0089.png-cd3833ed9a518b5da6160625615f8522.md5
+≥   ≥   ≥       tile_0090.png-fe66993e3436b6d1abcfc1afb53375df.ctex
+≥   ≥   ≥       tile_0090.png-fe66993e3436b6d1abcfc1afb53375df.md5
+≥   ≥   ≥       tile_0091.png-c095276fbd994a13c1711f71a034042e.ctex
+≥   ≥   ≥       tile_0091.png-c095276fbd994a13c1711f71a034042e.md5
+≥   ≥   ≥       tile_0092.png-0669512b9ee7105b54ba582663080051.ctex
+≥   ≥   ≥       tile_0092.png-0669512b9ee7105b54ba582663080051.md5
+≥   ≥   ≥       tile_0093.png-dc8b85696ab6a13bb4d390caeac098bb.ctex
+≥   ≥   ≥       tile_0093.png-dc8b85696ab6a13bb4d390caeac098bb.md5
+≥   ≥   ≥       tile_0094.png-e1a0892542946c584dec9fbc4987907f.ctex
+≥   ≥   ≥       tile_0094.png-e1a0892542946c584dec9fbc4987907f.md5
+≥   ≥   ≥       tile_0095.png-d065bd0168c07a83e9e8c706438997f9.ctex
+≥   ≥   ≥       tile_0095.png-d065bd0168c07a83e9e8c706438997f9.md5
+≥   ≥   ≥       tile_0096.png-b7513132017e4d8d35c11eef1f65f6cd.ctex
+≥   ≥   ≥       tile_0096.png-b7513132017e4d8d35c11eef1f65f6cd.md5
+≥   ≥   ≥       tile_0097.png-be1bda53e7c605c59d380a71b425eef2.ctex
+≥   ≥   ≥       tile_0097.png-be1bda53e7c605c59d380a71b425eef2.md5
+≥   ≥   ≥       tile_0098.png-d8d6f2b908c9fa2b19f5826a933ec458.ctex
+≥   ≥   ≥       tile_0098.png-d8d6f2b908c9fa2b19f5826a933ec458.md5
+≥   ≥   ≥       tile_0099.png-8294e8c85a84163895dbc7be255243df.ctex
+≥   ≥   ≥       tile_0099.png-8294e8c85a84163895dbc7be255243df.md5
+≥   ≥   ≥       tile_0100.png-4bc1a134f148b46c2d75a01302d7fab8.ctex
+≥   ≥   ≥       tile_0100.png-4bc1a134f148b46c2d75a01302d7fab8.md5
+≥   ≥   ≥       tile_0101.png-53c413e3f16fd6637857e0ae15ee8e4f.ctex
+≥   ≥   ≥       tile_0101.png-53c413e3f16fd6637857e0ae15ee8e4f.md5
+≥   ≥   ≥       tile_0102.png-39248529b6d9c1a8f908d79b457252fa.ctex
+≥   ≥   ≥       tile_0102.png-39248529b6d9c1a8f908d79b457252fa.md5
+≥   ≥   ≥       tile_0103.png-eeb6ae880b1110e540313142235d582e.ctex
+≥   ≥   ≥       tile_0103.png-eeb6ae880b1110e540313142235d582e.md5
+≥   ≥   ≥       tile_0104.png-83452e5ee540644ec38e257a967dfe42.ctex
+≥   ≥   ≥       tile_0104.png-83452e5ee540644ec38e257a967dfe42.md5
+≥   ≥   ≥       tile_0105.png-8fe44454c1eda1eb9902a802c3151181.ctex
+≥   ≥   ≥       tile_0105.png-8fe44454c1eda1eb9902a802c3151181.md5
+≥   ≥   ≥       tile_0106.png-6414e5edb08a14560d4555b585e5fbd2.ctex
+≥   ≥   ≥       tile_0106.png-6414e5edb08a14560d4555b585e5fbd2.md5
+≥   ≥   ≥       tile_0107.png-b0adbcc417a882f058835b8e1aa65e1b.ctex
+≥   ≥   ≥       tile_0107.png-b0adbcc417a882f058835b8e1aa65e1b.md5
+≥   ≥   ≥       tile_0108.png-247c0156b4615a37cb5d85e51583c1d8.ctex
+≥   ≥   ≥       tile_0108.png-247c0156b4615a37cb5d85e51583c1d8.md5
+≥   ≥   ≥       tile_0109.png-e4d86fb63d7d1ff6f3ae8a7bca2b1e66.ctex
+≥   ≥   ≥       tile_0109.png-e4d86fb63d7d1ff6f3ae8a7bca2b1e66.md5
+≥   ≥   ≥       tile_0110.png-90e92e5792df92b0826ab3cb5f4fa373.ctex
+≥   ≥   ≥       tile_0110.png-90e92e5792df92b0826ab3cb5f4fa373.md5
+≥   ≥   ≥       tile_0111.png-a011a05c0436e6e6f33f7129290dac7c.ctex
+≥   ≥   ≥       tile_0111.png-a011a05c0436e6e6f33f7129290dac7c.md5
+≥   ≥   ≥       tile_0112.png-520a4e0d6e29068a744bf4faded86cf8.ctex
+≥   ≥   ≥       tile_0112.png-520a4e0d6e29068a744bf4faded86cf8.md5
+≥   ≥   ≥       tile_0113.png-8a46c462806143650e0028729c3a7dc0.ctex
+≥   ≥   ≥       tile_0113.png-8a46c462806143650e0028729c3a7dc0.md5
+≥   ≥   ≥       tile_0114.png-c538db56243c78591e5dcdbe82870c0c.ctex
+≥   ≥   ≥       tile_0114.png-c538db56243c78591e5dcdbe82870c0c.md5
+≥   ≥   ≥       tile_0115.png-d68d2484c784b85ab9e91d67f23a2d2e.ctex
+≥   ≥   ≥       tile_0115.png-d68d2484c784b85ab9e91d67f23a2d2e.md5
+≥   ≥   ≥       tile_0116.png-367bb31bc41d990ed393d7ad4afd2816.ctex
+≥   ≥   ≥       tile_0116.png-367bb31bc41d990ed393d7ad4afd2816.md5
+≥   ≥   ≥       tile_0117.png-93c7e107722cd8d50ce61db61cf684f2.ctex
+≥   ≥   ≥       tile_0117.png-93c7e107722cd8d50ce61db61cf684f2.md5
+≥   ≥   ≥       tile_0118.png-144274bb7c24ab24ba657ea1a78d7167.ctex
+≥   ≥   ≥       tile_0118.png-144274bb7c24ab24ba657ea1a78d7167.md5
+≥   ≥   ≥       tile_0119.png-3ee92c047bea243e4e06ba73c8f6bccc.ctex
+≥   ≥   ≥       tile_0119.png-3ee92c047bea243e4e06ba73c8f6bccc.md5
+≥   ≥   ≥       tile_0120.png-da6b6efe0e6b888b6a1179c695fdfc76.ctex
+≥   ≥   ≥       tile_0120.png-da6b6efe0e6b888b6a1179c695fdfc76.md5
+≥   ≥   ≥       tile_0121.png-aef99425e1291255a0954305438e5294.ctex
+≥   ≥   ≥       tile_0121.png-aef99425e1291255a0954305438e5294.md5
+≥   ≥   ≥       tile_0122.png-5dd57a8f810d5247ad539d79d9b29ee6.ctex
+≥   ≥   ≥       tile_0122.png-5dd57a8f810d5247ad539d79d9b29ee6.md5
+≥   ≥   ≥       tile_0123.png-e53639cca3950a661e5d5d0d76722c6d.ctex
+≥   ≥   ≥       tile_0123.png-e53639cca3950a661e5d5d0d76722c6d.md5
+≥   ≥   ≥       tile_0124.png-a2043441913911d5639286bc23fcee65.ctex
+≥   ≥   ≥       tile_0124.png-a2043441913911d5639286bc23fcee65.md5
+≥   ≥   ≥       tile_0125.png-b40b266d4f04da8b79f14d17fe626ebc.ctex
+≥   ≥   ≥       tile_0125.png-b40b266d4f04da8b79f14d17fe626ebc.md5
+≥   ≥   ≥       tile_0126.png-72c9593ed8bb20383718e8d18d55bb12.ctex
+≥   ≥   ≥       tile_0126.png-72c9593ed8bb20383718e8d18d55bb12.md5
+≥   ≥   ≥       tile_0127.png-a1958eb7a6eb66c4b64cd5b844d7b100.ctex
+≥   ≥   ≥       tile_0127.png-a1958eb7a6eb66c4b64cd5b844d7b100.md5
+≥   ≥   ≥       tile_0128.png-1a90798c20a80ff628dc600907afe174.ctex
+≥   ≥   ≥       tile_0128.png-1a90798c20a80ff628dc600907afe174.md5
+≥   ≥   ≥       tile_0129.png-b6787226b887fa9928480002042bdb51.ctex
+≥   ≥   ≥       tile_0129.png-b6787226b887fa9928480002042bdb51.md5
+≥   ≥   ≥       tile_0130.png-47715c9baa64c61b9f078e67308cd7fc.ctex
+≥   ≥   ≥       tile_0130.png-47715c9baa64c61b9f078e67308cd7fc.md5
+≥   ≥   ≥       tile_0131.png-f841e6324b5953a5f51e1b5e53d66811.ctex
+≥   ≥   ≥       tile_0131.png-f841e6324b5953a5f51e1b5e53d66811.md5
+≥   ≥   ≥       Walk Down.png-62e004dabefb2917d3574c84954014f4.ctex
+≥   ≥   ≥       Walk Down.png-62e004dabefb2917d3574c84954014f4.md5
+≥   ≥   ≥       Walk Left.png-45c85b130528387a732fc27992f8a2bc.ctex
+≥   ≥   ≥       Walk Left.png-45c85b130528387a732fc27992f8a2bc.md5
+≥   ≥   ≥       Walk Right.png-0cc6e6aa017349f08eb1153d724b4195.ctex
+≥   ≥   ≥       Walk Right.png-0cc6e6aa017349f08eb1153d724b4195.md5
+≥   ≥   ≥       Walk Up.png-d4afa443e1f09f1064c17c7f67e31828.ctex
+≥   ≥   ≥       Walk Up.png-d4afa443e1f09f1064c17c7f67e31828.md5
+≥   ≥   ≥       
+≥   ≥   ¿ƒƒƒshader_cache
+≥   ≥       √ƒƒƒBestFitNormalShaderRD
+≥   ≥       ≥   √ƒƒƒ1ccb50327c01a8b810bcb5de747a978120c151a6fea245220edca74b9c528713
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ4e9da474dc84bf7827216c55a5ccbd80d5194c12c1c41eb2f67d659c3d7b5d11
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒff55ede486711a617cfa6eca8952f824e1de5c6fd727c4514cd603e8e7c9264e
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒBlitShaderRD
+≥   ≥       ≥   √ƒƒƒcff12a2b56a5c7d70f6de186c786c80ec84b1844045fdaf13152862c6a82baf6
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒde1bb2427d3dcc66b0497adb6bb381a58368fc24648c5e77b936034fd86c488f
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒe5ff0c7f50cb8a6ee532997afb4a3408b6de2b9b03ebcb87e157b46ab8593e39
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒBokehDofShaderRD
+≥   ≥       ≥   √ƒƒƒ3d294ab0ec5302046ff36ecad7f72d70d1c4b3efbc3ca1bb29fe6a80be9abb65
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ5e76c505fe05e40992e5c54f643d9f694337f76d047ceb7ad161dc3efb2bf411
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒf0818466663de70a3eb3cacafd3e366a662fec8df19ee39678456c56e0992de3
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒCanvasOcclusionShaderRD
+≥   ≥       ≥   √ƒƒƒ6d0046303c5068df99b2c3945434a844674a052389ae79e4a466f8196188cd35
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ9a7b08184c03a1ecd0f1635a548165ea1b8977af20bdcc6026754dc923445089
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒe397c50e1a9e03519ccb486acfdaddf8be9986511a5738dd0fa77e62980f0ad0
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒCanvasSdfShaderRD
+≥   ≥       ≥   √ƒƒƒ0ee98c1c762a031ed5d6ae15569aac5493df641046733f2bdfb3a50df1f4154d
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ900d0f09be693ae3458cb4ea5ca3733f93a58e342a661879987fa33f019737ef
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒf5163131ffbf6578b3e403ae4a2e93b16c3b4d4f74b7d313965240c9159ca4a3
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒCanvasShaderRD
+≥   ≥       ≥   √ƒƒƒ275d4d34e3615bf0802f2ef82109d1cde17c7aa8031e89154c70fc7b3d40d52f
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       45fb1ddc6499e56682916a355ce2839e61f42dfe.d3d12.cache
+≥   ≥       ≥   ≥       4d35b4f1b981d75cb121b24f26aba4271d0d7a2f.d3d12.cache
+≥   ≥       ≥   ≥       8a7277c8d3ac029b087c3fa9c55de85560be5119.d3d12.cache
+≥   ≥       ≥   ≥       c0a681ae42aa3e0b5abba232ccae0b036be455e4.d3d12.cache
+≥   ≥       ≥   ≥       f3e258e8f7ec2e7e740b62f3bc48ecf5c99fb0db.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ44b626a71b331de17a1569c244e84cfc842a2c1ef1fe575d245ab80bccb9cb2d
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       45fb1ddc6499e56682916a355ce2839e61f42dfe.d3d12.cache
+≥   ≥       ≥   ≥       4d35b4f1b981d75cb121b24f26aba4271d0d7a2f.d3d12.cache
+≥   ≥       ≥   ≥       8a7277c8d3ac029b087c3fa9c55de85560be5119.d3d12.cache
+≥   ≥       ≥   ≥       c0a681ae42aa3e0b5abba232ccae0b036be455e4.d3d12.cache
+≥   ≥       ≥   ≥       f3e258e8f7ec2e7e740b62f3bc48ecf5c99fb0db.d3d12.cache
+≥   ≥       ≥   ≥       f943e8dba7b29a08a2910c2144f7f8a363ecf834.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒf30a5b440b1341c6eaa19af108108f7adb605232e31fd6aeac74e4825e07ec28
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           45fb1ddc6499e56682916a355ce2839e61f42dfe.d3d12.cache
+≥   ≥       ≥           4d35b4f1b981d75cb121b24f26aba4271d0d7a2f.d3d12.cache
+≥   ≥       ≥           8a7277c8d3ac029b087c3fa9c55de85560be5119.d3d12.cache
+≥   ≥       ≥           c0a681ae42aa3e0b5abba232ccae0b036be455e4.d3d12.cache
+≥   ≥       ≥           f3e258e8f7ec2e7e740b62f3bc48ecf5c99fb0db.d3d12.cache
+≥   ≥       ≥           f943e8dba7b29a08a2910c2144f7f8a363ecf834.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒClusterDebugShaderRD
+≥   ≥       ≥   √ƒƒƒ2775e502fff54bad7c5a36ee96cb93f9bb26a0835936a36809e0142a020d1da5
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒb4dfb009f982372090b395f6b4b491ec859580fde542b137da30ba0125db4493
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒcf9e7f6b32d31ae8694758a95663a7c9fab66d2cdbc6bbfbfbdc73a452409cb7
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒClusterRenderShaderRD
+≥   ≥       ≥   √ƒƒƒce0a20efd77f533c88098581f42714bacac9fff0dd087f4452f4e090a2f1126d
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒd7d33a009d89531a62355652a94a4bbbcb6ecafd4849629a6a81ebc41fb55f82
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒf863243f437e1e951de711609c6bf7e68a0d9b104c70be5c6a645fa26c179ccf
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒClusterStoreShaderRD
+≥   ≥       ≥   √ƒƒƒ04f77ac6fc3ac39e10dba3d8b90afbac54f16ae6134a60264841ff0154dd1be9
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ2b72ea813a706dc6e2daec5b08d2b7417fb67306de04679465b034b524dda1a8
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒf369908042729ae25ea308b7b8d34547e53e21278e78f6ef3fba410d908cb3d9
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒCopyShaderRD
+≥   ≥       ≥   √ƒƒƒ65291954e15cb018018fc5f4646a638087a0a102918f3e04c7f5bd7b36a520d7
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒbef3ebc581956c1e4cad1b19a4c57b168d4fd3a373a0481f33e26003ca1fa6c6
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒe9cc8703737058ab94419d921c4ffa210eedec9e9902e44b4b3b0898bea779ad
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒCopyToFbShaderRD
+≥   ≥       ≥   √ƒƒƒ75d836894e920d01a392936493cf5f515633f4101cdab35e41710593c8961a8b
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒd2ff28d6e27943750d2e72da5da60d486f9b37ab66241467d62296b893eb4cd0
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒd8c8cfaf4afd14e907114b99e2f0ca909b68e51c06848dcaf4d960b93dc13cb8
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒCubeToDpShaderRD
+≥   ≥       ≥   √ƒƒƒ0352697dfa4e1cfa7c828f5dbe00a582b11eb7ecdaaf632adeef06f06d4b9c96
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒa1c0c9b7619044d7ba83959f645735ee8e1d34ad23904a6ac0af8e55d7ba00db
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒd7b798ab7df6267a749663467475b673a9c91bd0a35bf9b538439cb9902d869e
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒCubeToOctmapShaderRD
+≥   ≥       ≥   √ƒƒƒ5fc57d05f5d131338b97f340dc2c3656545f2e042759ccfe92bdbbf87ab5eac3
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ945003e6f9984a03124090615d87289ba22cea98da96752bf1b0cf69baef54d7
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒc8b61d04732bfd2b54191babf0cd12bfae13c795c34c47b484abdf9f06f00205
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒFsr2AccumulatePassShaderRD
+≥   ≥       ≥   √ƒƒƒ59eaf5aa5dab2091f9920fd2cd38d17b2ebcab91baa70d1238410844bbecbb5b
+≥   ≥       ≥   √ƒƒƒ9459adb5823acc74451c2ea9f81aa9da71ce4d8c54bd7e14167ff9da9d8a2711
+≥   ≥       ≥   ¿ƒƒƒc889e6fa9a4d7a667554e7d8c17ea756be78877961764099214e958069f95f6a
+≥   ≥       √ƒƒƒFsr2AutogenReactivePassShaderRD
+≥   ≥       ≥   √ƒƒƒ5ef69d12bbe593432c1ca417e5dfd0f2e78ca303e90818fa4f8710217cce36f6
+≥   ≥       ≥   √ƒƒƒec5d678440f2691e5fbe9f077b20a0af3ac3b7c57459658136fe928187f8dc45
+≥   ≥       ≥   ¿ƒƒƒf2cae4e3c0e2cc8fd38de9a4988949f8372a0791c88fed4e0a248812a9db7c85
+≥   ≥       √ƒƒƒFsr2ComputeLuminancePyramidPassShaderRD
+≥   ≥       ≥   √ƒƒƒ33dcd4c9fce60b7274a7c7b00ec2e78fdd25f4ee9b281ddad276d78d8fc5910c
+≥   ≥       ≥   √ƒƒƒ3a9e1f0a36bb2d58fc147e20667d91adca84a6d2518c6dc482cad018467ff3c4
+≥   ≥       ≥   ¿ƒƒƒfcbae19c9e34620536c2ff16b1c22459d168d05f8f04ee0408268eac446353db
+≥   ≥       √ƒƒƒFsr2DepthClipPassShaderRD
+≥   ≥       ≥   √ƒƒƒ6b9a59f55a7acc18aef6c6065544923fc586af3364f631a64dd6335e5a1f5085
+≥   ≥       ≥   √ƒƒƒ71ab67576a0142e4f2e891c16f6ece1a596effaebd5778782caf05633f473290
+≥   ≥       ≥   ¿ƒƒƒ8139e61f52a7d4b68775c71117a41c46a3fc191dc962101f9cd42a92525d094b
+≥   ≥       √ƒƒƒFsr2LockPassShaderRD
+≥   ≥       ≥   √ƒƒƒ1e661a236764f1e9277829b9df61094a15eb86377dce37c6483e7f72383e9876
+≥   ≥       ≥   √ƒƒƒ3871e1f7a3e5b52437559b2065178ffc4fdef39925dc974b6975b4839cb2f7f4
+≥   ≥       ≥   ¿ƒƒƒ6ba09946c77cf589f8525522562375ceabd82a1bd0e28cdaa6da7d5afe48777a
+≥   ≥       √ƒƒƒFsr2RcasPassShaderRD
+≥   ≥       ≥   √ƒƒƒ3e8d848fb42341b39bf63b0791cf76c42bad2c1c35e3a57d175453b8fad7ec07
+≥   ≥       ≥   √ƒƒƒb2b9c2dbcf61b422fa22aadbfefd75dcf73120ffcc9b6d6b3ae251a1c3b091a7
+≥   ≥       ≥   ¿ƒƒƒedf373fd0acee691346f60b3c987de3db2886aed3a6ab70ccd70479f5cbd5800
+≥   ≥       √ƒƒƒFsr2ReconstructPreviousDepthPassShaderRD
+≥   ≥       ≥   √ƒƒƒ07d073aac807c722a93491904901ac47bbe1595ebfecc3096b9089a709166054
+≥   ≥       ≥   √ƒƒƒ0ad30824a3e564c57490eb4965ac075898a028ec20466de3a8deec496785ed23
+≥   ≥       ≥   ¿ƒƒƒ696549826dfa212243f6aaca43553fe1b4e35f3b0f848a30cac71af75c979104
+≥   ≥       √ƒƒƒFsr2TcrAutogenPassShaderRD
+≥   ≥       ≥   √ƒƒƒ184b023c298c4462a1697d35240b8a6e617f673fcedfd97c3a4c1da3657fef2c
+≥   ≥       ≥   √ƒƒƒ1ddf023abd1d246190d528e8d06b38da222148c759ca42852bd25aa4d9dc48cb
+≥   ≥       ≥   ¿ƒƒƒb4278dfe68af874a516318944f905a2f7237df106404bfa08f4925ad1eb72177
+≥   ≥       √ƒƒƒFsrUpscaleShaderRD
+≥   ≥       ≥   √ƒƒƒ9a52fdf3c5bde6da20535b5db563542c4713265bf5c8bb52fad6ef2a5b526337
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒd466030127f157943b9e4db32b126dcb3d9e6a2babf5212166346d08e6261fe7
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒd659c02701a99861f3054fa8c67cabb79f0491aa3388020f008051107cf1fec5
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒGiShaderRD
+≥   ≥       ≥   √ƒƒƒ0a1109506856e7902e872dda83faa67adac822d90e694417c64c101b2b904810
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ154eef6b59156842af8c5b85ab6829061a5637da2edc33604b1a5e5949e5294a
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ6070f5e18c68008ac051ae26b1c87390602864b854189b373129b03383b95c1d
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ658562f56496c94b13de4ff1bebb405bc128c5befb4a4750bb72fa5cfa745e47
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ687d1c141f44aed88a07e61d750649cda6236ef2205b4f854f8105ca7b94e6e7
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒ9e900b11fb1fd59f00f233f459e572b3bff5d0c8f622f0ddf9ee855771977bab
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒIntegrateDfgShaderRD
+≥   ≥       ≥   √ƒƒƒ42d754357677605b691c5336a8e22e09202dcff00a57b792ac11d2e0b161b993
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ6d20d114a76402f30530dc6983c20cd78a5bdebe815ba021289a607f6c4541f5
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒ7049a4978dbea673146c24a42476293190f9806f2c1c73e26f6548a09d9f09d1
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒLuminanceReduceShaderRD
+≥   ≥       ≥   √ƒƒƒ3484522051e094e151b4a7cbd88cfc9eb2721ea1d26cd66d6ebdd36e30657cc2
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒe1310a90e84d7a218320cf28617a5e388c8a11a861edbd726669e71fc3f911a8
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒef89847c3d5789777bf23f6024aa0d004fdc3a7fe82c8bf865c3946f50157f75
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒMotionVectorsShaderRD
+≥   ≥       ≥   √ƒƒƒ00e39c95d2d9272edadd9be2db6dbe65b3460f21d2341c92a77371c843cf4d00
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ23e525d5cbab296a974d3ff5dca6670923233ede9e68996ab30d7ff8704cddf7
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒe33ee4540533d576bfe475cc499a9491db25293c3cc5ae811495d43f58649020
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒOctmapDownsamplerShaderRD
+≥   ≥       ≥   √ƒƒƒb5d716a2f281f18de3f8145675905257c71ed306b08187f196135b4d6b900d18
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒf7cc7d472883dcc7f351a5ffde028bb15c7b5d7589eacdf02c3633cf2a7829c5
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒffe6788f20aa023afaf7e888e2cf33c840f3084c8fbb309ed784918a44ebcf23
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒOctmapFilterShaderRD
+≥   ≥       ≥   √ƒƒƒ29563446a265b7dd42bb80d9d6e3dc4d423069662549f27f646ae4dc33dd669a
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ51d055a87b73bba94f62ffe0b579322bddb3d5638e4db2bcedbcd05733e17083
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒ5fc5fea9e3fe54191ff165540faa285b099e7909be69e7349c971f7ab0a609cc
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒOctmapRoughnessShaderRD
+≥   ≥       ≥   √ƒƒƒ15e894f5c1a4917d83d34012ecf1ede2bee251fefc7b887b728834d4d817ad55
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ5e2dc8eaf1a38f928f118fb3b4ec9041422acb08ba3628df371772294faef0a4
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒ953daee2b7c11cf846dd5b590a624c33a6d367972b684494ecbbb5fdeb8e9b1f
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒParticlesCopyShaderRD
+≥   ≥       ≥   √ƒƒƒ07564cb3473afac407c6bcff5eeecd5e1775822696a97e9598ea6df01e255aa9
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒbcec80ba01e935ed0dc85d792ce6064d3b9920ff6f4ad7f021c39739c998092c
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒe1ec2b862158669cdd5f5cfa489962a45b22a1d170a38418ac800c5944f38061
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒParticlesShaderRD
+≥   ≥       ≥   √ƒƒƒ06a8e27fb2eb40a42c7d1c26614ce38ae841d0048941bee0ae85d930f4cd7c10
+≥   ≥       ≥   ≥       f128cab0b22fb7e0d9f023d6cdb81309be392d95.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ48be2fd5ec149691044dab9a7783b80a4ec194c46b14e88e6cb21540ec8f681c
+≥   ≥       ≥   ≥       f128cab0b22fb7e0d9f023d6cdb81309be392d95.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒ527b8e067ac0ad8d5ca4af3230efbc7edb63fc49fd10c48dd765f7d4134c2606
+≥   ≥       ≥           f128cab0b22fb7e0d9f023d6cdb81309be392d95.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒResolveShaderRD
+≥   ≥       ≥   √ƒƒƒ1f73a86e4de984063f8d52430568260a983404585561eebf294292dcf117aaef
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ27dd92d92212d9fee97e14b2c5e5e102610e3124706ce6710bb99bb01c1723a2
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒ62ad9cf399fd17bc950adc9b1604f70db504a8c531198a947df8f6d8dcd16b34
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSceneForwardClusteredShaderRD
+≥   ≥       ≥   √ƒƒƒ1d8f9fd61c770da8fbf2a971b3e81a1e4b82130a464dd2919dd0df65d3f4d4a6
+≥   ≥       ≥   ≥       111f8cfd3c260d918df85827eb251dc36a43cb13.d3d12.cache
+≥   ≥       ≥   ≥       35a078cb7dc07df55e460ed1a913486a68ab6bb0.d3d12.cache
+≥   ≥       ≥   ≥       3d6fc53bad5e871b1b878eb1a4ed0a0fcec449cb.d3d12.cache
+≥   ≥       ≥   ≥       7412c254abd0f944fb53942228920fe187f1d723.d3d12.cache
+≥   ≥       ≥   ≥       7a57964a6a80c226a1011fb78edbda41d2219632.d3d12.cache
+≥   ≥       ≥   ≥       7a6b05ba6ca90f8a542e0d1fcc3360f7d52c6e09.d3d12.cache
+≥   ≥       ≥   ≥       7d4c2429f20db9b651852713d31971380f209eec.d3d12.cache
+≥   ≥       ≥   ≥       89044bace37a3ce54cf2cc5190e11bed6d14f97a.d3d12.cache
+≥   ≥       ≥   ≥       a38af1e47720abf30ca44f3d3c099c07b046df81.d3d12.cache
+≥   ≥       ≥   ≥       ab0b960474f1491b42ef9f2ca13dbd4ccaf64911.d3d12.cache
+≥   ≥       ≥   ≥       f88424e725a3bb50f358e9b042552af7b1c2f921.d3d12.cache
+≥   ≥       ≥   ≥       f89c365b12d7e2d46fb2e1f6ace46a76b6cd5e89.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ3059d46f18b2976aeaa7b949a8584517842a7e1a4162a81aa64cd484e7658e71
+≥   ≥       ≥   √ƒƒƒ4a7f175f195e498d54512dc7a67639a3d15bd9ea5194743007a58b5b22b4b699
+≥   ≥       ≥   √ƒƒƒ61876f5c8f74caba7a7352bfae952af71751831a37f90f1afd79cc9bd4e376cd
+≥   ≥       ≥   √ƒƒƒ72441e69a5110c34824334c2d7284287eeb225010e6fb8c9f80ad241154df663
+≥   ≥       ≥   ≥       111f8cfd3c260d918df85827eb251dc36a43cb13.d3d12.cache
+≥   ≥       ≥   ≥       35a078cb7dc07df55e460ed1a913486a68ab6bb0.d3d12.cache
+≥   ≥       ≥   ≥       3d6fc53bad5e871b1b878eb1a4ed0a0fcec449cb.d3d12.cache
+≥   ≥       ≥   ≥       7412c254abd0f944fb53942228920fe187f1d723.d3d12.cache
+≥   ≥       ≥   ≥       7a57964a6a80c226a1011fb78edbda41d2219632.d3d12.cache
+≥   ≥       ≥   ≥       7a6b05ba6ca90f8a542e0d1fcc3360f7d52c6e09.d3d12.cache
+≥   ≥       ≥   ≥       7d4c2429f20db9b651852713d31971380f209eec.d3d12.cache
+≥   ≥       ≥   ≥       89044bace37a3ce54cf2cc5190e11bed6d14f97a.d3d12.cache
+≥   ≥       ≥   ≥       a38af1e47720abf30ca44f3d3c099c07b046df81.d3d12.cache
+≥   ≥       ≥   ≥       ab0b960474f1491b42ef9f2ca13dbd4ccaf64911.d3d12.cache
+≥   ≥       ≥   ≥       f88424e725a3bb50f358e9b042552af7b1c2f921.d3d12.cache
+≥   ≥       ≥   ≥       f89c365b12d7e2d46fb2e1f6ace46a76b6cd5e89.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ8ab1aa3c06e5871372c06699ba414dca9059b8eb313a79a1ec17202d4c8f34d9
+≥   ≥       ≥   √ƒƒƒ8ddb51fb99c663b5edfdb05f068cd2206a3d4337f2c5324da8668e87060657ab
+≥   ≥       ≥   √ƒƒƒ981624c017530f42770c6e2f31ec21cb2891c35339d98784d60c8ba927a8db7a
+≥   ≥       ≥   √ƒƒƒb99b58d45433c5ad8ab8fa4eeccb58b7f548b169602e27513a45f2641c534d09
+≥   ≥       ≥   √ƒƒƒcb9170726728c08dc698861873bcf2c044b0f42ba767496a6fb9315fd7d62b58
+≥   ≥       ≥   √ƒƒƒdd444ccad0fdfef3c30d6c11fd21099ac24ab801a60f7ecc43d18c6059e9e17a
+≥   ≥       ≥   ¿ƒƒƒddf71e2b0a93f8f42fc8827ef66052f76ea3654cfcd999e621135fc1399a5a79
+≥   ≥       ≥           111f8cfd3c260d918df85827eb251dc36a43cb13.d3d12.cache
+≥   ≥       ≥           35a078cb7dc07df55e460ed1a913486a68ab6bb0.d3d12.cache
+≥   ≥       ≥           3d6fc53bad5e871b1b878eb1a4ed0a0fcec449cb.d3d12.cache
+≥   ≥       ≥           7412c254abd0f944fb53942228920fe187f1d723.d3d12.cache
+≥   ≥       ≥           7a57964a6a80c226a1011fb78edbda41d2219632.d3d12.cache
+≥   ≥       ≥           7a6b05ba6ca90f8a542e0d1fcc3360f7d52c6e09.d3d12.cache
+≥   ≥       ≥           7d4c2429f20db9b651852713d31971380f209eec.d3d12.cache
+≥   ≥       ≥           89044bace37a3ce54cf2cc5190e11bed6d14f97a.d3d12.cache
+≥   ≥       ≥           a38af1e47720abf30ca44f3d3c099c07b046df81.d3d12.cache
+≥   ≥       ≥           ab0b960474f1491b42ef9f2ca13dbd4ccaf64911.d3d12.cache
+≥   ≥       ≥           f88424e725a3bb50f358e9b042552af7b1c2f921.d3d12.cache
+≥   ≥       ≥           f89c365b12d7e2d46fb2e1f6ace46a76b6cd5e89.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒScreenSpaceReflectionDownsampleShaderRD
+≥   ≥       ≥   √ƒƒƒded9db1eac9e5b4ad8eec541c15639621959cc7ba975c35a7b00e693dbd63ed2
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒe2b08e2f67ca3648565b1054827dd95ce07c1b31c4deeb5c87adb959b48c3662
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒefffc9e5a7c66f8a0f9ff93c2de0f3ae0f0204238caf8bd81b886c65eab90fd4
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒScreenSpaceReflectionFilterShaderRD
+≥   ≥       ≥   √ƒƒƒ3e7cbd9d8999cd16cf5e5b03b2bc462b40767703140a0757280c95895703123d
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒdf57b17e0d3f8e6a2117eddae7b20ed4374b305ba8ca4574e4de35047a65e359
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒeb63705abd051e467483bd6b2685b6faedabead31ba6939e17542ab4de0459d4
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒScreenSpaceReflectionHizShaderRD
+≥   ≥       ≥   √ƒƒƒ997ce3e6161596f9996f5616548734cb1b6ae9ba53707e753153b0855fe4e6ab
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒb6bddb256a75b062d6dcc54cab3068e5681c11efabeecfd56a8b6aa811fd04f7
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒbaf8f4bfe602462ece1270390433485b1e3018fbbd45bae7c8bbedf320c26cd6
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒScreenSpaceReflectionResolveShaderRD
+≥   ≥       ≥   √ƒƒƒ33380c22729b8429fde29e1f93f85b5208c85e4ede0aa997a4929891c2c29ac3
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ81e8ef1f8dea212538147e6fe6944ceda353f1384bfc9862c90015b21db84c65
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒe628cc87f903d3043b8b7a44bb5d54638465b46e0ab7bb37b1ddb9b91f4f1b3a
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒScreenSpaceReflectionShaderRD
+≥   ≥       ≥   √ƒƒƒ3f11fe3b906bae8febe9b4aa23c6e89fa571e2edae7b9517b7f00208fdccae97
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ435a8cc42eafc61cd0a165605df5c12a844b2638060a76140c926e7ae3f17370
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒ4ec3777007532ddcd638ae82ef6adc97739054897ed48a2ef8401e7a025ee2da
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSdfgiDebugProbesShaderRD
+≥   ≥       ≥   √ƒƒƒ04d93c03fbe1db79d1166bf8062718b246216fd24fea2444a0ff1c91794984c7
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ5e74420cdc840f19f82244b066217b3888799930df17d31ff133420b1a916076
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒc686dc153eb1e1b4ce9aa61259db41552f6a3d85a07bca8c284700c4e738a962
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSdfgiDebugShaderRD
+≥   ≥       ≥   √ƒƒƒ4597a244d5202b1178081479b348d60a48501cb16fc54b1fea4c8395c5e68675
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ770683c4abbe80e6aaa1fcce0e3aa9d0da557c3ab2aeb97c71adda2071ed6d9e
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒ7e91b12089148e9624d3b772c591a8eee798246bf853e9ec512804a7f33b3889
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSdfgiDirectLightShaderRD
+≥   ≥       ≥   √ƒƒƒ16f822b671cd6f4a687e51e33b1c8c2148121c1c091f7ff39f76127556ff3ec3
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ2fb0b4bb5244e2878ed914d5c7091b8a29a281b7ef61c89bd41cb1af4833f6f1
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒ64ad7310244510c316ee6a757d8aca3c2e569d002f9a977a411dc3eed01aa136
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSdfgiIntegrateShaderRD
+≥   ≥       ≥   √ƒƒƒ41b4833fa068f8f1d6aca463d4264bd17b48cdb4b8e9a4c6238ce96804fab13d
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒb6bde7dbd199e845ade91714af87216fa88e23a5866f28aed59e0ee81da45cce
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒc5e82715048eb54d931afaa6dadaca3cb48a98f8c3376dd7913485bd1ce2989f
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSdfgiPreprocessShaderRD
+≥   ≥       ≥   √ƒƒƒ570afa2fb30077473ab0e981ef16979b1b8655516ee0d556dc33020f9b771742
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ8209c4e09174b46160bf3298a91fdd988a8aae6b7e81d6dd381d87b0aad47434
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒf3ef78a3d2f1c9d4496e3afe61867e94fb32829809548b265a8a1154b66aec33
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒShadowFrustumShaderRD
+≥   ≥       ≥   √ƒƒƒ3deae303d647faccb68971539f74a832fa8321fe8d642826a8c88bbd3658b679
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ66c287915614d37b9e7cab38554ceb8cf9587c0a1ad8f3ed523d1119d02a432a
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒb56bc1e62633ec9304336b7e957397468d55950f317fcf5a6473439810432caa
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSkeletonShaderRD
+≥   ≥       ≥   √ƒƒƒ54e50a68f8252031f493dd1ea6200e9ef718d5bd8693e28030efe1b120eb7905
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒb807701246eba2e5b805fc0e7ba7b175f6b6d09a9e37d9e4cf9457567e5b8692
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒf5464247670c8a6767c45f6d3608e1cde3ee7c170567663cf709cd4ed8b3a4c1
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSkyShaderRD
+≥   ≥       ≥   √ƒƒƒ21f924306eb18caac3ace30e495c78ba40ae7b2f490d5e4f3b13a79479216b9c
+≥   ≥       ≥   ≥       03e3b11c69e24394b2d955a8c0ba85587bb70839.d3d12.cache
+≥   ≥       ≥   ≥       6b847b83944af8d9a9af91a0871566e6070998ca.d3d12.cache
+≥   ≥       ≥   ≥       de678811d1bad3cad4892a8db7b6ea0be197d51d.d3d12.cache
+≥   ≥       ≥   ≥       e105b1e014f9523daf8d734c2f2dc115ba341902.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ35d1b4b37bab144dc90408dd6cf6ddeee4a134e13f3efe56f0e3ae92e83a5124
+≥   ≥       ≥   ≥       03e3b11c69e24394b2d955a8c0ba85587bb70839.d3d12.cache
+≥   ≥       ≥   ≥       6b847b83944af8d9a9af91a0871566e6070998ca.d3d12.cache
+≥   ≥       ≥   ≥       de678811d1bad3cad4892a8db7b6ea0be197d51d.d3d12.cache
+≥   ≥       ≥   ≥       e105b1e014f9523daf8d734c2f2dc115ba341902.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒ674aa6a56f4fc992ebe09ae7e571e379f6e557dd2354506b5062519ad7a427e1
+≥   ≥       ≥           03e3b11c69e24394b2d955a8c0ba85587bb70839.d3d12.cache
+≥   ≥       ≥           de678811d1bad3cad4892a8db7b6ea0be197d51d.d3d12.cache
+≥   ≥       ≥           e105b1e014f9523daf8d734c2f2dc115ba341902.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSmaaBlendingShaderRD
+≥   ≥       ≥   √ƒƒƒ3d0a167a9f66fe724550ee422e5f78e94ee25cd28f8d2dd9770c61d98fee5f61
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ607ccc762120fdee816ab47fd2451dbbaa886d445321b7411140032a35f1a739
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒ6088fec0579720c9b0477de3d431bbc3b7de4b868060edc13f716d8818817556
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSmaaEdgeDetectionShaderRD
+≥   ≥       ≥   √ƒƒƒa6c5c7327054acd529d0181b07bf068fccf6773b47e3bc26742813607b59ba24
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒd5021a9d8471f798a9fea1996ea85751035ea859c7fdd21721cc24e149d1e4fe
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒd87a8d48df4d7f1e99d50fdda5183397a5adb65dc240df7fc07a7ce2955fe3d7
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSmaaWeightCalculationShaderRD
+≥   ≥       ≥   √ƒƒƒ3893abaf810bdff4408209bba813141b7ed437601200519b8aee0a69f0349d05
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ8e27991ff4e390c0330de8c3b47a42294afc92f41d1049dfd06896302c2e0b04
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒ96902d6fbf74206adb55a50fd070fc6de4aaf8dc634f04f92751ac8b307948c7
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSortShaderRD
+≥   ≥       ≥   √ƒƒƒ5f7b2ec9b49f6ba75e1d03ef4dfdbfad8d55d693fa2c7cb5bc6e761cb986a8e5
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ967234006fae085a9579b3ffd489cee602c4f145dc18ff2bf240e4d8c13498cd
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒf9ec1d3b74a8fc2c04e3f2648f95f2f1bbdce58b6c290cf9c4851a0bac4771d4
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSpecularMergeShaderRD
+≥   ≥       ≥   √ƒƒƒ2c24bae3cdd8885d57ab9d12d4cfc7fc3bc7462a287e93293f3533163e9e82a3
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒd91816cf1f28c63908a9133ffc50683b675ef9859b0616c7436f475405b22c27
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒf37e3095c1ac9cac056c9f2aa34f04ba24881a09cdcd83d20dbf7897f273b846
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSsaoBlurShaderRD
+≥   ≥       ≥   √ƒƒƒ9821a28f9d156aaaed0a7fab3de6738b2c4022738da0a9b7cb77ffb499f40e38
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒb65a0faa61bd9bc74ffa0d5e350fbcfb41b509b462ba4efc099932750277c6c9
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒfcd180ca97c9c60af86c6ab2e8c04c9a5151590707bbf1e28568cee1a7d1f79b
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSsaoImportanceMapShaderRD
+≥   ≥       ≥   √ƒƒƒ09886b051a7294522d484a6b5de82ee75778fa16804f3f4f13d1605e7f39b69d
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ4edba1c913bbcf0fe2fb8c435ab1359f70a7444f7dd23c4ce34fc93c45843eb3
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒ8dea32f8f998a2826251eaa6f2e79afd0d32fe7c8f5cbfa07ffaa7e6dd065adb
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSsaoInterleaveShaderRD
+≥   ≥       ≥   √ƒƒƒ37d20a08ed7c0df456d74fe2afcd709bb63683bf17844b96ef3a831708fe33d6
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ5762f4757375a26f8fda6d1bcb2a452f1c2c429e857969bb128d7270760b56f7
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒeb4ca8219783922a87341a3a2ad615ecc8356bb6e044ce477536e99902f96a22
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSsaoShaderRD
+≥   ≥       ≥   √ƒƒƒ3d813e95740f9b60dfc54dc27d3e8bef0fe774cbe665ce8ca001911d8bddd779
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ6e8f8fd45ceab920597432cb2a5447c53291203857121f3a3b38a4b9b27c2c50
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒb4930144c0d6d905950e21dba7bee754e2d9afe084ae8d5555df96fce770139f
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSsEffectsDownsampleShaderRD
+≥   ≥       ≥   √ƒƒƒ00b905de0ce61aa71e1203c86aadb464c5254c0f70c5df1c4a16ae369a011fd8
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ9b03fd7cbef33949b738847086d7bd7ff6c796ec877d4d57e9c0b0f078d6ab26
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒbd37175ba48fdd02099abbbeee5452079e89a3727fd5fe1de649551c99081c36
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSsilBlurShaderRD
+≥   ≥       ≥   √ƒƒƒ4aebd32e075cc380fa044bbd25d6041f3b33e9642997142ff651a262e4919f58
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒc828d4bcf21ef1709d97f8548e6525f7879a2a375039528da204ac3b329c718e
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒe74ed13ec93f83efa28f3bba922e68d5e345173ff5670ca6f557df8d614a782f
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSsilImportanceMapShaderRD
+≥   ≥       ≥   √ƒƒƒ6c7db621e01f163f7fd5e9f70c773e06433e17a5fb96e54db218d422d723aacb
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒa4219fd46be62ae37b0e06fd10ebbd2798ad85088678db4c0b425f823042d4be
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒf06c8f5624e6170877d397deebb400e940cb4d625d05260d6a24d24e6682da98
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSsilInterleaveShaderRD
+≥   ≥       ≥   √ƒƒƒ1827fdf7222528b41b71648898590a2b481dff874d5abb29dee45a9987f785ba
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ88e29bdd44daa6cf920ee2050e7a7237fd88bfa9c8880c62168f4b0a4502f4d0
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒadb7d726b7686b420a442a3227b89ebbec02e308f3eecaca78455b1334d3d124
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSsilShaderRD
+≥   ≥       ≥   √ƒƒƒ0c54181813ac355caa336bd64f0d15b67563cb80589a0ad2ac890813bf2e3c86
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ3b05aa37155fafb48b5c5687c2743ee0d78977c853054b1533422ec2ef43dfc7
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒaf35f1233e4d0591e9dad8d6301cf258931ca4d79c210c67076cd8fb624c6da0
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒSubsurfaceScatteringShaderRD
+≥   ≥       ≥   √ƒƒƒ1b13b43aab403edf1776669251ef4c9219eb57ea9b8e86483f0c0b44cfbe566e
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ69df93a2334ebca4dc3af3f7aef99cad7870b6623865bd4671963fae81796b41
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒa0a69873fdce28a7a8c50458dcc8506beabb26c6baf5449448339e820eeb917d
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒTaaResolveShaderRD
+≥   ≥       ≥   √ƒƒƒ21a8f8e3a65237efe11f4640388d4d1a1fac34dfb3102a6aa4c5b6bf6c85e8ea
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ80810a13c63cdcf213a9e1f7d092d977e0552d6453157bb11355fa7502e38656
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒ8470bc598ece1480705c4d97217aed576067ef39813f3e16506ad87fcedc44e2
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒTonemapShaderRD
+≥   ≥       ≥   √ƒƒƒ3769da6e8bdc270efe950e09ec5b0ed4d95998156701f9bafd635fe9d5972f71
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒa56bf793a5b570b67656c7c358d65edc055616e7e6979e80c0c9c15416159004
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒc3f5c8110f44921262b756899cc7d2c51c74e9333ffe1f8450a95bbd12872516
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒVolumetricFogProcessShaderRD
+≥   ≥       ≥   √ƒƒƒ19f039cd73a0ac6607074fc92d3b2f57204b62a447b166e83d0e60040e2cf6a4
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ35306d664799f9fedcfa4dea2feab6509574141aa5cce1e28e56053018da5d27
+≥   ≥       ≥   √ƒƒƒ5a983dd19d944f10c1d3634e2ec4509c330fc708754b14d4216b9f5704a71a62
+≥   ≥       ≥   √ƒƒƒadc0632d1f9f8ce0e652606602aeef293c9a5002e4db7e5557b4a2c8d30d31ca
+≥   ≥       ≥   √ƒƒƒb574c5bab440796f9fd6eefd0e7181223c8e77658ddda965d5d1a2bf343e41dd
+≥   ≥       ≥   √ƒƒƒc323a941682e364f2ac33c4d96c03f043ff01d2d1a8ec923fb6520953aed2e93
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒcbabfe7b968265f8c48f929175dd979f1adb0b050591291ed9426e10c85e3609
+≥   ≥       ≥   √ƒƒƒd263a12d61ecbbe0abb0e8af30814fc94808c4c8674479fab02d545dff96f7e1
+≥   ≥       ≥   √ƒƒƒdcafe7b4c3b1dd119e2840e2923481e9787edb3c613e438931d44b3fde5b8dd1
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒe0e2495360f4e94ec75835ceb7dd861bc7bc3723cd957e130405596c82b92def
+≥   ≥       ≥   √ƒƒƒe6adfd0ce829e6d1f98d92ba49909d373fcd9babf25299fca9f21f3924ba1407
+≥   ≥       ≥   ¿ƒƒƒe7111e4619b756f12ede8cd7e1882d809c920d3cd1e92800d26dc2843c1d7951
+≥   ≥       √ƒƒƒVolumetricFogShaderRD
+≥   ≥       ≥   √ƒƒƒ212858dee8b411c576ca1a8745c401347c3dbbf88f247ca2270e8ff0b1093507
+≥   ≥       ≥   √ƒƒƒ37c7e1dd67617aa03e3a6beb945ec96146ac1d1fcbc44d84705c39b8c74bce0c
+≥   ≥       ≥   √ƒƒƒ37d5a85d63465587de4d65fe8624123b742fbec2de5ee217d24a400c1d1c8087
+≥   ≥       ≥   √ƒƒƒ38b203b68cdc65e4c30672e9d7e49fed354e415f18b86a7b1e34ff2ebb3a95d0
+≥   ≥       ≥   √ƒƒƒ3e55031a37779b7d3026b7500d38886881a51f2bf77021cdbbbe9afb199c27de
+≥   ≥       ≥   √ƒƒƒ48422ca2db267dec13a7aa41ba356cdfc7cbfa667e28e02e98b968145e4cc2f5
+≥   ≥       ≥   ≥       9a227745af2d65830f930370a9fbba551fbd6f60.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ757251820332d10b11f8db2ad4fb78c2ab5b327b747dabc3a12824d51281115c
+≥   ≥       ≥   ≥       9a227745af2d65830f930370a9fbba551fbd6f60.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ7d2b9e765537654c60cdf5cff124b279223872c8b12e2a3620d80891a2bd31fe
+≥   ≥       ≥   √ƒƒƒ98adc80de8af184c1c906595dc32e59c8336c9e57624854a778398ac7b65a69e
+≥   ≥       ≥   √ƒƒƒcd13e32ed245f716549baa33205f90df569f0dee7cc4e2b9ae2aaba077053ee6
+≥   ≥       ≥   ≥       9a227745af2d65830f930370a9fbba551fbd6f60.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒe1000919e80553e4e1df0331263cb2a0e46aa40a7e49b0a36818de89941c5685
+≥   ≥       ≥   ¿ƒƒƒf2cfca4e669cf66da6a56749d1a711c08926cbc7651b5870c9cc1d17cb15b617
+≥   ≥       √ƒƒƒVoxelGiDebugShaderRD
+≥   ≥       ≥   √ƒƒƒ0c11e2b01ffc801b382d12556a315f70379dc7769e0f04b55f281d9dfafc10e6
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ30164a8664ea1d0b0caec729a89edc30b41521ceb006a0b39e12d5c0455a7a5b
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒ4e91a9ddbecad298ed67c31222afae9756053363f06befd837e376dd85b639aa
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       √ƒƒƒVoxelGiShaderRD
+≥   ≥       ≥   √ƒƒƒ020f6e5393138c6a26909fdf3f9bdebabe18dcd37d7444b7c8006364aa00c63e
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   √ƒƒƒ44b979a30a4cc4de0f731a25d26286e14abc01718fe9a838d597bd153538c665
+≥   ≥       ≥   ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥   ≥       
+≥   ≥       ≥   ¿ƒƒƒb12597d0afb0147a772f4ce6eab75f7a1d08b458e5ce7df8a01f34092bdb8984
+≥   ≥       ≥           087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥       ≥           
+≥   ≥       ¿ƒƒƒVrsShaderRD
+≥   ≥           √ƒƒƒ1b6806612839b886988be481f152b0ffed872402198373a972e8546cd1497e33
+≥   ≥           ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥           ≥       
+≥   ≥           √ƒƒƒ900dc530b25815516060f98919c8651e2b716465016e38bbda45a386b7edd921
+≥   ≥           ≥       087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥           ≥       
+≥   ≥           ¿ƒƒƒbec481e78ad773e300f2715286758cbb133fa51b9dbe03fcb6a21b29de9a1c2a
+≥   ≥                   087916079fba7c625e62b0c2cca570e0fb87c99a.d3d12.cache
+≥   ≥                   
+≥   √ƒƒƒassets
+≥   ≥   √ƒƒƒcharacters
+≥   ≥   ≥   √ƒƒƒenemies
+≥   ≥   ≥   ≥       Spider Sprite Sheet.png
+≥   ≥   ≥   ≥       Spider Sprite Sheet.png.import
+≥   ≥   ≥   ≥       tile_0024.png
+≥   ≥   ≥   ≥       tile_0024.png.import
+≥   ≥   ≥   ≥       tile_0025.png
+≥   ≥   ≥   ≥       tile_0025.png.import
+≥   ≥   ≥   ≥       tile_0026.png
+≥   ≥   ≥   ≥       tile_0026.png.import
+≥   ≥   ≥   ≥       
+≥   ≥   ≥   ¿ƒƒƒplayer
+≥   ≥   ≥           Death.png
+≥   ≥   ≥           Death.png.import
+≥   ≥   ≥           Idle.png
+≥   ≥   ≥           Idle.png.import
+≥   ≥   ≥           Pitfall.png
+≥   ≥   ≥           Pitfall.png.import
+≥   ≥   ≥           Pull Down.png
+≥   ≥   ≥           Pull Down.png.import
+≥   ≥   ≥           Pull Left.png
+≥   ≥   ≥           Pull Left.png.import
+≥   ≥   ≥           Pull Right.png
+≥   ≥   ≥           Pull Right.png.import
+≥   ≥   ≥           Pull Up.png
+≥   ≥   ≥           Pull Up.png.import
+≥   ≥   ≥           Slash Down.png
+≥   ≥   ≥           Slash Down.png.import
+≥   ≥   ≥           Slash Left.png
+≥   ≥   ≥           Slash Left.png.import
+≥   ≥   ≥           Slash Right.png
+≥   ≥   ≥           Slash Right.png.import
+≥   ≥   ≥           Slash Up.png
+≥   ≥   ≥           Slash Up.png.import
+≥   ≥   ≥           Sword Down.png
+≥   ≥   ≥           Sword Down.png.import
+≥   ≥   ≥           Sword Left.png
+≥   ≥   ≥           Sword Left.png.import
+≥   ≥   ≥           Sword Right.png
+≥   ≥   ≥           Sword Right.png.import
+≥   ≥   ≥           Sword Up.png
+≥   ≥   ≥           Sword Up.png.import
+≥   ≥   ≥           Walk Down.png
+≥   ≥   ≥           Walk Down.png.import
+≥   ≥   ≥           Walk Left.png
+≥   ≥   ≥           Walk Left.png.import
+≥   ≥   ≥           Walk Right.png
+≥   ≥   ≥           Walk Right.png.import
+≥   ≥   ≥           Walk Up.png
+≥   ≥   ≥           Walk Up.png.import
+≥   ≥   ≥           
+≥   ≥   √ƒƒƒTilemap
+≥   ≥   ≥       tilemap.png
+≥   ≥   ≥       tilemap.png.import
+≥   ≥   ≥       tilemap_packed.png
+≥   ≥   ≥       tilemap_packed.png.import
+≥   ≥   ≥       tilemap_packed2.png
+≥   ≥   ≥       tilemap_packed2.png.import
+≥   ≥   ≥       tilemap_packed3.png
+≥   ≥   ≥       tilemap_packed3.png.import
+≥   ≥   ≥       
+≥   ≥   √ƒƒƒTiles
+≥   ≥   ≥       tile_0000.png
+≥   ≥   ≥       tile_0000.png.import
+≥   ≥   ≥       tile_0001.png
+≥   ≥   ≥       tile_0001.png.import
+≥   ≥   ≥       tile_0002.png
+≥   ≥   ≥       tile_0002.png.import
+≥   ≥   ≥       tile_0003.png
+≥   ≥   ≥       tile_0003.png.import
+≥   ≥   ≥       tile_0004.png
+≥   ≥   ≥       tile_0004.png.import
+≥   ≥   ≥       tile_0005.png
+≥   ≥   ≥       tile_0005.png.import
+≥   ≥   ≥       tile_0006.png
+≥   ≥   ≥       tile_0006.png.import
+≥   ≥   ≥       tile_0007.png
+≥   ≥   ≥       tile_0007.png.import
+≥   ≥   ≥       tile_0008.png
+≥   ≥   ≥       tile_0008.png.import
+≥   ≥   ≥       tile_0009.png
+≥   ≥   ≥       tile_0009.png.import
+≥   ≥   ≥       tile_0010.png
+≥   ≥   ≥       tile_0010.png.import
+≥   ≥   ≥       tile_0011.png
+≥   ≥   ≥       tile_0011.png.import
+≥   ≥   ≥       tile_0012.png
+≥   ≥   ≥       tile_0012.png.import
+≥   ≥   ≥       tile_0013.png
+≥   ≥   ≥       tile_0013.png.import
+≥   ≥   ≥       tile_0014.png
+≥   ≥   ≥       tile_0014.png.import
+≥   ≥   ≥       tile_0015.png
+≥   ≥   ≥       tile_0015.png.import
+≥   ≥   ≥       tile_0016.png
+≥   ≥   ≥       tile_0016.png.import
+≥   ≥   ≥       tile_0017.png
+≥   ≥   ≥       tile_0017.png.import
+≥   ≥   ≥       tile_0018.png
+≥   ≥   ≥       tile_0018.png.import
+≥   ≥   ≥       tile_0019.png
+≥   ≥   ≥       tile_0019.png.import
+≥   ≥   ≥       tile_0020.png
+≥   ≥   ≥       tile_0020.png.import
+≥   ≥   ≥       tile_0021.png
+≥   ≥   ≥       tile_0021.png.import
+≥   ≥   ≥       tile_0022.png
+≥   ≥   ≥       tile_0022.png.import
+≥   ≥   ≥       tile_0023.png
+≥   ≥   ≥       tile_0023.png.import
+≥   ≥   ≥       tile_0024.png
+≥   ≥   ≥       tile_0024.png.import
+≥   ≥   ≥       tile_0025.png
+≥   ≥   ≥       tile_0025.png.import
+≥   ≥   ≥       tile_0026.png
+≥   ≥   ≥       tile_0026.png.import
+≥   ≥   ≥       tile_0027.png
+≥   ≥   ≥       tile_0027.png.import
+≥   ≥   ≥       tile_0028.png
+≥   ≥   ≥       tile_0028.png.import
+≥   ≥   ≥       tile_0029.png
+≥   ≥   ≥       tile_0029.png.import
+≥   ≥   ≥       tile_0030.png
+≥   ≥   ≥       tile_0030.png.import
+≥   ≥   ≥       tile_0031.png
+≥   ≥   ≥       tile_0031.png.import
+≥   ≥   ≥       tile_0032.png
+≥   ≥   ≥       tile_0032.png.import
+≥   ≥   ≥       tile_0033.png
+≥   ≥   ≥       tile_0033.png.import
+≥   ≥   ≥       tile_0034.png
+≥   ≥   ≥       tile_0034.png.import
+≥   ≥   ≥       tile_0035.png
+≥   ≥   ≥       tile_0035.png.import
+≥   ≥   ≥       tile_0036.png
+≥   ≥   ≥       tile_0036.png.import
+≥   ≥   ≥       tile_0037.png
+≥   ≥   ≥       tile_0037.png.import
+≥   ≥   ≥       tile_0038.png
+≥   ≥   ≥       tile_0038.png.import
+≥   ≥   ≥       tile_0039.png
+≥   ≥   ≥       tile_0039.png.import
+≥   ≥   ≥       tile_0040.png
+≥   ≥   ≥       tile_0040.png.import
+≥   ≥   ≥       tile_0041.png
+≥   ≥   ≥       tile_0041.png.import
+≥   ≥   ≥       tile_0042.png
+≥   ≥   ≥       tile_0042.png.import
+≥   ≥   ≥       tile_0043.png
+≥   ≥   ≥       tile_0043.png.import
+≥   ≥   ≥       tile_0044.png
+≥   ≥   ≥       tile_0044.png.import
+≥   ≥   ≥       tile_0045.png
+≥   ≥   ≥       tile_0045.png.import
+≥   ≥   ≥       tile_0046.png
+≥   ≥   ≥       tile_0046.png.import
+≥   ≥   ≥       tile_0047.png
+≥   ≥   ≥       tile_0047.png.import
+≥   ≥   ≥       tile_0048.png
+≥   ≥   ≥       tile_0048.png.import
+≥   ≥   ≥       tile_0049.png
+≥   ≥   ≥       tile_0049.png.import
+≥   ≥   ≥       tile_0050.png
+≥   ≥   ≥       tile_0050.png.import
+≥   ≥   ≥       tile_0051.png
+≥   ≥   ≥       tile_0051.png.import
+≥   ≥   ≥       tile_0052.png
+≥   ≥   ≥       tile_0052.png.import
+≥   ≥   ≥       tile_0053.png
+≥   ≥   ≥       tile_0053.png.import
+≥   ≥   ≥       tile_0054.png
+≥   ≥   ≥       tile_0054.png.import
+≥   ≥   ≥       tile_0055.png
+≥   ≥   ≥       tile_0055.png.import
+≥   ≥   ≥       tile_0056.png
+≥   ≥   ≥       tile_0056.png.import
+≥   ≥   ≥       tile_0057.png
+≥   ≥   ≥       tile_0057.png.import
+≥   ≥   ≥       tile_0058.png
+≥   ≥   ≥       tile_0058.png.import
+≥   ≥   ≥       tile_0059.png
+≥   ≥   ≥       tile_0059.png.import
+≥   ≥   ≥       tile_0060.png
+≥   ≥   ≥       tile_0060.png.import
+≥   ≥   ≥       tile_0061.png
+≥   ≥   ≥       tile_0061.png.import
+≥   ≥   ≥       tile_0062.png
+≥   ≥   ≥       tile_0062.png.import
+≥   ≥   ≥       tile_0063.png
+≥   ≥   ≥       tile_0063.png.import
+≥   ≥   ≥       tile_0064.png
+≥   ≥   ≥       tile_0064.png.import
+≥   ≥   ≥       tile_0065.png
+≥   ≥   ≥       tile_0065.png.import
+≥   ≥   ≥       tile_0066.png
+≥   ≥   ≥       tile_0066.png.import
+≥   ≥   ≥       tile_0067.png
+≥   ≥   ≥       tile_0067.png.import
+≥   ≥   ≥       tile_0068.png
+≥   ≥   ≥       tile_0068.png.import
+≥   ≥   ≥       tile_0069.png
+≥   ≥   ≥       tile_0069.png.import
+≥   ≥   ≥       tile_0070.png
+≥   ≥   ≥       tile_0070.png.import
+≥   ≥   ≥       tile_0071.png
+≥   ≥   ≥       tile_0071.png.import
+≥   ≥   ≥       tile_0072.png
+≥   ≥   ≥       tile_0072.png.import
+≥   ≥   ≥       tile_0073.png
+≥   ≥   ≥       tile_0073.png.import
+≥   ≥   ≥       tile_0074.png
+≥   ≥   ≥       tile_0074.png.import
+≥   ≥   ≥       tile_0075.png
+≥   ≥   ≥       tile_0075.png.import
+≥   ≥   ≥       tile_0076.png
+≥   ≥   ≥       tile_0076.png.import
+≥   ≥   ≥       tile_0077.png
+≥   ≥   ≥       tile_0077.png.import
+≥   ≥   ≥       tile_0078.png
+≥   ≥   ≥       tile_0078.png.import
+≥   ≥   ≥       tile_0079.png
+≥   ≥   ≥       tile_0079.png.import
+≥   ≥   ≥       tile_0080.png
+≥   ≥   ≥       tile_0080.png.import
+≥   ≥   ≥       tile_0081.png
+≥   ≥   ≥       tile_0081.png.import
+≥   ≥   ≥       tile_0082.png
+≥   ≥   ≥       tile_0082.png.import
+≥   ≥   ≥       tile_0083.png
+≥   ≥   ≥       tile_0083.png.import
+≥   ≥   ≥       tile_0084.png
+≥   ≥   ≥       tile_0084.png.import
+≥   ≥   ≥       tile_0085.png
+≥   ≥   ≥       tile_0085.png.import
+≥   ≥   ≥       tile_0086.png
+≥   ≥   ≥       tile_0086.png.import
+≥   ≥   ≥       tile_0087.png
+≥   ≥   ≥       tile_0087.png.import
+≥   ≥   ≥       tile_0088.png
+≥   ≥   ≥       tile_0088.png.import
+≥   ≥   ≥       tile_0089.png
+≥   ≥   ≥       tile_0089.png.import
+≥   ≥   ≥       tile_0090.png
+≥   ≥   ≥       tile_0090.png.import
+≥   ≥   ≥       tile_0091.png
+≥   ≥   ≥       tile_0091.png.import
+≥   ≥   ≥       tile_0092.png
+≥   ≥   ≥       tile_0092.png.import
+≥   ≥   ≥       tile_0093.png
+≥   ≥   ≥       tile_0093.png.import
+≥   ≥   ≥       tile_0094.png
+≥   ≥   ≥       tile_0094.png.import
+≥   ≥   ≥       tile_0095.png
+≥   ≥   ≥       tile_0095.png.import
+≥   ≥   ≥       tile_0096.png
+≥   ≥   ≥       tile_0096.png.import
+≥   ≥   ≥       tile_0097.png
+≥   ≥   ≥       tile_0097.png.import
+≥   ≥   ≥       tile_0098.png
+≥   ≥   ≥       tile_0098.png.import
+≥   ≥   ≥       tile_0099.png
+≥   ≥   ≥       tile_0099.png.import
+≥   ≥   ≥       tile_0100.png
+≥   ≥   ≥       tile_0100.png.import
+≥   ≥   ≥       tile_0101.png
+≥   ≥   ≥       tile_0101.png.import
+≥   ≥   ≥       tile_0102.png
+≥   ≥   ≥       tile_0102.png.import
+≥   ≥   ≥       tile_0103.png
+≥   ≥   ≥       tile_0103.png.import
+≥   ≥   ≥       tile_0104.png
+≥   ≥   ≥       tile_0104.png.import
+≥   ≥   ≥       tile_0105.png
+≥   ≥   ≥       tile_0105.png.import
+≥   ≥   ≥       tile_0106.png
+≥   ≥   ≥       tile_0106.png.import
+≥   ≥   ≥       tile_0107.png
+≥   ≥   ≥       tile_0107.png.import
+≥   ≥   ≥       tile_0108.png
+≥   ≥   ≥       tile_0108.png.import
+≥   ≥   ≥       tile_0109.png
+≥   ≥   ≥       tile_0109.png.import
+≥   ≥   ≥       tile_0110.png
+≥   ≥   ≥       tile_0110.png.import
+≥   ≥   ≥       tile_0111.png
+≥   ≥   ≥       tile_0111.png.import
+≥   ≥   ≥       tile_0112.png
+≥   ≥   ≥       tile_0112.png.import
+≥   ≥   ≥       tile_0113.png
+≥   ≥   ≥       tile_0113.png.import
+≥   ≥   ≥       tile_0114.png
+≥   ≥   ≥       tile_0114.png.import
+≥   ≥   ≥       tile_0115.png
+≥   ≥   ≥       tile_0115.png.import
+≥   ≥   ≥       tile_0116.png
+≥   ≥   ≥       tile_0116.png.import
+≥   ≥   ≥       tile_0117.png
+≥   ≥   ≥       tile_0117.png.import
+≥   ≥   ≥       tile_0118.png
+≥   ≥   ≥       tile_0118.png.import
+≥   ≥   ≥       tile_0119.png
+≥   ≥   ≥       tile_0119.png.import
+≥   ≥   ≥       tile_0120.png
+≥   ≥   ≥       tile_0120.png.import
+≥   ≥   ≥       tile_0121.png
+≥   ≥   ≥       tile_0121.png.import
+≥   ≥   ≥       tile_0122.png
+≥   ≥   ≥       tile_0122.png.import
+≥   ≥   ≥       tile_0123.png
+≥   ≥   ≥       tile_0123.png.import
+≥   ≥   ≥       tile_0124.png
+≥   ≥   ≥       tile_0124.png.import
+≥   ≥   ≥       tile_0125.png
+≥   ≥   ≥       tile_0125.png.import
+≥   ≥   ≥       tile_0126.png
+≥   ≥   ≥       tile_0126.png.import
+≥   ≥   ≥       tile_0127.png
+≥   ≥   ≥       tile_0127.png.import
+≥   ≥   ≥       tile_0128.png
+≥   ≥   ≥       tile_0128.png.import
+≥   ≥   ≥       tile_0129.png
+≥   ≥   ≥       tile_0129.png.import
+≥   ≥   ≥       tile_0130.png
+≥   ≥   ≥       tile_0130.png.import
+≥   ≥   ≥       tile_0131.png
+≥   ≥   ≥       tile_0131.png.import
+≥   ≥   ≥       
+≥   ≥   ¿ƒƒƒuser_interface
+≥   ≥           gpt-image-2_Game_logo_for_Layout_Architect_pixel_art_style_dungeon_crawler_rogue-like_aesthe-0.png
+≥   ≥           gpt-image-2_Game_logo_for_Layout_Architect_pixel_art_style_dungeon_crawler_rogue-like_aesthe-0.png.import
+≥   ≥           hearts.png
+≥   ≥           hearts.png.import
+≥   ≥           
+≥   √ƒƒƒfonts
+≥   ≥       COPYRIGHT.txt
+≥   ≥       LCD40x2Display-Regular.otf
+≥   ≥       LCD40x2Display-Regular.otf.import
+≥   ≥       LICENSE.txt
+≥   ≥       
+≥   √ƒƒƒscenes
+≥   ≥   √ƒƒƒenemies
+≥   ≥   ≥       enemy_1.tscn
+≥   ≥   ≥       
+≥   ≥   √ƒƒƒlevels
+≥   ≥   ≥       main_level.tscn
+≥   ≥   ≥       test.tscn
+≥   ≥   ≥       
+≥   ≥   √ƒƒƒmain
+≥   ≥   ≥       main.tscn
+≥   ≥   ≥       
+≥   ≥   √ƒƒƒpickups
+≥   ≥   ≥       pickcable_heart.tscn
+≥   ≥   ≥       
+≥   ≥   √ƒƒƒplayer
+≥   ≥   ≥       player.tscn
+≥   ≥   ≥       
+≥   ≥   √ƒƒƒui
+≥   ≥   ≥       game.tscn
+≥   ≥   ≥       MainMenu.tscn
+≥   ≥   ≥       main_menu.tscn
+≥   ≥   ≥       settings_menu.gd
+≥   ≥   ≥       settings_menu.gd.uid
+≥   ≥   ≥       settings_menu.tscn
+≥   ≥   ≥       settings_menu.tscn4060292938.tmp
+≥   ≥   ≥       
+≥   ≥   ¿ƒƒƒweapon
+≥   ≥           sword.tscn
+≥   ≥           
+≥   ¿ƒƒƒscripts
+≥       ≥   level_manager.gd
+≥       ≥   level_manager.gd.uid
+≥       ≥   
+≥       √ƒƒƒenemies
+≥       ≥       enemy_1.gd
+≥       ≥       enemy_1.gd.uid
+≥       ≥       
+≥       √ƒƒƒgenerators
+≥       ≥       bsp_generator.gd
+≥       ≥       bsp_generator.gd.uid
+≥       ≥       cellular_generator.gd
+≥       ≥       cellular_generator.gd.uid
+≥       ≥       generator_base.gd
+≥       ≥       generator_base.gd.uid
+≥       ≥       hybrid_generator.gd
+≥       ≥       hybrid_generator.gd.uid
+≥       ≥       
+≥       √ƒƒƒlevels
+≥       ≥       tile_map_layer.gd
+≥       ≥       tile_map_layer.gd.uid
+≥       ≥       
+≥       √ƒƒƒpickups
+≥       ≥       pickcable_heart.gd
+≥       ≥       pickcable_heart.gd.uid
+≥       ≥       
+≥       √ƒƒƒplayer
+≥       ≥       player.gd
+≥       ≥       player.gd.uid
+≥       ≥       
+≥       √ƒƒƒui
+≥       ≥       logo_anim.gd
+≥       ≥       logo_anim.gd.uid
+≥       ≥       main_menu.gd
+≥       ≥       main_menu.gd.uid
+≥       ≥       
+≥       ¿ƒƒƒweapon
+≥               sword.gd
+≥               sword.gd.uid
+≥               
+¿ƒƒƒÑ®Ø´Æ¨
+        Äíá.docx
+        Äíá.pdf
+        Çäê Æ°‡†ß•Ê.docx
+        Ñ®Ø´Æ¨.docx
+        á†§†≠®• °†™†´†¢‡·™„Ó ‡†°Æ‚„.doc
+        

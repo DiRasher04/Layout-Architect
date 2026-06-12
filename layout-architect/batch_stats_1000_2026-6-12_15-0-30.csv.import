@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dvga65lv0yneg"
+valid=false
+
+[deps]
+
+source_file="res://batch_stats_1000_2026-6-12_15-0-30.csv"
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

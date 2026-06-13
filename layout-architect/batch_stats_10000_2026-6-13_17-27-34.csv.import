@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://uq4tq7angwe8"
+
+[deps]
+
+files=["res://batch_stats_10000_2026-6-13_17-27-34.timestamp.translation", "res://batch_stats_10000_2026-6-13_17-27-34.algorithm.translation", "res://batch_stats_10000_2026-6-13_17-27-34.width.translation", "res://batch_stats_10000_2026-6-13_17-27-34.height.translation", "res://batch_stats_10000_2026-6-13_17-27-34.wall.translation", "res://batch_stats_10000_2026-6-13_17-27-34.total.translation", "res://batch_stats_10000_2026-6-13_17-27-34.floor.translation", "res://batch_stats_10000_2026-6-13_17-27-34.wall.translation", "res://batch_stats_10000_2026-6-13_17-27-34.rooms.translation", "res://batch_stats_10000_2026-6-13_17-27-34.enemies.translation", "res://batch_stats_10000_2026-6-13_17-27-34.hearts.translation", "res://batch_stats_10000_2026-6-13_17-27-34.generation.translation"]
+
+source_file="res://batch_stats_10000_2026-6-13_17-27-34.csv"
+dest_files=["res://batch_stats_10000_2026-6-13_17-27-34.timestamp.translation", "res://batch_stats_10000_2026-6-13_17-27-34.algorithm.translation", "res://batch_stats_10000_2026-6-13_17-27-34.width.translation", "res://batch_stats_10000_2026-6-13_17-27-34.height.translation", "res://batch_stats_10000_2026-6-13_17-27-34.wall.translation", "res://batch_stats_10000_2026-6-13_17-27-34.total.translation", "res://batch_stats_10000_2026-6-13_17-27-34.floor.translation", "res://batch_stats_10000_2026-6-13_17-27-34.wall.translation", "res://batch_stats_10000_2026-6-13_17-27-34.rooms.translation", "res://batch_stats_10000_2026-6-13_17-27-34.enemies.translation", "res://batch_stats_10000_2026-6-13_17-27-34.hearts.translation", "res://batch_stats_10000_2026-6-13_17-27-34.generation.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://c6hk6aneqsv7j"
+
+[deps]
+
+source_file="res://batch_stats_100_2026-6-13_11-1-18.csv"
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

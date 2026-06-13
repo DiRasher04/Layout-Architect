@@ -3,7 +3,7 @@ class_name HybridGenerator
 
 @export var min_room_size: int = 10  # ← минимум 3×3!
 @export var max_room_size: int = 15
-@export var cellular_noise: float = 0.3
+@export var cellular_noise: float = 0.5
 
 var bsp = BSPGenerator.new()
 var cellular = CellularGenerator.new()

@@ -41,7 +41,7 @@ func _load_algorithm_from_global():
 		generator_type = "bsp"
 		return
 	
-	var alg_index = Global.selected_algorithm
+	var alg_index = Global.selected_algorithm if "selected_algorithm" in Global else 0
 	match alg_index:
 		0:
 			generator_type = "bsp"
@@ -67,6 +67,11 @@ func _update_algorithm_display() -> void:
 			algorithm_label.text = "ТЕКУЩИЙ АЛГОРИТМ: HYBRID"
 			algorithm_label.modulate = Color(0.5, 1, 0.5)
 
+func _get_global_param(param_name: String, default_value):
+	if Global and param_name in Global:
+		return Global.get(param_name)
+	return default_value
+
 func _generate_level():
 	if not tile_map_layer:
 		push_error("TileMapLayer не назначен!")
@@ -77,10 +82,24 @@ func _generate_level():
 	match generator_type.to_lower():
 		"cellular":
 			generator = CellularGenerator.new()
+			generator.fill_probability = _get_global_param("cellular_fill_probability", 0.45)
+			generator.iterations = _get_global_param("cellular_iterations", 4)
+			generator.birth_limit = _get_global_param("cellular_birth_limit", 4)
+			generator.death_limit = _get_global_param("cellular_death_limit", 4)
 		"bsp":
 			generator = BSPGenerator.new()
+			generator.min_room_size = _get_global_param("bsp_min_room_size", 10)
+			generator.max_room_size = _get_global_param("bsp_max_room_size", 20)
+			generator.max_split_iterations = _get_global_param("bsp_max_split_iterations", 10)
+			generator.corridor_thickness = _get_global_param("bsp_corridor_thickness", 3)
+			generator.corridor_variation = _get_global_param("bsp_corridor_variation", 8)
+			generator.corridor_jitter = _get_global_param("bsp_corridor_jitter", 0.7)
+			generator.add_mid_points = _get_global_param("bsp_add_mid_points", true)
 		"hybrid":
 			generator = HybridGenerator.new()
+			generator.min_room_size = _get_global_param("hybrid_min_room_size", 10)
+			generator.max_room_size = _get_global_param("hybrid_max_room_size", 15)
+			generator.cellular_noise = _get_global_param("hybrid_cellular_noise", 0.5)
 		_:
 			generator = CellularGenerator.new()
 	

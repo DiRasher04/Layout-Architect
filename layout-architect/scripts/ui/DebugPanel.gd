@@ -34,6 +34,7 @@ func _update_data():
 		time_value.text = "Ошибка"
 		return
 	
+	# 1. Алгоритм
 	var alg_name = ""
 	match level_manager.generator_type:
 		"bsp":
@@ -46,6 +47,7 @@ func _update_data():
 			alg_name = level_manager.generator_type
 	algorithm_value.text = alg_name
 	
+	# 2. Метрики уровня
 	var metrics = ""
 	metrics += "Ширина карты: " + str(level_manager.width) + "\n"
 	metrics += "Высота карты: " + str(level_manager.height) + "\n"
@@ -58,35 +60,38 @@ func _update_data():
 	metrics += "Сердечек: " + str(level_manager.spawned_hearts.size())
 	metrics_value.text = metrics
 	
+	# 3. Параметры генерации - читаем из level_manager.generator
 	var generation = ""
 	if level_manager.generator:
-		match level_manager.generator_type:
+		match level_manager.generator_type.to_lower():
 			"bsp":
-				if level_manager.generator.has_method("get_parameters"):
-					generation = level_manager.generator.get_parameters()
-				else:
-					generation = "min_room_size: " + str(level_manager.generator.min_room_size) + "\n"
-					generation += "max_room_size: " + str(level_manager.generator.max_room_size) + "\n"
-					generation += "max_split_iterations: " + str(level_manager.generator.max_split_iterations) + "\n"
-					generation += "corridor_thickness: " + str(level_manager.generator.corridor_thickness) + "\n"
-					generation += "corridor_jitter: " + str(level_manager.generator.corridor_jitter)
+				var gen = level_manager.generator
+				generation = "min_room_size: " + str(gen.min_room_size) + "\n"
+				generation += "max_room_size: " + str(gen.max_room_size) + "\n"
+				generation += "max_split_iterations: " + str(gen.max_split_iterations) + "\n"
+				generation += "corridor_thickness: " + str(gen.corridor_thickness) + "\n"
+				generation += "corridor_variation: " + str(gen.corridor_variation) + "\n"
+				generation += "corridor_jitter: " + str(gen.corridor_jitter) + "\n"
+				generation += "add_mid_points: " + ("Да" if gen.add_mid_points else "Нет")
 			"cellular":
-				if level_manager.generator.has_method("get_parameters"):
-					generation = level_manager.generator.get_parameters()
-				else:
-					generation = "fill_probability: " + str(level_manager.generator.fill_probability) + "\n"
-					generation += "iterations: " + str(level_manager.generator.iterations) + "\n"
-					generation += "birth_limit: " + str(level_manager.generator.birth_limit) + "\n"
-					generation += "death_limit: " + str(level_manager.generator.death_limit)
+				var gen = level_manager.generator
+				generation = "fill_probability: " + str(gen.fill_probability * 100) + "%\n"
+				generation += "iterations: " + str(gen.iterations) + "\n"
+				generation += "birth_limit: " + str(gen.birth_limit) + "\n"
+				generation += "death_limit: " + str(gen.death_limit)
 			"hybrid":
-				if level_manager.generator.has_method("get_parameters"):
-					generation = level_manager.generator.get_parameters()
-				else:
-					generation = "min_room_size: " + str(level_manager.generator.min_room_size) + "\n"
-					generation += "max_room_size: " + str(level_manager.generator.max_room_size) + "\n"
-					generation += "cellular_noise: " + str(level_manager.generator.cellular_noise)
+				var gen = level_manager.generator
+				generation = "min_room_size: " + str(gen.min_room_size) + "\n"
+				generation += "max_room_size: " + str(gen.max_room_size) + "\n"
+				generation += "cellular_noise: " + str(gen.cellular_noise)
+			_:
+				generation = "Неизвестный алгоритм"
+	else:
+		generation = "Генератор не инициализирован"
+	
 	generation_value.text = generation
 	
+	# 4. Время
 	var time_str = "Текущее время: " + _get_current_time() + "\n"
 	if "last_generation_time" in level_manager:
 		time_str += "Время генерации: " + str(level_manager.last_generation_time) + " мс"
@@ -188,7 +193,7 @@ func _on_export_pressed():
 		print("Ошибка: LevelManager не найден")
 		return
 	
-	var count = generation_count_spinbox.value
+	var count = int(generation_count_spinbox.value)
 	if count <= 1:
 		_export_single_to_csv()
 	else:

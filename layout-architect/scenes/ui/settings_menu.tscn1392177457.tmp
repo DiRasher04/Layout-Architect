@@ -198,207 +198,127 @@ offset_top = 369.0
 offset_right = 136.0
 offset_bottom = 396.0
 
-[node name="CellularAutomata" type="ScrollContainer" parent="TabContainer" unique_id=691231383]
+[node name="CellurarAutomata" type="ScrollContainer" parent="TabContainer" unique_id=691231383]
 layout_mode = 2
 metadata/_tab_index = 1
 
-[node name="Panel" type="Panel" parent="TabContainer/CellularAutomata" unique_id=853764082]
+[node name="Panel" type="Panel" parent="TabContainer/CellurarAutomata" unique_id=853764082]
 layout_mode = 2
 
-[node name="fill_probability_label" type="Label" parent="TabContainer/CellularAutomata/Panel" unique_id=1979157785]
+[node name="cellular_fill_probability_label" type="Label" parent="TabContainer/CellurarAutomata/Panel" unique_id=1132687682]
 layout_mode = 0
-offset_left = 8.0
-offset_top = 8.0
-offset_right = 508.0
-offset_bottom = 35.0
+offset_left = 9.0
+offset_top = 10.0
+offset_right = 490.0
+offset_bottom = 37.0
 text = "Начальная плотность стен:"
 
-[node name="fill_probability_slider" type="HSlider" parent="TabContainer/CellularAutomata/Panel" unique_id=883649695]
+[node name="cellular_fill_probability_slider" type="HSlider" parent="TabContainer/CellurarAutomata/Panel" unique_id=1006068466]
 layout_mode = 0
-offset_left = 8.0
+offset_left = 9.0
 offset_top = 45.0
-offset_right = 332.0
+offset_right = 316.0
 offset_bottom = 61.0
-min_value = 3.0
+min_value = 0.1
+max_value = 1.0
+step = 0.05
+value = 0.1
+tick_count = 10
+ticks_on_borders = true
+ticks_position = 3
+
+[node name="cellular_fill_probability_value" type="Label" parent="TabContainer/CellurarAutomata/Panel" unique_id=1700033254]
+layout_mode = 0
+offset_left = 324.0
+offset_top = 38.0
+offset_right = 356.0
+offset_bottom = 65.0
+
+[node name="cellular_iterations_label" type="Label" parent="TabContainer/CellurarAutomata/Panel" unique_id=175043233]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 73.0
+offset_right = 317.0
+offset_bottom = 100.0
+text = "Кол-во итераций:"
+
+[node name="cellular_iterations_slider" type="HSlider" parent="TabContainer/CellurarAutomata/Panel" unique_id=1927875355]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 110.0
+offset_right = 316.0
+offset_bottom = 137.0
 max_value = 15.0
-value = 3.0
+value = 5.0
 tick_count = 15
 ticks_on_borders = true
 ticks_position = 3
 
-[node name="fill_probability_value" type="Label" parent="TabContainer/CellularAutomata/Panel" unique_id=315889161]
+[node name="cellular_iterations_value" type="Label" parent="TabContainer/CellurarAutomata/Panel" unique_id=638018681]
 layout_mode = 0
-offset_left = 332.0
-offset_top = 45.0
-offset_right = 372.0
-offset_bottom = 72.0
+offset_left = 324.0
+offset_top = 110.0
+offset_right = 363.0
+offset_bottom = 137.0
 
-[node name="iterations_label" type="Label" parent="TabContainer/CellularAutomata/Panel" unique_id=6127586]
+[node name="cellular_birth_limit_label" type="Label" parent="TabContainer/CellurarAutomata/Panel" unique_id=304739637]
 layout_mode = 0
-offset_left = 8.0
-offset_top = 76.0
-offset_right = 508.0
-offset_bottom = 103.0
-text = "Количество итераций:"
-
-[node name="iterations_slider" type="HSlider" parent="TabContainer/CellularAutomata/Panel" unique_id=1312195139]
-layout_mode = 0
-offset_left = 8.0
-offset_top = 127.0
-offset_right = 332.0
-offset_bottom = 143.0
-max_value = 15.0
-value = 3.0
-tick_count = 15
-ticks_on_borders = true
-ticks_position = 3
-
-[node name="iterations_value" type="Label" parent="TabContainer/CellularAutomata/Panel" unique_id=1379891086]
-layout_mode = 0
-offset_left = 348.0
-offset_top = 126.0
-offset_right = 388.0
-offset_bottom = 153.0
-
-[node name="birth_limit_label" type="Label" parent="TabContainer/CellularAutomata/Panel" unique_id=632654810]
-layout_mode = 0
-offset_left = 8.0
-offset_top = 161.0
-offset_right = 508.0
-offset_bottom = 188.0
+offset_left = 9.0
+offset_top = 141.0
+offset_right = 413.0
+offset_bottom = 168.0
 text = "Порог рождения стены:"
 
-[node name="birth_limit_slider" type="HSlider" parent="TabContainer/CellularAutomata/Panel" unique_id=898819361]
+[node name="cellular_birth_limit_slider" type="HSlider" parent="TabContainer/CellurarAutomata/Panel" unique_id=1419667598]
 layout_mode = 0
-offset_left = 8.0
-offset_top = 211.0
-offset_right = 332.0
-offset_bottom = 227.0
+offset_left = 9.0
+offset_top = 192.0
+offset_right = 309.0
+offset_bottom = 208.0
 max_value = 8.0
-value = 3.0
+value = 4.0
 tick_count = 8
 ticks_on_borders = true
 ticks_position = 3
 
-[node name="birth_limit_value" type="Label" parent="TabContainer/CellularAutomata/Panel" unique_id=1134163051]
+[node name="cellular_birth_limit_value" type="Label" parent="TabContainer/CellurarAutomata/Panel" unique_id=1049112437]
 layout_mode = 0
-offset_left = 348.0
-offset_top = 211.0
-offset_right = 388.0
-offset_bottom = 238.0
+offset_left = 324.0
+offset_top = 192.0
+offset_right = 362.0
+offset_bottom = 219.0
 
-[node name="death_limit_label" type="Label" parent="TabContainer/CellularAutomata/Panel" unique_id=932828480]
+[node name="cellular_death_limit_label" type="Label" parent="TabContainer/CellurarAutomata/Panel" unique_id=911475451]
 layout_mode = 0
-offset_top = 259.0
-offset_right = 500.0
-offset_bottom = 286.0
+offset_left = 9.0
+offset_top = 219.0
+offset_right = 374.0
+offset_bottom = 246.0
 text = "Порог смерти стены:"
 
-[node name="death_limit_slider" type="HSlider" parent="TabContainer/CellularAutomata/Panel" unique_id=1197311906]
+[node name="cellular_death_limit_slider" type="HSlider" parent="TabContainer/CellurarAutomata/Panel" unique_id=794533397]
 layout_mode = 0
-offset_left = 8.0
-offset_top = 300.0
-offset_right = 332.0
-offset_bottom = 316.0
+offset_left = 9.0
+offset_top = 262.0
+offset_right = 308.0
+offset_bottom = 278.0
 max_value = 8.0
-value = 3.0
+value = 4.0
 tick_count = 8
 ticks_on_borders = true
 ticks_position = 3
 
-[node name="death_limit_value" type="Label" parent="TabContainer/CellularAutomata/Panel" unique_id=444063363]
+[node name="cellular_death_limit_value" type="Label" parent="TabContainer/CellurarAutomata/Panel" unique_id=1701990103]
 layout_mode = 0
-offset_left = 348.0
-offset_top = 300.0
-offset_right = 388.0
-offset_bottom = 327.0
+offset_left = 324.0
+offset_top = 259.0
+offset_right = 361.0
+offset_bottom = 286.0
 
 [node name="Hybrid" type="ScrollContainer" parent="TabContainer" unique_id=1176383076]
 visible = false
 layout_mode = 2
 metadata/_tab_index = 2
-
-[node name="Panel" type="Panel" parent="TabContainer/Hybrid" unique_id=1583157131]
-layout_mode = 2
-
-[node name="min_room_size_label" type="Label" parent="TabContainer/Hybrid/Panel" unique_id=1245588267]
-layout_mode = 0
-offset_left = 8.0
-offset_top = 8.0
-offset_right = 508.0
-offset_bottom = 35.0
-text = "Мин. размер комнаты:"
-
-[node name="min_room_size_slider" type="HSlider" parent="TabContainer/Hybrid/Panel" unique_id=944033332]
-layout_mode = 0
-offset_left = 8.0
-offset_top = 45.0
-offset_right = 332.0
-offset_bottom = 61.0
-min_value = 3.0
-max_value = 15.0
-value = 3.0
-tick_count = 15
-ticks_on_borders = true
-ticks_position = 3
-
-[node name="min_room_size_value" type="Label" parent="TabContainer/Hybrid/Panel" unique_id=1307793286]
-layout_mode = 0
-offset_left = 332.0
-offset_top = 45.0
-offset_right = 372.0
-offset_bottom = 72.0
-
-[node name="max_room_size_label" type="Label" parent="TabContainer/Hybrid/Panel" unique_id=339390893]
-layout_mode = 0
-offset_left = 8.0
-offset_top = 73.0
-offset_right = 412.0
-offset_bottom = 100.0
-text = "Макс. размер комнаты:"
-
-[node name="max_room_size_slider" type="HSlider" parent="TabContainer/Hybrid/Panel" unique_id=1145878943]
-layout_mode = 0
-offset_left = 8.0
-offset_top = 111.0
-offset_right = 332.0
-offset_bottom = 127.0
-min_value = 15.0
-max_value = 30.0
-value = 15.0
-tick_count = 15
-ticks_on_borders = true
-ticks_position = 3
-
-[node name="max_room_size_value" type="Label" parent="TabContainer/Hybrid/Panel" unique_id=1613449243]
-layout_mode = 0
-offset_left = 332.0
-offset_top = 111.0
-offset_right = 372.0
-offset_bottom = 138.0
-
-[node name="cellular_noise_label" type="Label" parent="TabContainer/Hybrid/Panel" unique_id=1081944783]
-layout_mode = 0
-offset_left = 8.0
-offset_top = 139.0
-offset_right = 604.0
-offset_bottom = 166.0
-text = "Глубина разбиения пространства:"
-
-[node name="cellular_noise_slider" type="HSlider" parent="TabContainer/Hybrid/Panel" unique_id=722293671]
-layout_mode = 0
-offset_left = 8.0
-offset_top = 176.0
-offset_right = 332.0
-offset_bottom = 196.0
-tick_count = 12
-
-[node name="cellular_noise_value" type="Label" parent="TabContainer/Hybrid/Panel" unique_id=1523106647]
-layout_mode = 0
-offset_left = 332.0
-offset_top = 176.0
-offset_right = 369.0
-offset_bottom = 203.0
 
 [node name="SaveButton" type="Button" parent="." unique_id=1851588784]
 layout_mode = 0

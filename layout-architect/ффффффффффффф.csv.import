@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bpj4q4y607d3v"
+
+[deps]
+
+files=["res://ффффффффффффф.timestamp.translation", "res://ффффффффффффф.algorithm.translation", "res://ффффффффффффф.width.translation", "res://ффффффффффффф.height.translation", "res://ффффффффффффф.wall.translation", "res://ффффффффффффф.total.translation", "res://ффффффффффффф.floor.translation", "res://ффффффффффффф.wall.translation", "res://ффффффффффффф.rooms.translation", "res://ффффффффффффф.enemies.translation", "res://ффффффффффффф.hearts.translation", "res://ффффффффффффф.generation.translation"]
+
+source_file="res://ффффффффффффф.csv"
+dest_files=["res://ффффффффффффф.timestamp.translation", "res://ффффффффффффф.algorithm.translation", "res://ффффффффффффф.width.translation", "res://ффффффффффффф.height.translation", "res://ффффффффффффф.wall.translation", "res://ффффффффффффф.total.translation", "res://ффффффффффффф.floor.translation", "res://ффффффффффффф.wall.translation", "res://ффффффффффффф.rooms.translation", "res://ффффффффффффф.enemies.translation", "res://ффффффффффффф.hearts.translation", "res://ффффффффффффф.generation.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

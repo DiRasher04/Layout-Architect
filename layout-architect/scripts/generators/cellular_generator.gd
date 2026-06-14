@@ -8,6 +8,14 @@ class_name CellularGenerator
 
 func generate() -> Array:
 	# 1. Инициализация случайной карты
+	print("========== CELLULAR GENERATOR ==========")
+	print("  fill_probability = ", fill_probability)
+	print("  iterations = ", iterations)
+	print("  birth_limit = ", birth_limit)
+	print("  death_limit = ", death_limit)
+	print("  width = ", width)
+	print("  height = ", height)
+	print("========================================")
 	var wall_map: Array[Array] = []
 	for x in range(width):
 		wall_map.append([])

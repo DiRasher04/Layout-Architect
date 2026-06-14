@@ -3,6 +3,11 @@ extends Node
 # Выбранный алгоритм (0=BSP, 1=Cellular, 2=Hybrid)
 var selected_algorithm: int = 0
 
+# Общие параметры карты
+var map_width: int = 60
+var map_height: int = 60
+var wall_thickness: int = 4
+
 # BSP параметры
 var bsp_min_room_size: int = 10
 var bsp_max_room_size: int = 20

@@ -62,10 +62,10 @@ offset_bottom = 294.0
 
 [node name="generation_title" type="Label" parent="Panel" unique_id=566125290]
 layout_mode = 0
-offset_left = 759.0
-offset_top = 66.0
-offset_right = 1144.0
-offset_bottom = 93.0
+offset_left = 661.0
+offset_top = 62.0
+offset_right = 1046.0
+offset_bottom = 89.0
 text = "Параметры генерации:"
 
 [node name="generation_value" type="Label" parent="Panel" unique_id=1758169192]

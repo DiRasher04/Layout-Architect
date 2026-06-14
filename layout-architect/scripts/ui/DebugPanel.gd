@@ -1,6 +1,5 @@
 extends CanvasLayer
 
-# Ссылки на узлы
 @onready var panel = $Panel
 @onready var algorithm_value = $Panel/algorithm_value
 @onready var metrics_value = $Panel/metrics_value
@@ -26,6 +25,17 @@ func _input(event: InputEvent):
 
 func _update_data():
 	_find_level_manager()
+	print("========== ОТЛАДКА DEBUG PANEL ==========")
+	print("level_manager найден: ", level_manager)
+	if level_manager:
+		print("level_manager.current_width = ", level_manager.current_width)
+		print("level_manager.current_height = ", level_manager.current_height)
+		print("level_manager.current_wall_thickness = ", level_manager.current_wall_thickness)
+		print("level_manager.spawned_enemies.size() = ", level_manager.spawned_enemies.size())
+		print("level_manager.spawned_hearts.size() = ", level_manager.spawned_hearts.size())
+		print("level_manager.last_generation_time = ", level_manager.last_generation_time)
+		print("level_manager.tile_map_layer = ", level_manager.tile_map_layer)
+	print("=========================================")
 	
 	if not level_manager:
 		algorithm_value.text = "LevelManager не найден"
@@ -47,12 +57,12 @@ func _update_data():
 			alg_name = level_manager.generator_type
 	algorithm_value.text = alg_name
 	
-	# 2. Метрики уровня
+	# 2. Метрики уровня (используем current_width и current_height)
 	var metrics = ""
-	metrics += "Ширина карты: " + str(level_manager.width) + "\n"
-	metrics += "Высота карты: " + str(level_manager.height) + "\n"
-	metrics += "Толщина стен: " + str(level_manager.wall_thickness) + "\n"
-	metrics += "Всего клеток: " + str(level_manager.width * level_manager.height) + "\n"
+	metrics += "Ширина карты: " + str(level_manager.current_width) + "\n"
+	metrics += "Высота карты: " + str(level_manager.current_height) + "\n"
+	metrics += "Толщина стен: " + str(level_manager.current_wall_thickness) + "\n"
+	metrics += "Всего клеток: " + str(level_manager.current_width * level_manager.current_height) + "\n"
 	metrics += "Клеток пола: " + str(_count_floor_tiles()) + "\n"
 	metrics += "Клеток стен: " + str(_count_wall_tiles()) + "\n"
 	metrics += "Количество комнат: " + str(_count_rooms()) + "\n"
@@ -60,10 +70,10 @@ func _update_data():
 	metrics += "Сердечек: " + str(level_manager.spawned_hearts.size())
 	metrics_value.text = metrics
 	
-	# 3. Параметры генерации - читаем из level_manager.generator
+	# 3. Параметры генерации (из active generator)
 	var generation = ""
 	if level_manager.generator:
-		match level_manager.generator_type.to_lower():
+		match level_manager.generator_type:
 			"bsp":
 				var gen = level_manager.generator
 				generation = "min_room_size: " + str(gen.min_room_size) + "\n"
@@ -93,10 +103,7 @@ func _update_data():
 	
 	# 4. Время
 	var time_str = "Текущее время: " + _get_current_time() + "\n"
-	if "last_generation_time" in level_manager:
-		time_str += "Время генерации: " + str(level_manager.last_generation_time) + " мс"
-	else:
-		time_str += "Время генерации: не замерено"
+	time_str += "Время генерации: " + str(level_manager.last_generation_time) + " мс"
 	time_value.text = time_str
 
 func _find_level_manager():
@@ -115,8 +122,8 @@ func _count_floor_tiles() -> int:
 		return 0
 	
 	var count = 0
-	for x in range(level_manager.width):
-		for y in range(level_manager.height):
+	for x in range(level_manager.current_width):
+		for y in range(level_manager.current_height):
 			var cell = Vector2i(x, y)
 			var tile_data = level_manager.tile_map_layer.get_cell_tile_data(cell)
 			if tile_data and tile_data.terrain_set == 0 and tile_data.terrain == 0:
@@ -128,8 +135,8 @@ func _count_wall_tiles() -> int:
 		return 0
 	
 	var count = 0
-	for x in range(level_manager.width):
-		for y in range(level_manager.height):
+	for x in range(level_manager.current_width):
+		for y in range(level_manager.current_height):
 			var cell = Vector2i(x, y)
 			var tile_data = level_manager.tile_map_layer.get_cell_tile_data(cell)
 			if tile_data and tile_data.terrain_set == 1 and tile_data.terrain == 0:
@@ -143,8 +150,8 @@ func _count_rooms() -> int:
 	var visited = {}
 	var room_count = 0
 	
-	for x in range(level_manager.width):
-		for y in range(level_manager.height):
+	for x in range(level_manager.current_width):
+		for y in range(level_manager.current_height):
 			var cell = Vector2i(x, y)
 			var tile_data = level_manager.tile_map_layer.get_cell_tile_data(cell)
 			
@@ -169,7 +176,7 @@ func _flood_fill(start: Vector2i, visited: Dictionary):
 		
 		for dir in [Vector2i.UP, Vector2i.DOWN, Vector2i.LEFT, Vector2i.RIGHT]:
 			var neighbor = current + dir
-			if neighbor.x >= 0 and neighbor.x < level_manager.width and neighbor.y >= 0 and neighbor.y < level_manager.height:
+			if neighbor.x >= 0 and neighbor.x < level_manager.current_width and neighbor.y >= 0 and neighbor.y < level_manager.current_height:
 				var tile_data = level_manager.tile_map_layer.get_cell_tile_data(neighbor)
 				if tile_data and tile_data.terrain_set == 0 and tile_data.terrain == 0:
 					queue.append(neighbor)
@@ -289,17 +296,15 @@ func _get_csv_line() -> String:
 	
 	var line = ""
 	line += level_manager.generator_type + ","
-	line += str(level_manager.width) + ","
-	line += str(level_manager.height) + ","
-	line += str(level_manager.wall_thickness) + ","
-	line += str(level_manager.width * level_manager.height) + ","
+	line += str(level_manager.current_width) + ","
+	line += str(level_manager.current_height) + ","
+	line += str(level_manager.current_wall_thickness) + ","
+	line += str(level_manager.current_width * level_manager.current_height) + ","
 	line += str(_count_floor_tiles()) + ","
 	line += str(_count_wall_tiles()) + ","
 	line += str(_count_rooms()) + ","
 	line += str(level_manager.spawned_enemies.size()) + ","
 	line += str(level_manager.spawned_hearts.size()) + ","
-	
-	var gen_time = level_manager.last_generation_time if "last_generation_time" in level_manager else 0
-	line += str(gen_time) + "\n"
+	line += str(level_manager.last_generation_time) + "\n"
 	
 	return line

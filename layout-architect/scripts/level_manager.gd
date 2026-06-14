@@ -1,8 +1,5 @@
 extends Node2D
 
-@export var width: int = 60
-@export var height: int = 60
-@export var wall_thickness: int = 4
 @export var tile_map_layer: TileMapLayer
 
 @export var enemy_spawn_chance: float = 0.01
@@ -24,8 +21,22 @@ var spawned_hearts: Array = []
 var generator_type: String = "bsp"
 var last_generation_time: int = 0
 
+var current_width: int = 60
+var current_height: int = 60
+var current_wall_thickness: int = 4
+
+var is_generating: bool = false
+var _initialized: bool = false
+
 func _ready():
+	if _initialized:
+		print("⚠️ _ready() уже был вызван, пропускаем повторную инициализацию")
+		return
+	_initialized = true
+	
+	print("========== level_manager._ready() ==========")
 	_load_algorithm_from_global()
+	_load_map_parameters_from_global()
 	_update_algorithm_display()
 	_generate_level()
 
@@ -52,6 +63,14 @@ func _load_algorithm_from_global():
 		_:
 			generator_type = "bsp"
 
+func _load_map_parameters_from_global():
+	if not Global:
+		return
+	
+	current_width = Global.map_width if "map_width" in Global else 60
+	current_height = Global.map_height if "map_height" in Global else 60
+	current_wall_thickness = Global.wall_thickness if "wall_thickness" in Global else 4
+
 func _update_algorithm_display() -> void:
 	if not algorithm_label:
 		return
@@ -69,13 +88,35 @@ func _update_algorithm_display() -> void:
 
 func _get_global_param(param_name: String, default_value):
 	if Global and param_name in Global:
-		return Global.get(param_name)
+		return Global[param_name]
 	return default_value
 
 func _generate_level():
 	if not tile_map_layer:
-		push_error("TileMapLayer не назначен!")
+		print("⚠️ Пропускаем генерацию: tile_map_layer не назначен")
 		return
+	print("Вызов _generate_level() из: ", get_stack())
+	if is_generating:
+		print("⚠️ Генерация уже запущена, пропускаем повторный вызов")
+		return
+	is_generating = true
+	
+	print("========== level_manager._generate_level() ==========")
+	print("tile_map_layer = ", tile_map_layer)
+	print("enemy_scene = ", enemy_scene)
+	print("heart_scene = ", heart_scene)
+	print("current_width = ", current_width)
+	print("current_height = ", current_height)
+	print("current_wall_thickness = ", current_wall_thickness)
+	print("generator_type = ", generator_type)
+	print("=====================================================")
+	
+	if not tile_map_layer:
+		push_error("TileMapLayer не назначен!")
+		is_generating = false
+		return
+	
+	_load_map_parameters_from_global()
 	
 	var start_time = Time.get_ticks_msec()
 	
@@ -103,9 +144,9 @@ func _generate_level():
 		_:
 			generator = CellularGenerator.new()
 	
-	generator.width = width
-	generator.height = height
-	generator.wall_thickness = wall_thickness
+	generator.width = current_width
+	generator.height = current_height
+	generator.wall_thickness = current_wall_thickness
 	generator.tile_map = tile_map_layer
 	
 	var floor_cells = generator.generate()
@@ -123,6 +164,8 @@ func _generate_level():
 		_spawn_entities_on_actual_floor()
 	else:
 		push_error("Генерация не дала результатов!")
+	
+	is_generating = false
 
 func _analyze_all_tiles() -> void:
 	print("\n========== АНАЛИЗ ВСЕХ ТАЙЛОВ ==========")
@@ -131,8 +174,8 @@ func _analyze_all_tiles() -> void:
 	var terrain_counts = {}
 	var total_cells = 0
 	
-	for x in range(width):
-		for y in range(height):
+	for x in range(current_width):
+		for y in range(current_height):
 			var cell = Vector2i(x, y)
 			var tile_data = tile_map_layer.get_cell_tile_data(cell)
 			
@@ -144,9 +187,7 @@ func _analyze_all_tiles() -> void:
 			var t = tile_data.terrain
 			
 			terrain_set_counts[ts] = terrain_set_counts.get(ts, 0) + 1
-			
-			var key = str(ts) + "," + str(t)
-			terrain_counts[key] = terrain_counts.get(key, 0) + 1
+			terrain_counts[str(ts) + "," + str(t)] = terrain_counts.get(str(ts) + "," + str(t), 0) + 1
 	
 	print("Всего клеток с тайлами: ", total_cells)
 	print("Terrain Set распределение:")
@@ -168,8 +209,8 @@ func _spawn_entities_on_actual_floor() -> void:
 	
 	var actual_floor_cells: Array[Vector2i] = []
 	
-	for x in range(width):
-		for y in range(height):
+	for x in range(current_width):
+		for y in range(current_height):
 			var cell = Vector2i(x, y)
 			var tile_data = tile_map_layer.get_cell_tile_data(cell)
 			

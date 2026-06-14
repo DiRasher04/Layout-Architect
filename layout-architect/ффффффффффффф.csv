@@ -1,0 +1,6 @@
+generation_index,timestamp,algorithm,width,height,wall_thickness,total_cells,floor_cells,wall_cells,rooms,enemies,hearts,generation_time_ms
+1,2026-6-15_2-33-46,bsp,60,60,4,3600,1377,809,1,20,10,211
+2,2026-6-15_2-33-46,bsp,60,60,4,3600,1110,983,1,20,10,223
+3,2026-6-15_2-33-47,bsp,60,60,4,3600,1685,711,1,20,10,236
+4,2026-6-15_2-33-47,bsp,60,60,4,3600,1739,831,1,20,10,272
+5,2026-6-15_2-33-47,bsp,60,60,4,3600,1142,642,1,20,10,178
